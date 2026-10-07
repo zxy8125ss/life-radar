@@ -1,6 +1,286 @@
 {
- "updated_at": "2026-10-07T11:05:42.041Z",
+ "updated_at": "2026-10-07T11:09:32.762Z",
  "items": [
+  {
+   "id": "d20261007-ujb2g",
+   "created_at": "2026-10-07T11:09:32.745Z",
+   "source": "auto",
+   "title": "国际油价小幅收涨，布油收于100.58美元/桶",
+   "url": "https://wallstreetcn.com/livenews/3174594",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-07",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "WTI 11月原油期货收盘报89.44美元/桶，布伦特12月原油期货收盘报100.58美元/桶。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3174594",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-07",
+       "stance": "支持",
+       "note": "WTI 11月原油期货收涨0.01美元，涨幅0.01%，报89.44美元/桶，日内整体（尤其是北京时间14:00以来）呈",
+       "ref": "N312"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国际油价小幅收涨，布油收于100.58美元/桶，或影响混动车主的出行燃油成本。",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "用户拥有混动车（vehicle_type），油价变动会影响其用车成本。",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利空",
+     "strength": 1,
+     "horizon": "1周内",
+     "path": {
+      "fact": "国际油价收盘报100.58美元/桶",
+      "direct": "国内成品油零售价面临上调预期",
+      "intermediate": "加油站燃油成本增加",
+      "user_effect": "用户使用混动车燃油模式时的出行成本小幅上升"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-07T11:09:32.745Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261007-rs2au",
+   "created_at": "2026-10-07T11:09:32.745Z",
+   "source": "auto",
+   "title": "国际能源署讨论释放原油和柴油储备",
+   "url": "https://wallstreetcn.com/livenews/3174754",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-07",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国际能源署理事会举行非正式会议，讨论释放原油和柴油储备的提议，欧盟各国达成共识认为没有义务为此释放新的石油储备。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3174754",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-07",
+       "stance": "支持",
+       "note": "两名欧盟外交官表示，国际能源署理事会将于周三当地时间13:00举行非正式会议，讨论一项关于释放原油和柴油储备的提议。这两",
+       "ref": "N69"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-07",
+       "stance": "支持",
+       "note": "【欧盟就G7释放石油储备达成共识：不强制新增释放石油储备】上周七国集团（G7）达成协议，计划投放1亿桶原油与柴油储备。欧",
+       "ref": "N101"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国际能源署讨论释放油储，长期或对高企的油价产生一定抑制作用。",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "用户持有混动车辆（vehicle_type），国际油市供应变化会间接影响燃油价格走势。",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-07T11:09:32.745Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261007-nsgbu",
+   "created_at": "2026-10-07T11:09:32.745Z",
+   "source": "auto",
+   "title": "全国高速公路迎来假期返程客流高峰",
+   "url": "https://www.chinanews.com.cn/sh/2026/10-07/10708698.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-07",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国庆假期最后一天全国高速公路迎来返程客流高峰，服务区充电繁忙主要集中在河北、湖南等地。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/10-07/10708698.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-07",
+       "stance": "支持",
+       "note": "各地迎来假期返程客流高峰 交管部门“多点发力”疏堵保畅",
+       "ref": "N135"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "全国高速迎来返程高峰且湖南服务区充电繁忙，或影响周末常去常德的长途出行。",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "用户常在周末进行长途用车前往常德澧县、石门一带（long_trip），高速路况与充电设施状况与其相关。",
+   "profile_refs": [
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利空",
+     "strength": 1,
+     "horizon": "1周内",
+     "path": {
+      "fact": "全国高速公路迎来返程客流高峰且湖南服务区充电繁忙",
+      "direct": "高速公路及服务区负荷极高",
+      "intermediate": "充电排队时间延长、路段通行缓慢",
+      "user_effect": "未来周末长途出行至常德时可能遇到服务区充电拥堵"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-07T11:09:32.745Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261007-kdi06",
+   "created_at": "2026-10-07T11:09:32.745Z",
+   "source": "auto",
+   "title": "前8个月我国基本医保统筹基金运行平稳",
+   "url": "https://www.chinanews.com.cn/cj/2026/10-07/10708614.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-07",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国家医保局发布数据，2026年1月至8月基本医疗保险统筹基金总收入20727.72亿元，总支出15504.14亿元，整体运行平稳。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/10-07/10708614.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-07",
+       "stance": "支持",
+       "note": "前8个月医保统筹基金收入约2.07万亿元",
+       "ref": "N241"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "前8个月基本医保统筹基金运行平稳，社会保障体系保持稳健。",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "已婚家庭（family）涉及医疗保障，基金平稳运行保障了基础医疗报销的稳定性。",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-07T11:09:32.745Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261007-uyw7u",
+   "created_at": "2026-10-07T11:09:32.745Z",
+   "source": "auto",
+   "title": "中国央行连续第23个月增持黄金",
+   "url": "https://www.chinanews.com.cn/cj/2026/10-07/10708703.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-07",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "中国央行披露9月末黄金储备达7747万盎司，环比增加74万盎司，为连续第23个月增持黄金。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/10-07/10708703.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-07",
+       "stance": "支持",
+       "note": "中国央行连续23个月增持黄金",
+       "ref": "N122"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "中国央行连续第23个月增持黄金，官方储备持续增加。",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "黄金储备变动反映宏观金融环境，对关注理财的普通居民具有参考价值。",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-07T11:09:32.745Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "c20261007-etc",
    "created_at": "2026-10-07T00:29:00.000Z",
