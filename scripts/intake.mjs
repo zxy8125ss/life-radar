@@ -1,5 +1,6 @@
 // 处理 App 提交的 Issue：投喂、建议状态、复盘、画像
 import fs from 'node:fs';
+import { collectNews, pick, corpusText, gradeByRefs } from './news.mjs';
 import { readJson, writeJson, todayBJ, curProfile, gemini, PROMPT_V, LEVEL_RULES, analyzePrompt, feedbackText, cleanClaims, cleanAnalysis, capActions, loadItems, saveItems, newId, isDate } from './lib.mjs';
 
 const ev = JSON.parse(fs.readFileSync(process.env.GITHUB_EVENT_PATH, 'utf8'));
@@ -78,8 +79,31 @@ ${LEVEL_RULES}
 ${text ? '【正文】\n' + text : ''}
 ${url ? '【链接】' + url : ''}
 ${images.length ? '【截图】见附图' : ''}`;
-  const v = await gemini(p1, { search: true, label: '核查', images });
-  const claims = cleanClaims(v.out?.claims, v.sources);
+  const cfg = readJson('config.json', { use_search: false });
+  let v = null, claims = [];
+  if (cfg.use_search) {
+    try { v = await gemini(p1, { search: true, label: '核查（搜索）', images }); claims = cleanClaims(v.out?.claims, v.sources); }
+    catch (e) { console.error('搜索核查失败，改用新闻源：' + e.message.slice(0, 200)); v = null; }
+  }
+  if (!v) {
+    let page = '';
+    if (url) { try { const r = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(15000) }); if (r.ok) page = (await r.text()).replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/g, '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').slice(0, 6000); } catch (_) {} }
+    const news = await collectNews(168);
+    const corpus = pick(news.list, [], 400);
+    const p2 = `你是“生活雷达”的事实核查员。今天是北京时间 ${today}。用户转来一条信息（正文、链接或截图）。你不能上网，只能用下面抓到的近 7 天新闻作为独立证据。
+先读出全部内容，再拆成独立声明：kind 填“事实”“推测”“观点”；事实声明的 refs 列出能证实它的新闻编号（必须是同一件事，没有就留空）；与新闻明显矛盾的事实 level 填 "D" 并在 note 写明矛盾点；与你掌握的长期常识明显冲突的也标 "D"。不编造。
+只输出 JSON：{"title":"20 字以内","source_type":"信息本身的来源类型，如知乎回答、新闻报道、官方公告、聊天截图、不明","published_at":"信息里能看到的发布日期 YYYY-MM-DD 或 null","claims":[{"text":"","kind":"事实","refs":[],"level":null,"note":""}]}
+
+${text ? '【正文】\n' + text : ''}
+${url ? '【链接】' + url : ''}${page ? '\n【链接页面文字（这是信息本身，不算独立证据）】\n' + page : ''}
+${images.length ? '【截图】见附图' : ''}
+
+【近 7 天新闻】
+${corpusText(corpus)}`;
+    v = await gemini(p2, { label: '核查（新闻源）', images });
+    claims = gradeByRefs(v.out?.claims, corpus);
+    v.model += '（只引用抓取的新闻）'; v.sources = [];
+  }
   const cand = { title: String(v.out?.title || text.slice(0, 20) || '截图'), source_type: String(v.out?.source_type || '不明'), published_at: isDate(v.out?.published_at) ? v.out.published_at : null, claims };
   const a = await gemini(analyzePrompt(today, profile, [cand], feedbackText(db.items, reviewsDb.reviews)), { label: '分析' });
   const r = (Array.isArray(a.out?.results) ? a.out.results : [])[0] || {};
