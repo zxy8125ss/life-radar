@@ -50,7 +50,7 @@ export async function gemini(text, { search = false, label = 'Gemini', images = 
             return { out: parseJson(t), model: j.modelVersion || m, sources };
           }
           console.error(`${label}：${m} 空回复`); errs.push(`${m} 空回复 ${JSON.stringify(j).slice(0, 160)}`);
-        } else { const raw = await r.text(); const t = (raw.match(/"quotaId": "[^"]+"|"quotaMetric": "[^"]+"|"retryDelay": "[^"]+"/g) || []).join(' ') || raw.slice(0, 200); console.error(`${label}：${m} ${r.status} ${t}`); errs.push(`${m} ${r.status} ${t}`); }
+        } else { const raw = await r.text(); const t = raw.replace(/\s+/g, ' ').slice(0, 900); console.error(`${label}：${m} ${r.status} ${t}`); errs.push(`${m} ${r.status} ${t}`); }
       } catch (e) { console.error(`${label}：${m} ${e.message}`); errs.push(`${m} ${e.message}`); }
       await new Promise(res => setTimeout(res, 15000));
     }
