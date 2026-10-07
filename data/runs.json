@@ -3,6 +3,12 @@
  "log": [
   {
    "date": "2026-10-07",
+   "ok": false,
+   "added": 0,
+   "note": "Gemini 不可用"
+  },
+  {
+   "date": "2026-10-07",
    "ok": true,
    "added": 10,
    "note": "从 claude.ai 版迁移"
