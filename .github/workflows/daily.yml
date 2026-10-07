@@ -40,6 +40,12 @@ jobs:
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
           FORCE: ${{ (inputs.force || github.event_name == 'push') && '1' || '' }}
         run: node scripts/daily.mjs
+      - name: 诊断
+        if: failure()
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+        run: node scripts/probe.mjs
       - name: 提交
         if: always()
         run: |
