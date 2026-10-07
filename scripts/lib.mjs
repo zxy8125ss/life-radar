@@ -32,6 +32,7 @@ export function parseJson(t) {
 // search=true：开启 Google 搜索（核查阶段）；false：只推理（分析阶段）
 export async function gemini(text, { search = false, label = 'Gemini', images = [] } = {}) {
   if (!KEY) throw new Error('缺少 GEMINI_API_KEY（在仓库 Settings → Secrets → Actions 里添加）');
+  const errs = [];
   const parts = [{ text }, ...images.map(i => ({ inline_data: { mime_type: i.mime, data: i.b64 } }))];
   for (const m of MODELS) {
     for (let attempt = 0; attempt < 2; attempt++) {
@@ -48,13 +49,13 @@ export async function gemini(text, { search = false, label = 'Gemini', images = 
             console.log(`${label}：${m}，引用 ${sources.length} 个搜索结果`);
             return { out: parseJson(t), model: j.modelVersion || m, sources };
           }
-          console.error(`${label}：${m} 空回复`);
-        } else console.error(`${label}：${m} ${r.status} ${(await r.text()).slice(0, 200)}`);
-      } catch (e) { console.error(`${label}：${m} ${e.message}`); }
+          console.error(`${label}：${m} 空回复`); errs.push(`${m} 空回复 ${JSON.stringify(j).slice(0, 160)}`);
+        } else { const t = (await r.text()).slice(0, 200); console.error(`${label}：${m} ${r.status} ${t}`); errs.push(`${m} ${r.status} ${t}`); }
+      } catch (e) { console.error(`${label}：${m} ${e.message}`); errs.push(`${m} ${e.message}`); }
       await new Promise(res => setTimeout(res, 15000));
     }
   }
-  throw new Error('Gemini 不可用');
+  throw new Error('Gemini 不可用：' + errs.slice(-3).join(' | '));
 }
 
 // ---------- 提示词 ----------
