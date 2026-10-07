@@ -11,6 +11,12 @@
    "date": "2026-10-07",
    "ok": false,
    "added": 0,
+   "note": "Gemini 不可用：gemini-3.6-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a | gemini-3.5-flash-lite 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a | gemini-3.5-flash-lite 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a"
+  },
+  {
+   "date": "2026-10-07",
+   "ok": false,
+   "added": 0,
    "note": "Gemini 不可用"
   },
   {
