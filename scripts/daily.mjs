@@ -71,7 +71,7 @@ try {
   runs.last_daily = today;
   console.log(`新增 ${added} 条`);
 } catch (e) {
-  log.note = e.message; console.error(e);
+  log.note = /429/.test(e.message) ? 'Gemini 配额用完（429），等配额恢复后会自动补跑' : e.message.slice(0, 120); log.detail = e.message.slice(0, 2500); console.error(e);
   process.exitCode = 1;
 } finally {
   runs.log = [log, ...runs.log].slice(0, 60);
