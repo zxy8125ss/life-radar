@@ -1,0 +1,41 @@
+name: 处理 App 提交
+
+on:
+  issues:
+    types: [opened]
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: life-radar-data
+  cancel-in-progress: false
+
+jobs:
+  intake:
+    if: contains(github.event.issue.body, '```lr1')
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - name: 核查、分析、记录
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/intake.mjs
+      - name: 提交
+        if: always()
+        run: |
+          git config user.name "life-radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "App 提交 #${{ github.event.issue.number }}"
+          for i in 1 2 3 4 5; do git pull --rebase -q && git push && break; sleep $((i*3)); done

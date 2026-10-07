@@ -1,0 +1,17 @@
+{
+ "name": "生活雷达",
+ "short_name": "生活雷达",
+ "description": "核查信息，判断与我有关的影响，只在值得行动时提醒",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#F1F2EC",
+ "theme_color": "#2B6A57",
+ "lang": "zh-CN",
+ "icons": [
+  { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+  { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+  { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+ ],
+ "share_target": { "action": "./", "method": "GET", "params": { "title": "title", "text": "text", "url": "url" } }
+}

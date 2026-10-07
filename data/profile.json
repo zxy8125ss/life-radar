@@ -1,0 +1,15 @@
+{
+ "versions": [
+  {
+   "version": 1,
+   "created_at": "2026-10-06T12:10:00.000Z",
+   "content": {
+    "city": "湖南长沙",
+    "family": "已婚",
+    "vehicle_type": "混动",
+    "long_trip": "周末常去常德澧县、石门一带钓鱼",
+    "occupation": "公司运营管理岗（业务单元管理、项目管理、流程改进），普通员工"
+   }
+  }
+ ]
+}

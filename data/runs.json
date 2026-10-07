@@ -1,0 +1,11 @@
+{
+ "last_daily": "2026-10-07",
+ "log": [
+  {
+   "date": "2026-10-07",
+   "ok": true,
+   "added": 10,
+   "note": "从 claude.ai 版迁移"
+  }
+ ]
+}

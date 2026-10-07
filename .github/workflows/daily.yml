@@ -1,0 +1,48 @@
+name: 每日更新
+
+on:
+  schedule:
+    # GitHub 用 UTC；定时任务常延迟或丢失，所以多排几次，脚本当天已更新就跳过
+    - cron: '21 23 * * *'   # 北京 07:21
+    - cron: '51 23 * * *'   # 北京 07:51 补偿
+    - cron: '37 0 * * *'    # 北京 08:37 补偿
+    - cron: '17 3 * * *'    # 北京 11:17 补偿
+  workflow_dispatch:
+    inputs:
+      force:
+        description: '今天已更新过也再跑一次'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: life-radar-data
+  cancel-in-progress: false
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - name: 联网找信息、核查、分析
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          FORCE: ${{ inputs.force && '1' || '' }}
+        run: node scripts/daily.mjs
+      - name: 提交
+        if: always()
+        run: |
+          git config user.name "life-radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then echo "数据无变化"; exit 0; fi
+          git commit -m "每日更新 $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M')"
+          for i in 1 2 3 4; do git pull --rebase -q && git push && break; sleep $((i*5)); done
