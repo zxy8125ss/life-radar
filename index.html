@@ -4,138 +4,144 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>生活雷达</title>
-<meta name="theme-color" content="#F1F2EC" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#131816" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#29473A">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="生活雷达">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icons/icon-180.png">
 <style>
-/* 一列 640px 的仪表盘：状态行 → 需要行动 → 重要 → 一般（一句话） → 折叠区；底部三个标签 */
+/* 大地暖色：暖米底、墨绿标题栏、沙色大圆角卡片、棕色与青绿点缀；单一浅色主题 */
 :root{
-  --bg:#F1F2EC;--surface:#FBFBF7;--line:#D8DBD0;--ink:#1B2520;--muted:#5D6A62;
-  --accent:#2B6A57;--accent-soft:#DCEAE2;--act:#B5432C;--act-soft:#F5E0D8;--know:#9A6A16;--know-soft:#F3E8D0;--grey-soft:#E5E8E0;
-  --f-body:"PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui,sans-serif;
-  --f-display:"Songti SC","Noto Serif SC","STSong",serif;
-  --f-mono:ui-monospace,"SFMono-Regular",Menlo,monospace;
+  --bg:#F2EADF;--card:#E7DCCB;--card-hi:#EFE6D8;--line:#D9CBB5;--ink:#29473A;--text:#3B3328;--muted:#7D7060;
+  --brown:#7A5233;--teal:#2A9D8F;--teal-soft:#D3E4DC;--rust:#B4532A;--rust-soft:#F0D9C8;--bar:#29473A;--bar-ink:#F2EADF;
+  --f-title:"Noto Serif SC","Songti SC","STSong",serif;
+  --f-body:"Noto Sans SC","PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
   color-scheme:light;
 }
-@media (prefers-color-scheme:dark){:root{
-  --bg:#131816;--surface:#1B221F;--line:#2D3732;--ink:#E4EAE6;--muted:#97A59D;
-  --accent:#72C1A5;--accent-soft:#1E3830;--act:#E8785E;--act-soft:#3A221B;--know:#DDAE58;--know-soft:#372D19;--grey-soft:#232B27;color-scheme:dark}}
 *{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.6;padding-top:env(safe-area-inset-top,0px)}
-.wrap{max-width:640px;margin:0 auto;padding-inline:16px;padding-block:8px 96px}
-header.top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:8px 14px}
-.brand{display:flex;align-items:baseline;gap:10px;min-width:0}
-.brand h1{font-family:var(--f-display);font-size:22px;margin:0;letter-spacing:.04em}
-.brand .date{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
-button{font:inherit;color:inherit;cursor:pointer}
-a{color:var(--accent)}
-.btn{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:6px 12px;font-size:14px;text-decoration:none;color:var(--ink);display:inline-block}
-.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--bg);font-weight:500}
-.btn.ghost{background:transparent}
-.btn:disabled{opacity:.5}
-:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.status{font-family:var(--f-display);font-size:19px;line-height:1.5;margin:0 0 4px;text-wrap:balance}
-.status em{font-style:normal;color:var(--act)}
+html{-webkit-text-size-adjust:100%;background:var(--bar)}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--f-body);font-size:15px;line-height:1.6;min-height:100vh}
+button{font:inherit;color:inherit;cursor:pointer;-webkit-tap-highlight-color:transparent}
+a{color:var(--teal)}
+:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+/* 顶栏：不透明，盖住状态栏区域 */
+.topbar{position:sticky;top:0;z-index:8;background:var(--bar);color:var(--bar-ink);padding:calc(env(safe-area-inset-top,0px) + 10px) 16px 12px}
+.topbar .in{max-width:640px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.topbar h1{font-family:var(--f-title);font-size:21px;font-weight:700;margin:0;letter-spacing:.06em}
+.topbar .date{font-size:12.5px;opacity:.75;margin-left:10px;font-variant-numeric:tabular-nums}
+.topbar .tb-btn{border:1px solid rgba(242,234,223,.35);background:transparent;color:var(--bar-ink);border-radius:999px;padding:4px 14px;font-size:13.5px}
+.topbar .tb-btn:disabled{opacity:.5}
+.wrap{max-width:640px;margin:0 auto;padding-inline:16px;padding-block:16px calc(96px + env(safe-area-inset-bottom,0px))}
+.hero{background:var(--card);border-radius:22px;padding:18px 18px 16px;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-40px;top:-50px;width:150px;height:150px;border-radius:50%;background:var(--teal);opacity:.12}
+.status{font-family:var(--f-title);font-size:20px;font-weight:700;color:var(--ink);line-height:1.45;margin:0;text-wrap:balance;position:relative}
+.status em{font-style:normal;color:var(--rust)}
 .sub{color:var(--muted);font-size:13px}
-.notice{border:1px dashed var(--line);border-radius:10px;padding:10px 12px;font-size:13.5px;color:var(--muted);margin-top:12px}
-section.band{margin-top:22px}
-.band-head{display:flex;align-items:center;gap:8px;margin-bottom:10px;font-size:13px;letter-spacing:.08em;color:var(--muted);font-weight:500}
-.dot{width:8px;height:8px;border-radius:50%;flex:none}
-.dot.act{background:var(--act)}.dot.know{background:var(--know)}.dot.grey{background:var(--muted)}
-.count{font-family:var(--f-mono)}
-.band-head button.fold{margin-left:auto;border:0;background:none;color:var(--muted);font-size:13px;padding:0}
-.list{display:flex;flex-direction:column;gap:10px}
-.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px;min-width:0}
-.card.act{border-left:3px solid var(--act)}
-.card h3{font-size:15.5px;font-weight:500;margin:0 0 6px;line-height:1.5}
-.row{display:grid;grid-template-columns:4.5em 1fr;gap:4px 10px;font-size:14px;margin:6px 0 0}
-.row dt{color:var(--muted);font-size:13px}.row dd{margin:0;min-width:0}
-.meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:8px}
-.chip{font-size:12px;border-radius:999px;padding:1px 8px;background:var(--grey-soft);color:var(--muted);white-space:nowrap}
-.chip.act{background:var(--act-soft);color:var(--act)}.chip.ok{background:var(--accent-soft);color:var(--accent)}.chip.know{background:var(--know-soft);color:var(--know)}
-.lvl{font-family:var(--f-mono);font-weight:600;font-size:12px;border:1px solid currentColor;border-radius:4px;padding:0 5px;flex:none}
-.lvl.A,.lvl.B{color:var(--accent)}.lvl.C{color:var(--know)}.lvl.D{color:var(--act)}.lvl.n{color:var(--muted)}
-.actions{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap;align-items:center}
-.linkish{border:0;background:none;padding:0;color:var(--accent);font-size:13.5px}
-.empty{color:var(--muted);font-size:14px;padding:14px;border:1px dashed var(--line);border-radius:12px}
-.pri{font-size:12.5px;color:var(--muted);letter-spacing:.06em;margin:4px 0 -2px}
-.brief{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden}
-.bline{display:flex;justify-content:space-between;gap:10px;width:100%;text-align:left;border:0;border-top:1px solid var(--line);background:none;padding:10px 14px;font-size:14px;line-height:1.5}
-.bline:first-child{border-top:0}
-.bline span:first-child{min-width:0}
-.when{font-family:var(--f-mono);font-size:12px;color:var(--muted);white-space:nowrap}
-label.f{display:block;font-size:13px;color:var(--muted);margin:14px 0 6px}
-textarea,input[type=text],input[type=url]{width:100%;font:inherit;font-size:16px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
-textarea{min-height:140px;resize:vertical}
-nav.tabs{position:fixed;left:0;right:0;bottom:0;background:var(--surface);border-top:1px solid var(--line);display:flex;justify-content:center;padding-bottom:env(safe-area-inset-bottom,0px);z-index:5}
-nav.tabs button{flex:1;max-width:180px;border:0;background:none;padding:12px 0;font-size:14px;color:var(--muted);position:relative}
-nav.tabs button[aria-current=page]{color:var(--ink);font-weight:500}
-nav.tabs button[aria-current=page]::after{content:"";position:absolute;top:0;left:30%;right:30%;height:2px;background:var(--accent)}
-.badge{font-family:var(--f-mono);font-size:11px;color:var(--act);margin-left:3px}
-.sheet{position:fixed;inset:0;background:var(--bg);z-index:10;overflow-y:auto;padding-top:env(safe-area-inset-top,0px)}
-.sheet .wrap{padding-block:8px 48px}
-.sheet h2{font-family:var(--f-display);font-size:20px;line-height:1.5;margin:8px 0 4px;text-wrap:balance}
-.sheet h4{font-size:13px;letter-spacing:.08em;color:var(--muted);font-weight:500;margin:22px 0 8px}
-.claim{padding:10px 0;border-top:1px solid var(--line);font-size:14px}.claim:first-child{border-top:0;padding-top:0}
-.ctext{display:flex;gap:8px;align-items:flex-start}
-.note{color:var(--muted);font-size:13px;margin-top:4px;word-break:break-all}
-.chain{list-style:none;margin:8px 0 0;padding:0 0 0 14px;border-left:2px solid var(--line);display:flex;flex-direction:column;gap:6px;font-size:14px}
+.hero .sub{margin:6px 0 0;position:relative}
+.notice{background:var(--rust-soft);color:var(--brown);border-radius:14px;padding:10px 14px;font-size:13.5px;margin-top:12px}
+section.band{margin-top:26px}
+.band-head{display:flex;align-items:baseline;gap:8px;margin:0 4px 10px;font-family:var(--f-title);font-size:16px;font-weight:700;color:var(--ink)}
+.band-head .count{font-family:var(--f-body);font-size:13px;font-weight:400;color:var(--muted)}
+.band-head button.fold{margin-left:auto;border:0;background:none;color:var(--teal);font-family:var(--f-body);font-size:13.5px;font-weight:400;padding:0}
+.list{display:flex;flex-direction:column;gap:12px}
+.card{background:var(--card);border-radius:20px;padding:16px 18px;min-width:0}
+.card h3{font-family:var(--f-title);font-size:16.5px;font-weight:700;color:var(--ink);margin:0 0 4px;line-height:1.5}
+.tag{display:inline-block;font-size:12px;border-radius:999px;padding:1px 10px;background:var(--rust-soft);color:var(--rust);font-weight:500;margin-bottom:8px}
+.row{display:grid;grid-template-columns:4em 1fr;gap:6px 10px;font-size:14.5px;margin:10px 0 0}
+.row dt{color:var(--muted);font-size:13px;padding-top:1px}.row dd{margin:0;min-width:0}
+.row dd b{color:var(--ink)}
+.meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:6px}
+.chip{font-size:12px;border-radius:999px;padding:1px 9px;background:var(--bg);color:var(--muted);white-space:nowrap}
+.chip.bad{background:var(--rust-soft);color:var(--rust)}.chip.good{background:var(--teal-soft);color:#1E7268}
+.lvl{font-weight:700;font-size:12px;border-radius:6px;padding:0 6px;flex:none;line-height:20px;background:var(--bg);color:var(--muted)}
+.lvl.A,.lvl.B{background:var(--teal-soft);color:#1E7268}.lvl.C{background:#F1E3C4;color:var(--brown)}.lvl.D{background:var(--rust-soft);color:var(--rust)}
+.actions{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;align-items:center}
+.btn{border:0;background:var(--bg);color:var(--ink);border-radius:999px;padding:7px 16px;font-size:14px;text-decoration:none;display:inline-block}
+.btn.primary{background:var(--ink);color:var(--bg);font-weight:500}
+.btn.ghost{background:transparent;color:var(--muted);padding-inline:8px}
+.btn:disabled{opacity:.5}
+.linkish{border:0;background:none;padding:0 4px;color:var(--teal);font-size:14px}
+.empty{color:var(--muted);font-size:14px;padding:16px 18px;background:var(--card-hi);border-radius:20px}
+/* 分组列表 */
+.group{background:var(--card);border-radius:20px;overflow:hidden}
+.item{display:flex;gap:12px;width:100%;text-align:left;border:0;background:none;padding:13px 18px;border-top:1px solid var(--line);align-items:flex-start}
+.item:first-child{border-top:0}
+.item:active{background:var(--card-hi)}
+.item .dot{width:8px;height:8px;border-radius:50%;flex:none;margin-top:9px;background:var(--brown);opacity:.55}
+.item.hi .dot{background:var(--teal);opacity:1}
+.item .body{min-width:0;flex:1}
+.item .t{color:var(--text);font-size:15px;line-height:1.55}
+.item.hi .t{color:var(--ink);font-weight:500}
+.item .r{color:var(--muted);font-size:13px;margin-top:2px;line-height:1.5}
+.item .when{font-size:12px;color:var(--muted);white-space:nowrap;margin-top:3px;font-variant-numeric:tabular-nums}
+label.f{display:block;font-size:13px;color:var(--muted);margin:16px 4px 6px}
+textarea,input[type=text],input[type=url]{width:100%;font:inherit;font-size:16px;color:var(--text);background:var(--card-hi);border:1px solid var(--line);border-radius:16px;padding:12px 14px}
+textarea{min-height:150px;resize:vertical}
+textarea:focus,input:focus{outline:none;border-color:var(--teal)}
+/* 底栏 */
+nav.tabs{position:fixed;left:0;right:0;bottom:0;background:var(--bg);border-top:1px solid var(--line);display:flex;justify-content:center;padding-bottom:env(safe-area-inset-bottom,0px);z-index:5}
+nav.tabs button{flex:1;max-width:180px;border:0;background:none;padding:10px 0 12px;font-size:14px;color:var(--muted);position:relative}
+nav.tabs button[aria-current=page]{color:var(--ink);font-weight:700}
+nav.tabs button[aria-current=page]::before{content:"";position:absolute;top:6px;left:50%;width:5px;height:5px;margin-left:-2.5px;border-radius:50%;background:var(--teal);transform:translateY(-4px)}
+.badge{font-size:11px;color:var(--rust);margin-left:3px;font-weight:700}
+/* 详情页 */
+.sheet{position:fixed;inset:0;background:var(--bg);z-index:10;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.sheet .wrap{padding-block:16px 48px}
+.sheet h2{font-family:var(--f-title);font-size:21px;font-weight:700;color:var(--ink);line-height:1.5;margin:0 0 4px;text-wrap:balance}
+.sheet h4{font-family:var(--f-title);font-size:15px;font-weight:700;color:var(--brown);margin:24px 4px 10px}
+.claim{padding:12px 0;border-top:1px solid var(--line);font-size:14.5px}.claim:first-child{border-top:0;padding-top:0}.claim:last-child{padding-bottom:0}
+.ctext{display:flex;gap:10px;align-items:flex-start}
+.note{color:var(--muted);font-size:13px;margin-top:4px;word-break:break-all;padding-left:34px}
+.chain{list-style:none;margin:10px 0 0;padding:0 0 0 14px;border-left:2px solid var(--teal);display:flex;flex-direction:column;gap:6px;font-size:14.5px}
 .chain li span{display:inline-block;width:4.5em;color:var(--muted);font-size:12.5px}
-.trace{font-family:var(--f-mono);font-size:12px;color:var(--muted);display:grid;grid-template-columns:auto 1fr;gap:2px 12px;word-break:break-all}
-.raw{white-space:pre-wrap;font-size:13.5px;background:var(--grey-soft);border-radius:8px;padding:10px;max-height:240px;overflow:auto}
-.seg{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
-.seg button{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:4px 12px;font-size:14px}
-.seg button[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--bg)}
-.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-top:10px}
-.stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px}
-.stat b{display:block;font-family:var(--f-mono);font-size:18px;font-weight:500;font-variant-numeric:tabular-nums}
+.trace{font-size:12px;color:var(--muted);display:grid;grid-template-columns:auto 1fr;gap:2px 12px;word-break:break-all}
+.raw{white-space:pre-wrap;font-size:13.5px;background:var(--card-hi);border-radius:16px;padding:12px 14px;max-height:260px;overflow:auto}
+.seg{display:flex;flex-wrap:wrap;gap:8px;margin:0 4px}
+.seg button{border:0;background:var(--card);border-radius:999px;padding:6px 16px;font-size:14px;color:var(--text)}
+.seg button[aria-pressed=true]{background:var(--ink);color:var(--bg)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:14px}
+.stat{background:var(--card);border-radius:18px;padding:12px}
+.stat b{display:block;font-family:var(--f-title);font-size:20px;color:var(--ink);font-variant-numeric:tabular-nums}
 .stat span{font-size:12px;color:var(--muted)}
 @media (max-width:420px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
-.toast{position:fixed;left:50%;bottom:calc(72px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:999px;font-size:13.5px;z-index:20;max-width:90vw}
+.toast{position:fixed;left:50%;bottom:calc(76px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:9px 16px;border-radius:999px;font-size:13.5px;z-index:20;max-width:90vw}
+@media (prefers-reduced-motion:no-preference){.item,.btn{transition:background .15s}}
 </style>
 </head>
 <body>
+<header class="topbar"><div class="in"><div><h1 style="display:inline">生活雷达</h1><span class="date" id="today"></span></div><button class="tb-btn" id="btn-refresh" type="button">刷新</button></div></header>
 <div class="wrap">
-  <header class="top">
-    <div class="brand"><h1>生活雷达</h1><span class="date" id="today"></span></div>
-    <button class="btn ghost" id="btn-refresh" type="button">刷新</button>
-  </header>
   <div id="boot" class="notice">正在读取……</div>
 
   <main id="view-today" hidden>
-    <p class="status" id="status-line"></p>
-    <p class="sub" id="status-sub"></p>
+    <div class="hero"><p class="status" id="status-line"></p><p class="sub" id="status-sub"></p></div>
     <div id="pending"></div>
-    <section class="band"><div class="band-head"><span class="dot act"></span>需要行动 <span class="count" id="c-act"></span></div><div class="list" id="g-act"></div></section>
-    <section class="band"><div class="band-head"><span class="dot know"></span>最近 7 天值得知道 <span class="count" id="c-know"></span></div><div class="list" id="g-know"></div></section>
-    <section class="band"><div class="band-head"><span class="dot grey"></span>暂不判断 <span class="count" id="c-und"></span><button class="fold" type="button" data-fold="g-und">展开</button></div><div class="list" id="g-und" hidden></div></section>
-    <section class="band"><div class="band-head"><span class="dot grey"></span>更早的记录 <span class="count" id="c-old"></span><button class="fold" type="button" data-fold="g-old">展开</button></div><div class="list" id="g-old" hidden></div></section>
+    <section class="band"><div class="band-head">需要行动 <span class="count" id="c-act"></span></div><div class="list" id="g-act"></div></section>
+    <section class="band"><div class="band-head">重要 <span class="count" id="c-hi"></span></div><div id="g-hi"></div></section>
+    <section class="band"><div class="band-head">一般 · 知道就行 <span class="count" id="c-lo"></span></div><div id="g-lo"></div></section>
+    <section class="band"><div class="band-head">暂不判断 <span class="count" id="c-und"></span><button class="fold" type="button" data-fold="g-und">展开</button></div><div id="g-und" hidden></div></section>
+    <section class="band"><div class="band-head">更早的记录 <span class="count" id="c-old"></span><button class="fold" type="button" data-fold="g-old">展开</button></div><div id="g-old" hidden></div></section>
   </main>
 
   <main id="view-feed" hidden>
-    <p class="status">扔一条信息进来</p>
-    <p class="sub">贴正文或链接，点“提交”会打开 GitHub，再点一次 Submit 即可。截图请在 GitHub 页面里直接粘贴到正文。约 1–2 分钟后结果出现在“今日”。</p>
+    <div class="hero"><p class="status">扔一条信息进来</p><p class="sub">贴正文或链接，点“提交”会打开 GitHub，再点一次 Submit 即可。截图请在 GitHub 页面里直接粘贴到正文。约 1–2 分钟后结果出现在“今日”。</p></div>
     <form id="feed-form">
       <label class="f" for="in-text">正文</label>
       <textarea id="in-text" placeholder="粘贴文字"></textarea>
       <label class="f" for="in-url">链接（可选）</label>
       <input type="url" id="in-url" placeholder="https://">
-      <div class="actions"><button class="btn primary" type="submit">提交</button></div>
+      <div class="actions"><button class="btn primary" type="submit">提交到 GitHub</button></div>
     </form>
     <section class="band"><div class="band-head">我投喂过的</div><div class="list" id="feed-history"></div></section>
   </main>
 
   <main id="view-review" hidden>
-    <p class="status">复盘</p>
-    <p class="sub">四层打分，用来看清 AI 错在哪一环。到期 7 天后才复盘的记为过期，不计入统计。</p>
+    <div class="hero"><p class="status">复盘</p><p class="sub">四层打分，用来看清 AI 错在哪一环。到期 7 天后才复盘的记为过期，不计入统计。</p></div>
     <div class="stats" id="stats"></div>
     <p class="sub" id="gate" style="margin-top:8px"></p>
-    <section class="band"><div class="band-head"><span class="dot act"></span>到期待复盘 <span class="count" id="c-due"></span></div><div class="list" id="g-due"></div></section>
+    <section class="band"><div class="band-head">到期待复盘 <span class="count" id="c-due"></span></div><div class="list" id="g-due"></div></section>
     <section class="band"><div class="band-head">未到期 <span class="count" id="c-later"></span><button class="fold" type="button" data-fold="g-later">展开</button></div><div class="list" id="g-later" hidden></div></section>
     <section class="band"><div class="band-head">归因</div><div id="attrib" class="sub"></div></section>
     <section class="band"><div class="band-head">画像 <span class="count" id="p-ver"></span></div><div class="card" id="profile-view"></div></section>
@@ -147,7 +153,7 @@ nav.tabs button[aria-current=page]::after{content:"";position:absolute;top:0;lef
   <button type="button" data-tab="feed">投喂</button>
   <button type="button" data-tab="review">复盘<span class="badge" id="due-badge"></span></button>
 </nav>
-<div class="sheet" id="sheet" hidden><div class="wrap" id="sheet-body"></div></div>
+<div class="sheet" id="sheet" hidden><header class="topbar"><div class="in"><button class="tb-btn" type="button" id="back">← 返回</button><span class="date" id="sheet-title"></span></div></header><div class="wrap" id="sheet-body"></div></div>
 
 <script>
 (() => {
@@ -258,35 +264,33 @@ function renderToday() {
   $("pending").innerHTML = pend.length ? `<div class="notice">${pend.length} 条提交等待同步。在 GitHub 点了 Submit 之后约 1–2 分钟，点右上角刷新。</div>` : "";
   $("c-act").textContent = g.act.length || "";
   $("g-act").innerHTML = g.act.length ? g.act.slice(0, 3).map(it => `
-    <article class="card act"><h3>${esc(it.one_liner || it.title)}</h3>
+    <article class="card"><span class="tag">需要行动</span><h3>${esc(it.one_liner || it.title)}</h3>
       <dl class="row"><dt>为什么</dt><dd>${esc(it.relevance_reason)}</dd>
       <dt>现在做</dt><dd><b>${esc(it.action.do)}</b><br><span class="sub">触发条件：${esc(it.action.trigger)}</span></dd>
       <dt>得失</dt><dd>${esc(it.action.basis)}</dd>
       <dt>复盘</dt><dd>${md(it.action.review_on)}<span class="sub">　置信度 ${esc(it.action.confidence)}</span></dd></dl>
       <div class="actions"><button class="btn" type="button" data-act="已执行" data-id="${esc(it.id)}">已执行</button><button class="btn ghost" type="button" data-act="忽略" data-id="${esc(it.id)}">不值得，忽略</button><button class="linkish" type="button" data-open="${esc(it.id)}">看依据</button></div>
     </article>`).join("") : `<div class="empty">今天没有需要你行动的事情。</div>`;
-  $("c-know").textContent = know || "";
-  $("g-know").innerHTML = know ? (g.hi.length ? `<div class="pri">重要</div>` + g.hi.map(card).join("") : "") + (g.lo.length ? `<div class="pri">一般 · 知道就行</div><div class="brief">` + g.lo.map(line).join("") + `</div>` : "") : `<div class="empty">最近 7 天没有相关信息。</div>`;
+  $("c-hi").textContent = g.hi.length || ""; $("c-lo").textContent = g.lo.length || "";
+  $("g-hi").innerHTML = g.hi.length ? group(g.hi.map(it => row(it, { hi: true, sub: it.relevance_reason }))) : `<div class="empty">最近 7 天没有重要的事。</div>`;
+  $("g-lo").innerHTML = g.lo.length ? group(g.lo.map(it => row(it, {}))) : `<div class="empty">最近 7 天没有。</div>`;
   $("c-und").textContent = g.und.length || "";
-  $("g-und").innerHTML = g.und.length ? `<div class="brief">` + g.und.map(it => `<button class="bline" type="button" data-open="${esc(it.id)}"><span>${esc(it.one_liner || it.title)}<br><span class="sub">缺：${esc(it.undetermined && (it.undetermined.missing || it.undetermined.reason))}</span></span></button>`).join("") + `</div>` : `<div class="empty">没有。</div>`;
+  $("g-und").innerHTML = g.und.length ? group(g.und.map(it => row(it, { sub: "缺：" + (it.undetermined && (it.undetermined.missing || it.undetermined.reason) || "") }))) : `<div class="empty">没有。</div>`;
   $("c-old").textContent = g.old.length || "";
-  $("g-old").innerHTML = g.old.length ? `<div class="brief">` + g.old.slice(0, 60).map(line).join("") + `</div>` : `<div class="empty">没有。</div>`;
+  $("g-old").innerHTML = g.old.length ? group(g.old.slice(0, 60).map(it => row(it, { when: md(String(it.created_at).slice(0, 10)) }))) : `<div class="empty">没有。</div>`;
 }
-function card(it) {
-  return `<article class="card"><h3>${esc(it.one_liner || it.title)}</h3><div class="sub">${esc(it.relevance_reason)}</div>
-    <div class="meta">${(it.impacts || []).map(i => `<span class="chip ${i.direction === "利空" ? "act" : i.direction === "利好" ? "ok" : ""}">${esc(i.dimension)} · ${esc(i.direction)}</span>`).join("")}${it.source === "feed" ? `<span class="chip know">我投喂的</span>` : ""}</div>
-    <div class="actions"><button class="linkish" type="button" data-open="${esc(it.id)}">看依据</button></div></article>`;
+const group = rows => `<div class="group">${rows.join("")}</div>`;
+function row(it, o) {
+  const attr = o.review ? `data-review="${esc(it.id)}"` : `data-open="${esc(it.id)}"`;
+  return `<button class="item${o.hi ? " hi" : ""}" type="button" ${attr}><span class="dot"></span><span class="body"><div class="t">${esc(it.one_liner || it.title)}</div>${o.sub ? `<div class="r">${esc(o.sub)}</div>` : ""}</span>${o.when ? `<span class="when">${o.when}</span>` : ""}</button>`;
 }
-const line = it => `<button class="bline" type="button" data-open="${esc(it.id)}"><span>${esc(it.one_liner || it.title)}</span><span class="when">${md(String(it.created_at).slice(0, 10))}</span></button>`;
 
 function renderFeed() {
   const rows = S.items.filter(i => i.source === "feed").slice(0, 20);
   const pend = ls.get("lr-pending", []).filter(p => p.type === "feed");
-  $("feed-history").innerHTML = pend.map(p => `<div class="bline"><span>${esc((p.text || p.url || "").slice(0, 40))}<br><span class="sub">等待处理</span></span></div>`).join("") +
-    (rows.length ? `<div class="brief">` + rows.map(it => {
-      const tag = it.status === "undetermined" ? "暂不判断" : it.action ? "需要行动" : it.relevance >= 2 ? "值得关注" : it.relevance === 1 ? "知道就行" : "与你无关";
-      return `<button class="bline" type="button" data-open="${esc(it.id)}"><span>${esc(it.one_liner || it.title)}<br><span class="sub">${tag}</span></span><span class="when">${md(String(it.created_at).slice(0, 10))}</span></button>`;
-    }).join("") + `</div>` : (pend.length ? "" : `<div class="empty">还没有投喂过。</div>`));
+  const tagOf = it => it.status === "undetermined" ? "暂不判断" : it.action ? "需要行动" : it.relevance >= 2 ? "重要" : it.relevance === 1 ? "知道就行" : "与你无关";
+  const pr = pend.map(p => `<div class="item"><span class="dot"></span><span class="body"><div class="t">${esc((p.text || p.url || "截图").slice(0, 40))}</div><div class="r">等待处理</div></span></div>`);
+  $("feed-history").innerHTML = (pr.length || rows.length) ? group(pr.concat(rows.map(it => row(it, { sub: tagOf(it), when: md(String(it.created_at).slice(0, 10)) })))) : `<div class="empty">还没有投喂过。</div>`;
 }
 $("feed-form").onsubmit = e => {
   e.preventDefault();
@@ -301,13 +305,13 @@ $("feed-form").onsubmit = e => {
 function openDetail(id) {
   const it = S.items.find(i => i.id === id); if (!it) return;
   const rv = S.reviews.find(r => r.item_id === id);
-  let h = `<button class="btn ghost" type="button" id="back">← 返回</button><h2>${esc(it.one_liner || it.title)}</h2>`;
+  let h = `<h2>${esc(it.one_liner || it.title)}</h2>`;
   h += `<h4>为什么与你有关</h4><p style="margin:0">${esc(it.relevance_reason || "—")}</p><div class="meta"><span class="chip">相关度 ${esc(it.relevance)}</span>${(it.profile_refs || []).map(k => `<span class="chip">画像 · ${esc(LABEL[k] || k)}</span>`).join("")}</div>`;
   h += `<h4>事实核查</h4><div class="card">${(it.claims || []).map(c => `<div class="claim"><div class="ctext">${lvl(c.kind === "事实" ? c.level : null)}<span><span class="chip">${esc(c.kind)}</span> ${esc(c.text)}</span></div>${c.note ? `<div class="note">${esc(c.note)}</div>` : ""}${(c.evidence || []).map(e => `<div class="note">${esc(e.stance || "")} · ${e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.publisher || e.url)}</a>` : esc(e.publisher)}${e.published_at ? " · " + esc(e.published_at) : ""}${e.note ? " · " + esc(e.note) : ""}</div>`).join("")}</div>`).join("") || `<span class="sub">没有拆出声明。</span>`}</div>
     <div class="sub" style="margin-top:6px">来源类型：${esc(it.source_type || "不明")}${it.published_at ? " · 发布于 " + esc(it.published_at) : ""}${it.url ? ` · <a href="${esc(it.url)}" target="_blank" rel="noopener">原文</a>` : ""}</div>`;
   if (it.status === "undetermined") h += `<h4>暂不判断</h4><div class="card"><b>${esc(it.undetermined && it.undetermined.reason)}</b><div class="sub">还缺：${esc(it.undetermined && it.undetermined.missing)}</div></div>`;
   else {
-    h += `<h4>影响分析</h4>` + ((it.impacts || []).length ? it.impacts.map(i => `<div class="card" style="margin-bottom:10px"><div class="meta" style="margin-top:0"><b style="font-weight:500">${esc(i.dimension)}</b><span class="chip">${esc(i.direction)}</span><span class="chip">强度 ${esc(i.strength)}</span><span class="chip">${esc(i.horizon)}</span><span class="chip">置信度 ${esc(i.confidence)}</span></div>
+    h += `<h4>影响分析</h4>` + ((it.impacts || []).length ? it.impacts.map(i => `<div class="card" style="margin-bottom:12px"><div class="meta" style="margin-top:0"><b style="color:var(--ink)">${esc(i.dimension)}</b><span class="chip ${i.direction === "利空" ? "bad" : i.direction === "利好" ? "good" : ""}">${esc(i.direction)}</span><span class="chip">强度 ${esc(i.strength)}</span><span class="chip">${esc(i.horizon)}</span><span class="chip">置信度 ${esc(i.confidence)}</span></div>
       <ol class="chain"><li><span>事实</span>${esc(i.path && i.path.fact)}</li><li><span>直接影响</span>${esc(i.path && i.path.direct)}</li><li><span>中间变量</span>${esc(i.path && i.path.intermediate)}</li><li><span>对你</span>${esc(i.path && i.path.user_effect)}</li></ol>
       <div class="sub" style="margin-top:6px">依据声明 ${(i.based_on || []).map(n => "#" + (Number(n) + 1)).join("、")}</div></div>`).join("") : `<div class="empty">没有证据完整的影响路径，不输出影响。</div>`);
     h += `<h4>是否需要行动</h4>` + (it.action ? `<div class="card"><dl class="row" style="margin-top:0"><dt>动作</dt><dd><b>${esc(it.action.do)}</b></dd><dt>触发条件</dt><dd>${esc(it.action.trigger)}</dd><dt>依据得失</dt><dd>${esc(it.action.basis)}</dd><dt>置信度</dt><dd>${esc(it.action.confidence)}</dd><dt>复盘</dt><dd>${md(it.action.review_on)}</dd><dt>状态</dt><dd>${esc(it.action.status)}</dd></dl></div>` : `<div class="card">暂无需行动。</div>`);
@@ -340,9 +344,9 @@ function renderReview() {
   const d = due();
   $("due-badge").textContent = d.due.length || "";
   $("c-due").textContent = d.due.length || ""; $("c-later").textContent = d.later.length || "";
-  const row = x => `<button class="bline" type="button" data-review="${esc(x.it.id)}"><span>${esc(x.it.one_liner || x.it.title)}${x.late ? `<br><span class="sub">已过期，不计入统计</span>` : ""}</span><span class="when">${md(x.d)}</span></button>`;
-  $("g-due").innerHTML = d.due.length ? `<div class="brief">${d.due.map(row).join("")}</div>` : `<div class="empty">没有到期的复盘。</div>`;
-  $("g-later").innerHTML = d.later.length ? `<div class="brief">${d.later.map(row).join("")}</div>` : `<div class="empty">没有。</div>`;
+  const rr = x => row(x.it, { review: true, sub: x.late ? "已过期，不计入统计" : "", when: md(x.d) });
+  $("g-due").innerHTML = d.due.length ? group(d.due.map(rr)) : `<div class="empty">没有到期的复盘。</div>`;
+  $("g-later").innerHTML = d.later.length ? group(d.later.map(rr)) : `<div class="empty">没有。</div>`;
   const rs = S.reviews.filter(r => !r.late), pct = (n, m) => m ? Math.round(n / m * 100) + "%" : "—";
   const imp = rs.filter(r => r.impact_result !== "无法验证");
   $("stats").innerHTML = [[rs.length + "/20", "已复盘"], [pct(rs.filter(r => r.fact_result === "正确").length, rs.length), "事实正确率"], [pct(imp.filter(r => r.impact_result === "正确").length, imp.length), "影响正确率"], [pct(rs.filter(r => r.rating !== "不值得").length, rs.length), "值得 + 一般"]].map(([b, s]) => `<div class="stat"><b>${b}</b><span>${s}</span></div>`).join("");
@@ -360,7 +364,7 @@ function openReview(id) {
   const st = { fact_result: "正确", impact_result: "无法验证", action_result: it.action ? (it.action.status === "已执行" ? "有用" : "未执行") : "不适用", rating: "一般" };
   const seg = (k, o) => `<div class="seg" data-k="${k}">${o.map(x => `<button type="button" aria-pressed="${st[k] === x}">${x}</button>`).join("")}</div>`;
   const dd = due(), x = dd.due.concat(dd.later).find(y => y.it.id === id);
-  $("sheet-body").innerHTML = `<button class="btn ghost" type="button" id="back">← 返回</button><h2>${esc(it.one_liner || it.title)}</h2>
+  $("sheet-body").innerHTML = `<h2>${esc(it.one_liner || it.title)}</h2>
     ${it.action ? `<div class="sub">建议：${esc(it.action.do)}（${esc(it.action.status)}）</div>` : `<div class="sub">这条没有行动建议。</div>`}
     <h4>事实判断：核查结论对吗？</h4>${seg("fact_result", ["正确", "错误"])}
     <h4>影响判断：推理对吗？</h4>${seg("impact_result", ["正确", "错误", "无法验证"])}
@@ -376,7 +380,7 @@ function openReview(id) {
 }
 function editProfile() {
   const c = (S.profile && S.profile.content) || {};
-  $("sheet-body").innerHTML = `<button class="btn ghost" type="button" id="back">← 返回</button><h2>修改画像</h2><p class="sub">保存后生成新版本，旧判断仍记着当时用的版本。</p>` +
+  $("sheet-body").innerHTML = `<h2>修改画像</h2><p class="sub">保存后生成新版本，旧判断仍记着当时用的版本。</p>` +
     Object.entries(LABEL).map(([k, l]) => `<label class="f" for="p-${k}">${l}</label><input type="text" id="p-${k}" value="${esc(c[k])}">`).join("") +
     `<div class="actions" style="margin-top:16px"><button class="btn primary" type="button" id="p-save">保存</button></div>`;
   $("sheet").hidden = false; $("sheet").scrollTop = 0;

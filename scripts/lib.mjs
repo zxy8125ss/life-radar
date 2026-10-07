@@ -75,7 +75,7 @@ ${profileText(profile)}
 ${feedback || '（暂无）'}
 
 规则：
-1. relevance 0–3：0 与他无明显关系；1 知道即可；2 有明确影响；3 可能影响近期决策。relevance_reason 一句话说明与他的关系，必须引用画像内容；profile_refs 填引用的画像键名（只能用上面出现的键）。
+1. relevance 0–3：0 与他无明显关系；1 知道即可；2 有明确影响；3 可能影响近期决策。relevance_reason 用“你”称呼他，一句话直接说和他的关系（如“你周末常跑常德，长张高速是必经路”），必须基于画像内容，但不要写出画像键名；profile_refs 填引用的画像键名（只能用上面出现的键）。
 2. 只有 kind=事实 且 level 为 A 或 B 的声明能作为依据（用 idx 引用）。
 3. 四个维度“用车与油价”“理财与基金”“物价与家庭消费”“工作与行业”只是检查清单。每个影响必须写满 path 四环：fact 事实 → direct 直接影响 → intermediate 中间变量 → user_effect 对他的实际影响；任何一环缺依据就不输出该影响。量级很小就不输出，量级要讲清。confidence：高/中/低。
 4. 行动建议 action 的门槛，必须同时满足才写，否则 action 为 null：
@@ -85,7 +85,7 @@ ${feedback || '（暂无）'}
    (d) 不是常识提醒，也不是复述他本人已知的日程（比如自己的调休上班）。
    宁可全部为 null。action 格式：{do 具体动作, trigger 触发条件, basis 依据与得失量级, confidence 高/中/低, review_on YYYY-MM-DD}。建议不是预测，不用“一定”“必然”“肯定会”“必将”。理财只给观察、复核类动作，不给买卖方向。
 5. 来源冲突、无法确认真实、数据不足、路径不完整或画像不足时 status="undetermined"，impacts=[]、action=null，undetermined 写 {reason, missing}。
-6. one_liner：一句话，发生了什么、对他意味着什么，不超过 40 字，不写套话。
+6. one_liner：一句话，发生了什么、对他意味着什么，不超过 40 字，用“你”称呼，不写“用户”，不写套话，结尾不加句号。
 
 待分析（JSON 数组，每条有 idx 和 claims）：
 ${JSON.stringify(cands.map((c, i) => ({ idx: i, title: c.title, source_type: c.source_type, published_at: c.published_at, claims: (c.claims || []).map(({ idx, text, kind, level, note }) => ({ idx, text, kind, level, note })) })), null, 1)}
@@ -127,6 +127,7 @@ export function cleanClaims(raw, sources = []) {
   }).filter(c => c.text);
 }
 
+const tidy = t => String(t || '').replace(/[（(]\s*[a-z_]+\s*[)）]/g, '').replace(/^用户/, '你').replace(/该用户|用户/g, '你').trim();
 export function cleanAnalysis(r, claims, profile, today) {
   r = r && typeof r === 'object' ? r : {};
   const notes = [];
@@ -160,9 +161,9 @@ export function cleanAnalysis(r, claims, profile, today) {
     }
   }
   return {
-    status, one_liner: String(r.one_liner || '').slice(0, 80),
+    status, one_liner: tidy(r.one_liner).replace(/[。.]$/, '').slice(0, 80),
     undetermined: status === 'undetermined' ? { reason: String(r.undetermined?.reason || '数据不足'), missing: String(r.undetermined?.missing || '') } : null,
-    relevance, relevance_reason: String(r.relevance_reason || ''), profile_refs, impacts, action, validation_notes: notes
+    relevance, relevance_reason: tidy(r.relevance_reason), profile_refs, impacts, action, validation_notes: notes
   };
 }
 
