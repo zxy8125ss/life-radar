@@ -7,6 +7,9 @@ on:
     - cron: '51 23 * * *'   # 北京 07:51 补偿
     - cron: '37 0 * * *'    # 北京 08:37 补偿
     - cron: '17 3 * * *'    # 北京 11:17 补偿
+  push:
+    branches: [main]
+    paths: ['.github/run-now']   # 改动这个文件即强制跑一次
   workflow_dispatch:
     inputs:
       force:
@@ -35,7 +38,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
-          FORCE: ${{ inputs.force && '1' || '' }}
+          FORCE: ${{ (inputs.force || github.event_name == 'push') && '1' || '' }}
         run: node scripts/daily.mjs
       - name: 提交
         if: always()
