@@ -74,7 +74,8 @@ export function gradeByRefs(claims, corpus) {
   const byId = new Map(corpus.map(n => [n.id, n]));
   return (Array.isArray(claims) ? claims : []).map((c, i) => {
     const kind = ['事实', '推测', '观点'].includes(c?.kind) ? c.kind : '观点';
-    const refs = [...new Set((Array.isArray(c?.refs) ? c.refs : []).map(String))].filter(id => byId.has(id));
+    const raw = Array.isArray(c?.refs) ? c.refs : (c?.refs ? String(c.refs).split(/[,，\s]+/) : []);
+    const refs = [...new Set(raw.map(x => { const m = String(x).match(/\d+/); return m ? 'N' + m[0] : ''; }))].filter(id => byId.has(id));
     const evidence = refs.map(id => { const n = byId.get(id); return { url: n.url, publisher: n.publisher, published_at: n.when.slice(0, 10), stance: '支持', note: n.title.slice(0, 60), ref: id }; });
     const pubs = new Set(evidence.map(e => e.publisher));
     let level = null, note = String(c?.note || '');

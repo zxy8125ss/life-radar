@@ -31,19 +31,24 @@ try {
     console.log(`抓到 ${news.list.length} 条新闻，相关 ${corpus.length} 条`, news.stat, news.errors);
     if (corpus.length < 15) throw new Error(`新闻源只抓到 ${corpus.length} 条相关新闻：${news.errors.join('；')}`);
     const v = await gemini(newsPrompt(corpus), { label: '筛选与拆声明' });
-    cands = (Array.isArray(v.out?.items) ? v.out.items : []).map(c => {
+    const rawItems = Array.isArray(v.out?.items) ? v.out.items : (Array.isArray(v.out) ? v.out : []);
+    log.debug = { raw: rawItems.length, sample: JSON.stringify(rawItems[0] || v.out).slice(0, 300) };
+    cands = rawItems.map(c => {
       const claims = gradeByRefs(c.claims, corpus);
       const main = claims.flatMap(x => x.evidence).find(e => e.url) || {};
       return { title: String(c.title || '').slice(0, 40), url: main.url || '', source_type: '新闻报道', published_at: main.published_at || null, claims };
     }).filter(c => c.title && c.claims.some(x => x.kind === '事实' && x.level !== 'C'));
+    log.debug.graded = cands.length;
     verifyModel = v.model + '（只引用抓取的新闻）';
   }
   const seen = new Set(recent.map(i => (i.title || '').replace(/\s/g, '')));
   cands = cands.filter(c => !seen.has(c.title.replace(/\s/g, ''))).slice(0, cfg.max_items + 4);
+  (log.debug ||= {}).after_dedupe = cands.length;
   if (!cands.length) throw new Error('没有找到可用的新信息');
 
   const a = await gemini(analyzePrompt(today, profile, cands, feedbackText(db.items, reviews)), { label: '分析' });
-  const results = Array.isArray(a.out?.results) ? a.out.results : [];
+  const results = Array.isArray(a.out?.results) ? a.out.results : (Array.isArray(a.out) ? a.out : []);
+  log.debug.results = results.length; log.debug.rel = results.map(r => r?.relevance).join(',');
   const now = new Date().toISOString();
   let added = 0;
   cands.forEach((c, i) => {
@@ -62,7 +67,7 @@ try {
   capActions(db.items);
   saveItems(db);
   Object.assign(log, { ok: true, added, mode, note: added < cfg.min_items ? `只找到 ${added} 条合格信息` : '' });
-  runs.last_daily = today;
+  if (added >= Math.ceil(cfg.min_items / 2)) runs.last_daily = today;   // 太少就让补偿时段再跑
   console.log(`新增 ${added} 条`);
 } catch (e) {
   log.note = /429/.test(e.message) ? 'Gemini 配额用完（429），等配额恢复后会自动补跑' : e.message.slice(0, 120); log.detail = e.message.slice(0, 2500);
