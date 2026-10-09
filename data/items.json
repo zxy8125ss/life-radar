@@ -1,6 +1,307 @@
 {
- "updated_at": "2026-10-08T02:44:24.457Z",
+ "updated_at": "2026-10-09T02:59:19.860Z",
  "items": [
+  {
+   "id": "d20261009-iy6hj",
+   "created_at": "2026-10-09T02:59:19.841Z",
+   "source": "auto",
+   "title": "国际油价显著上涨",
+   "url": "https://wallstreetcn.com/livenews/3175817",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-09",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "受中东地缘局势紧张及墨西哥湾原油停产等因素刺激，国际油价显著上涨，其中WTI原油期货收于每桶91.49美元，伦敦布伦特原油期货收于每桶104.28美元。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-09",
+       "stance": "支持",
+       "note": "【国际油价8日显著上涨】截至当天收盘，纽约商品交易所11月交货的轻质原油期货价格上涨3.21美元，收于每桶91.49美元",
+       "ref": "N192"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3175817",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-09",
+       "stance": "支持",
+       "note": "WTI 11月原油期货收涨3.21美元，涨幅3.64%，报91.49美元/桶。 布伦特12月原油期货收涨4.08美元，涨",
+       "ref": "N232"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-08",
+       "stance": "支持",
+       "note": "【中东地缘局势紧张刺激国际油价大涨】受中东地区地缘局势再度紧张等因素刺激，国际原油期货价格8日早间显著上涨，纽约商品交易",
+       "ref": "N310"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国际油价显著上涨，可能推高你周末长途驾车出行的燃油成本",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你开的是混动车且周末常去常德钓鱼，油价上涨会直接增加你的出行成本",
+   "profile_refs": [
+    "vehicle_type",
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利空",
+     "strength": 2,
+     "horizon": "1周内",
+     "path": {
+      "fact": "国际油价显著上涨，WTI收于91.49美元/桶",
+      "direct": "国内成品油零售价面临上调预期",
+      "intermediate": "你周末驾车去常德钓鱼时的加油单价上升",
+      "user_effect": "长途往返的油费开支小幅增加"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-09T02:59:19.841Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261009-7l8k1",
+   "created_at": "2026-10-09T02:59:19.841Z",
+   "source": "auto",
+   "title": "中东部天气晴好",
+   "url": "https://www.chinanews.com.cn/sh/2026/10-09/10709459.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-09",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "10月9日至10日，中东部大部地区仍以晴好天气为主，白天气温偏高，昼夜温差较大。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/10-09/10709459.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-09",
+       "stance": "支持",
+       "note": "中东部大部天气晴好昼夜温差增大 后天起冷空气携降雨降温来袭",
+       "ref": "N67"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "中东部天气晴好且昼夜温差大，利于你周末前往常德钓鱼出行",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你周末常去常德、石门一带钓鱼，当地天气状况直接关系到你的出行体验",
+   "profile_refs": [
+    "long_trip"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-09T02:59:19.841Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261009-vavfo",
+   "created_at": "2026-10-09T02:59:19.841Z",
+   "source": "auto",
+   "title": "生猪价格低位回暖",
+   "url": "https://wallstreetcn.com/livenews/3175902",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-09",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "截至10月8日，全国生猪市场呈现低位回暖态势，外三元和内三元生猪价格较国庆假期前分别上涨约0.24%和0.2%。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3175902",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-09",
+       "stance": "支持",
+       "note": "近期，全国生猪市场呈现“低位回暖”态势。自9月30日生猪价格创下近三个月低点后，中国养猪网数据显示，截至10月8日，生猪",
+       "ref": "N154"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "生猪价格低位回暖但涨幅微弱，对你的家庭日常生活消费影响有限",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你已婚组建了家庭，肉类价格变动会微幅传导至你的日常买菜开销",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-09T02:59:19.841Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261009-681uu",
+   "created_at": "2026-10-09T02:59:19.841Z",
+   "source": "auto",
+   "title": "央行发布汇率政策立场",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniuqiym7329996.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-09",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "中国人民银行发布关于人民币汇率的政策立场，重申坚持让市场在汇率形成中发挥决定性作用，实行有管理的浮动汇率制度。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-09",
+       "stance": "支持",
+       "note": "【央行重磅表态 人民币汇率到底怎么看？】很多老观念觉得，人民币汇率是央行说了算，想让它涨就涨、想让它跌就跌。这其实是大错",
+       "ref": "N78"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-09",
+       "stance": "支持",
+       "note": "【央行发布人民币汇率政策立场：中国正积极推动经济增长模式转型】10月8日，中国人民银行发布关于人民币汇率的政策立场。立场",
+       "ref": "N85"
+      },
+      {
+       "url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniuqiym7329996.shtml",
+       "publisher": "证券日报",
+       "published_at": "2026-10-09",
+       "stance": "支持",
+       "note": "央行：坚持让市场在汇率形成中发挥决定性作用",
+       "ref": "N164"
+      }
+     ]
+    }
+   ],
+   "status": "undetermined",
+   "one_liner": "央行重申人民币汇率政策立场，对你没有直接的业务和生活影响",
+   "undetermined": {
+    "reason": "缺乏具体汇率数值变动及对特定行业或个人资产负债表的直接传导依据",
+    "missing": "汇率具体波动方向与幅度的预测数据,与个人或运营管理岗位直接相关的传导路径"
+   },
+   "relevance": 0,
+   "relevance_reason": "你从事公司运营管理工作，宏观汇率政策与你的日常业务关联度较低",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-09T02:59:19.841Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261009-giioq",
+   "created_at": "2026-10-09T02:59:19.841Z",
+   "source": "auto",
+   "title": "世界气象组织预测厄尔尼诺",
+   "url": "https://wallstreetcn.com/livenews/3175735",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-08",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "世界气象组织预计今年第四季度将出现厄尔尼诺增强现象，将影响全球天气模式。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-08",
+       "stance": "支持",
+       "note": "【世界气象组织预测今年第四季度出现厄尔尼诺增强现象】世界气象组织网站8日发布通报说，预计今年第四季度将出现厄尔尼诺增强现",
+       "ref": "N313"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3175735",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-08",
+       "stance": "支持",
+       "note": "世界气象组织网站8日发布通报说，预计今年第四季度将出现厄尔尼诺增强现象，这将影响全球的天气模式，并对全球经济、生态系统和",
+       "ref": "N315"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "气象组织预测厄尔尼诺增强，可能对后期全球天气及农业产生影响",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "全球天气模式变化未来可能会对你的日常生活或出行带来间接影响",
+   "profile_refs": [
+    "city"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-09T02:59:19.841Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261008-lkue2",
    "created_at": "2026-10-08T02:44:24.444Z",
