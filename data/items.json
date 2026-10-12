@@ -1,6 +1,524 @@
 {
- "updated_at": "2026-10-11T01:59:28.671Z",
+ "updated_at": "2026-10-12T02:29:04.147Z",
  "items": [
+  {
+   "id": "d20261012-us2jv",
+   "created_at": "2026-10-12T02:29:04.133Z",
+   "source": "auto",
+   "title": "长沙一周晴暖13日将转雨",
+   "url": "https://www.chinanews.com.cn/sh/2026/10-12/10711186.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-12",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "长沙近期维持晴暖天气，预计13日将转为降雨过程。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/10-12/10711186.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-12",
+       "stance": "支持",
+       "note": "冷空气继续影响北方 明日起南方有较强降雨过程",
+       "ref": "N61"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/10-12/10711174.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-12",
+       "stance": "支持",
+       "note": "北方大部地区将有冷空气活动 西南地区东部江南北部等地有一次较强降水过程",
+       "ref": "N93"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "长沙明天将转为降雨天气，对你的周末户外出行计划有一定干扰",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你在长沙常住且周末常去澧县钓鱼，降雨天气直接关系到你的出行安排",
+   "profile_refs": [
+    "city",
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "物价与家庭消费",
+     "direction": "中性",
+     "strength": 1,
+     "horizon": "1周内",
+     "path": {
+      "fact": "长沙近期维持晴暖天气，预计13日将转为降雨过程",
+      "direct": "长沙市区及周边13日开始出现降水",
+      "intermediate": "降雨天气影响户外水域的水情与垂钓环境",
+      "user_effect": "你本周及周末的户外钓鱼等出行体验可能受到天气干扰"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "高"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-12T02:29:04.133Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261012-wnois",
+   "created_at": "2026-10-12T02:29:04.133Z",
+   "source": "auto",
+   "title": "高盛上调布伦特油价至90美元",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuxmtr7248554.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-12",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "高盛将12月布伦特原油价格预测上调5美元至每桶90美元，主要由于中东地区供应风险上升。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-12/doc-iniuxmtr7248554.shtml",
+       "publisher": "环球市场播报",
+       "published_at": "2026-10-12",
+       "stance": "支持",
+       "note": "高盛将12月布伦特原油预测上调至90美元 因中东面临风险",
+       "ref": "N37"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-12",
+       "stance": "支持",
+       "note": "【高盛将12月布伦特原油价格预测上调至每桶90美元】当地时间10月11日，高盛将12月布伦特原油价格预测上调5美元至每桶",
+       "ref": "N43"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "高盛上调布伦特油价至90美元，可能推高国内成品油零售价格预期",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你驾驶混动车型且经常跑长途，国际油价上涨会直接推高你的用车成本",
+   "profile_refs": [
+    "vehicle_type",
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利空",
+     "strength": 1,
+     "horizon": "1-3个月",
+     "path": {
+      "fact": "高盛将12月布伦特原油价格预测上调5美元至每桶90美元",
+      "direct": "国际原油供给趋紧带动全球油价中枢上移",
+      "intermediate": "国内成品油调价窗口受此影响面临上调预期",
+      "user_effect": "你驾驶混动车长途出行时的燃油补能开支持续增加"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-12T02:29:04.133Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261012-3svm4",
+   "created_at": "2026-10-12T02:29:04.133Z",
+   "source": "auto",
+   "title": "油轮阿曼湾遭袭运费飙升",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "一艘油轮在阿曼苏哈尔港附近遭到无人机袭击，超大型油轮运费已飙升至60年来最高水平。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-12",
+       "stance": "支持",
+       "note": "【受美以伊战事影响，超大型油轮运费升至60年来最高水平】近日，美以对伊朗发动的军事打击重塑中东原油贸易格局，叠加船队供给",
+       "ref": "N44"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-12",
+       "stance": "支持",
+       "note": "【一油轮在阿曼附近海域遭无人机袭击】当地时间10月11日，英国海上贸易行动办公室（UKMTO）发布通报称，一艘油轮在阿曼",
+       "ref": "N158"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "阿曼湾油轮遭袭推高海运费，进一步加剧全球能源供应成本担忧",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你拥有混动车并常跑长途，国际地缘冲突带动的能源价格波动最终会传导到你的出行成本中",
+   "profile_refs": [
+    "vehicle_type",
+    "long_trip"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-12T02:29:04.133Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261012-scpku",
+   "created_at": "2026-10-12T02:29:04.133Z",
+   "source": "auto",
+   "title": "IEA建议成员国优先释放柴油",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-11/doc-iniuwkfx5623678.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-11",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国际能源署建议尚未完全交付承诺量的成员国加快剩余储备释放，并优先考虑柴油。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-11/doc-iniuwkfx5623678.shtml",
+       "publisher": "环球市场播报",
+       "published_at": "2026-10-11",
+       "stance": "支持",
+       "note": "国际能源署署长比罗尔建议成员国加快投放库存 优先柴油",
+       "ref": "N201"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3176736",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-11",
+       "stance": "支持",
+       "note": "国际能源署（IEA）就应对柴油市场状况发表声明：理事会将于10月15日召开会议。 建议尚未完全交付承诺释放量的成员国，考",
+       "ref": "N219"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "IEA建议优先释放柴油储备，有助于缓和短期特定油品供应压力",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你开混动车且常跑长途，了解宏观能源释放有助于你掌握大宗燃油市场的走势",
+   "profile_refs": [
+    "vehicle_type",
+    "long_trip"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-12T02:29:04.133Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261012-1h1e3",
+   "created_at": "2026-10-12T02:29:04.133Z",
+   "source": "auto",
+   "title": "字节AI助手豆包灰度测试缴费",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "字节跳动旗下AI助手豆包上线灰度测试生活缴费能力，支持直接缴纳水、电、燃气费。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-12",
+       "stance": "支持",
+       "note": "【豆包可以缴水电燃气费了】近日，字节跳动旗下AI助手豆包上线灰度测试生活缴费能力。记者实测看到，用户在对话页面直接说出缴",
+       "ref": "N17"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "豆包AI助手灰度测试生活缴费，未来可能提供便捷的水电气缴纳渠道",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "作为已婚家庭成员，家庭日常生活缴费是你日常管理的一部分，该功能未来可能为你提供便利",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-12T02:29:04.133Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261012-csx9n",
+   "created_at": "2026-10-12T02:29:04.133Z",
+   "source": "auto",
+   "title": "AI硬件内存条价格持续上涨",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "受AI服务器挤占存储产能影响，消费级DRAM与NAND供给压缩，成本沿产业链传导，手机及电脑等整机价格上涨。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-12",
+       "stance": "支持",
+       "note": "【手机又涨1000块 供货商称“内存条像黄金一天一个价”】手机又开启新一轮调价。此次手机、电脑集体涨价，根源是AI服务器",
+       "ref": "N16"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "AI服务器挤占存储产能导致内存条持续涨价，整机及相关电子产品成本上升",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "作为普通上班族，电子消费品成本上涨可能会影响你未来更换手机或电脑的预算",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-12T02:29:04.133Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261012-0qfn3",
+   "created_at": "2026-10-12T02:29:04.133Z",
+   "source": "auto",
+   "title": "比亚迪与荣耀共创AI语音融合",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "比亚迪宣布与荣耀战略合作，共创AI语音融合，打通车机与手机语音智能体。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-12",
+       "stance": "支持",
+       "note": "【比亚迪与荣耀战略合作，共创AI语音融合】比亚迪宣布，比亚迪与荣耀战略合作，共创AI语音融合，A2A打通车机与手机语音智",
+       "ref": "N4"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "比亚迪与荣耀共创AI语音融合打通车机，未来有望提升智能座舱体验",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你驾驶混动汽车，车机与手机互联技术的升级未来可能改善你的车内交互体验",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-12T02:29:04.133Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261012-522at",
+   "created_at": "2026-10-12T02:29:04.133Z",
+   "source": "auto",
+   "title": "9月中国企业信用水平稳步回升",
+   "url": "https://wallstreetcn.com/livenews/3176662",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-11",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "市场监管总局数据显示，今年8月中国企业信用指数为161.32，较7月上升2.45点。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-11",
+       "stance": "支持",
+       "note": "【今年8月全国企业信用水平稳步回升】记者今天（11日）从市场监管总局了解到，今年8月中国企业信用指数为161.32，较7",
+       "ref": "N297"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3176662",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-11",
+       "stance": "支持",
+       "note": "记者今天（11日）从市场监管总局了解到，今年8月中国企业信用指数为161.32，较7月上升2.45点。与上月相比，经营性",
+       "ref": "N298"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "9月中国企业信用水平稳步回升，反映宏观市场主体信用状况改善",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你在企业担任运营管理岗位，宏观企业信用状况向好有助于了解整体商业环境",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-12T02:29:04.133Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261012-7msww",
+   "created_at": "2026-10-12T02:29:04.133Z",
+   "source": "auto",
+   "title": "央行今日开展500亿逆回购操作",
+   "url": "https://finance.sina.com.cn/money/bank/bank_yhfg/2026-10-12/doc-iniuxmtm5456668.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-12",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "中国人民银行于10月12日开展500亿元7天期逆回购操作，中标利率为1.40%。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/money/bank/bank_yhfg/2026-10-12/doc-iniuxmtm5456668.shtml",
+       "publisher": "金融一线",
+       "published_at": "2026-10-12",
+       "stance": "支持",
+       "note": "央行今日开展500亿元7天期逆回购操作",
+       "ref": "N23"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3176811",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-12",
+       "stance": "支持",
+       "note": "中国央行今日开展500亿元人民币7天期逆回购操作，利率1.40% （上次为1.40%）。今日3000亿元逆回购到期。",
+       "ref": "N45"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "央行今日开展500亿7天期逆回购，中标利率维持1.40%",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "公开市场操作维持流动性平稳，你可以从中了解宏观资金面的宽松程度",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-12T02:29:04.133Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261011-rc024",
    "created_at": "2026-10-11T01:59:28.651Z",
