@@ -1,6 +1,1047 @@
 {
- "updated_at": "2026-10-12T02:29:04.147Z",
+ "updated_at": "2026-10-13T03:37:41.383Z",
  "items": [
+  {
+   "id": "d20261013-cw4ks",
+   "created_at": "2026-10-13T03:37:41.363Z",
+   "source": "auto",
+   "title": "南方将迎新一轮较强降雨",
+   "url": "https://www.chinanews.com.cn/sh/2026/10-13/10713593.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-13",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "中央气象台10月13日预报，16日至18日长江中下游以北将有大范围降水，西南地区东部及江南北部等地将出现一次较强降水过程。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/10-13/10713593.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "中央气象台：16-18日长江中下游以北有大范围降水",
+       "ref": "N17"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/10-13/10713502.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "东北华北黄淮等地气温走低 南方较强降雨过程即将开启",
+       "ref": "N124"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/10-13/10712362.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "西南地区东部江南北部等地将有一次较强降水过程 冷空气继续影响东北地区",
+       "ref": "N165"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "周末前往常德澧县、石门钓鱼及户外活动可能会受到降雨与降温天气影响。",
+     "kind": "推测",
+     "level": null,
+     "note": "",
+     "evidence": []
+    }
+   ],
+   "status": "ok",
+   "one_liner": "长江中下游将迎较强降水，可能对你周末跨城出行带来天气影响",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你周末常去常德澧县、石门一带钓鱼，长江中下游及江南的降雨天气会直接影响你的出行路况与户外钓鱼活动",
+   "profile_refs": [
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利空",
+     "strength": 1,
+     "horizon": "1周内",
+     "path": {
+      "fact": "长江中下游及江南等地将出现较强降雨过程",
+      "direct": "高速及户外路段能见度下降、路面湿滑",
+      "intermediate": "行车安全系数降低，长途行车需减速慢行",
+      "user_effect": "你周末驾车往返常德时的路况变差，行车时间可能延长"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-13T03:37:41.363Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261013-dzo6y",
+   "created_at": "2026-10-13T03:37:41.363Z",
+   "source": "auto",
+   "title": "中欧就混动汽车贸易达成谅解",
+   "url": "https://wallstreetcn.com/livenews/3177520",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-13",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "中欧双方于10月9日以符合世贸组织规则的方式，就混动汽车贸易问题达成谅解。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "【华泰证券：乘用车龙头全球化进展顺利 国内盈利预计修复】华泰证券研报指出，10月9日，中欧双方以符合世贸组织规则的方式就",
+       "ref": "N185"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3177520",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "财报季乐观预期与中东风险交织，美股三大指数涨跌互现，存储芯片股重挫；油价走高，黄金下跌。 中国财政部：自2027年4月1",
+       "ref": "N196"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "此项进展阶段性缓解了中欧汽车贸易摩擦升级的风险，有利于国内混动车企海外业务的稳定发展。",
+     "kind": "观点",
+     "level": null,
+     "note": "",
+     "evidence": []
+    }
+   ],
+   "status": "undetermined",
+   "one_liner": "",
+   "undetermined": {
+    "reason": "缺少关于国内混动汽车具体厂商和终端售价变动的直接依据",
+    "missing": "终端混动汽车售价是否会因贸易谅解发生变化"
+   },
+   "relevance": 0,
+   "relevance_reason": "",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-13T03:37:41.363Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261013-z2xit",
+   "created_at": "2026-10-13T03:37:41.363Z",
+   "source": "auto",
+   "title": "多家车企固态电池上车提速",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "奇瑞汽车、比亚迪、上汽集团等多家国内车企正加快固态电池研发，奇瑞汽车已确认电池事业部的固态电池研发在稳妥推进中。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "【奇瑞汽车、比亚迪、上汽集团等都在抓紧研发 固态电池“上车”提速】多家中国车企的固态电池研发业务进程正在提速。10月12",
+       "ref": "N202"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "随着固态电池技术量产落地，未来新能源及混动车型的续航表现与电池安全性有望迎来提升。",
+     "kind": "推测",
+     "level": null,
+     "note": "",
+     "evidence": []
+    }
+   ],
+   "status": "ok",
+   "one_liner": "多车企提速固态电池研发，未来混动车型的续航和安全性有望提升",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你驾驶混动车型，固态电池技术的推进与你所使用的车辆类型相关",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-13T03:37:41.363Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261013-m3d77",
+   "created_at": "2026-10-13T03:37:41.363Z",
+   "source": "auto",
+   "title": "长沙新增直飞埃塞俄比亚航线",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "南方航空执飞的广州经停长沙至亚的斯亚贝巴航线于10月12日完成首航，成为中国航司目前唯一通航埃塞俄比亚的航线。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "【南航广州经长沙至亚的斯亚贝巴航线首航】由中国南方航空公司执飞的CZ8095航班从广州起飞经停长沙，于12日晚抵达埃塞俄",
+       "ref": "N38"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "长沙新增直飞埃塞俄比亚航线，提升了本地的国际通达性",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你常住长沙，本地交通枢纽功能的增强让你了解即可",
+   "profile_refs": [
+    "city"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-13T03:37:41.363Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261013-a4hes",
+   "created_at": "2026-10-13T03:37:41.363Z",
+   "source": "auto",
+   "title": "9月生猪价格下滑肉价保持平稳",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-13/doc-iniuzeau0382895.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-13",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "据生猪行业上市公司10月披露的9月份产销数据，当月国内生猪市场价格整体延续下行走势，拉动养殖企业销售收入走弱。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/jjxw/2026-10-13/doc-iniuzeau0382895.shtml",
+       "publisher": "证券时报",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "养殖端集中出栏 9月国内生猪价格有所下滑",
+       "ref": "N291"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "生猪出栏价格走低有助于短期内终端市场猪肉零售价格维持平稳。",
+     "kind": "推测",
+     "level": null,
+     "note": "",
+     "evidence": []
+    }
+   ],
+   "status": "ok",
+   "one_liner": "生猪价格延续下行，短期内终端市场猪肉价格保持平稳",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "生猪价格回落有助于稳定你的家庭日常买菜和消费支出",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-13T03:37:41.363Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261013-pw7vj",
+   "created_at": "2026-10-13T03:37:41.363Z",
+   "source": "auto",
+   "title": "多地金融监管排查快返型人身险",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "多地金融监管局要求辖内人身险公司对“快返型”产品开展排查整改，以防范无序竞争并推动行业回归价值和效益中心。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "【“快返型”人身险产品迎排查整改】记者从业内获悉，近日多地金融监管局要求人身险公司对“快返型”产品进行排查整改，防范无序",
+       "ref": "N224"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "多地排查快返型人身险，推动行业回归价值保障",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "该排查属于金融监管层面的行业规范，对家庭资产配置有参考价值",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-13T03:37:41.363Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261013-x8oa1",
+   "created_at": "2026-10-13T03:37:41.363Z",
+   "source": "auto",
+   "title": "千问将推出AI助理千问Go",
+   "url": "https://wallstreetcn.com/livenews/3177594",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-13",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "千问即将升级发布基于Agent架构的个人AI助理“千问Go！”，能在真实App中代用户执行汽车保养预约、价保退款及航班索赔等复杂任务。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "【千问将推出Personal Agent“千问Go！”】10月13日，记者获悉，千问即将升级发布Personal Age",
+       "ref": "N65"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3177594",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "硬AI获悉，千问即将发布个人AI助理“千问Go”。 基于Agent架构与云端环境，该产品突破了短链路指令限制，能处理无固",
+       "ref": "N84"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "该工具通过自动执行多步骤流程，能辅助提升个人生活事务与日常办公的管理效率。",
+     "kind": "观点",
+     "level": null,
+     "note": "",
+     "evidence": []
+    }
+   ],
+   "status": "ok",
+   "one_liner": "千问将推出AI助理千问Go，可在真实App中执行复杂任务",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你从事业务单元管理与流程改进工作，此类AI办公与流程助理能帮助提升你的日常工作效率",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [
+    {
+     "dimension": "工作与行业",
+     "direction": "利好",
+     "strength": 2,
+     "horizon": "1-3个月",
+     "path": {
+      "fact": "千问将发布能在真实App中代执行复杂任务的AI助理千问Go",
+      "direct": "AI工具能够自动化处理多步骤的个人与办公事务",
+      "intermediate": "减少你在日常重复性流程和事务管理上的时间耗费",
+      "user_effect": "你管理项目和处理流程改进时，可以利用该工具分担事务性工作，提升人均或个人产出效率"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "高"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-13T03:37:41.363Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261013-03pmh",
+   "created_at": "2026-10-13T03:37:41.363Z",
+   "source": "auto",
+   "title": "MiniMax入驻天猫销售Token套餐",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "大模型厂商MiniMax于双11前夕独家入驻天猫开设品牌官方旗舰店，上架涵盖Go、Explore、Build等多档M Plan订阅套餐。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "【MiniMax独家入驻天猫，双11开卖token套餐】10月13日，双11前夕，国产头部大模型厂商MiniMax正式入",
+       "ref": "N63"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "MiniMax入驻天猫销售Token套餐，大模型服务获取更加便捷",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "大模型套餐上架电商平台方便你获取AI工具，知道即可",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-13T03:37:41.363Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261013-bbewh",
+   "created_at": "2026-10-13T03:37:41.363Z",
+   "source": "auto",
+   "title": "应用材料靠AI实现增收不增员",
+   "url": "https://wallstreetcn.com/livenews/3177484",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-13",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "半导体设备厂商应用材料公司CEO表示，受益于AI工具在产品研发和质量控制中的应用，预计未来几年公司营收将翻倍，但员工人数不会同比例增加。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3177484",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "应用材料公司预计，未来几年营收将翻倍，但员工人数不会出现同等幅度增长，原因是公司在产品研发和质量控制等领域更加依赖人工智",
+       "ref": "N246"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "这一案例表明AI正在深入企业运营流程，有效提升企业的人均产出与流程效率。",
+     "kind": "观点",
+     "level": null,
+     "note": "",
+     "evidence": []
+    }
+   ],
+   "status": "ok",
+   "one_liner": "应用材料公司借助AI实现增收不增员，展现出良好的流程效率",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你从事流程改进与运营管理，该案例为你提供了AI赋能业务运营的参考范本",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [
+    {
+     "dimension": "工作与行业",
+     "direction": "中性",
+     "strength": 2,
+     "horizon": "半年以上",
+     "path": {
+      "fact": "应用材料公司利用AI工具在产品研发和质控中实现增收不增员",
+      "direct": "AI能够有效提升企业运营流程中的人均产出效率",
+      "intermediate": "企业管理层对通过技术手段优化流程和控制人员规模的意愿增强",
+      "user_effect": "你在公司负责流程改进时，可以借鉴此类通过AI提升业务单元人效的思路和方法"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-13T03:37:41.363Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261013-znu55",
+   "created_at": "2026-10-13T03:37:41.363Z",
+   "source": "auto",
+   "title": "IMF预警AI将冲击四成工作岗位",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-13/doc-iniuzqsq0461561.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-13",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国际货币基金组织（IMF）总裁格奥尔基耶娃表示，人工智能在推动经济的同时将冲击全球40%的工作岗位，青年群体首当其冲。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-13/doc-iniuzqsq0461561.shtml",
+       "publisher": "市场资讯",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "IMF 预警：AI 重塑 40% 岗位，青年就业遇冷",
+       "ref": "N158"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "IMF预警AI将冲击四成工作岗位，青年群体首当其冲",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "宏观就业环境的AI冲击提醒你保持对职业技能的迭代意识",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-13T03:37:41.363Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261013-ipekr",
+   "created_at": "2026-10-13T03:37:41.363Z",
+   "source": "auto",
+   "title": "国安部揭露假冒干警诈骗套路",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国家安全部发布提醒，有不法分子利用公众对国安机关履职保密性的了解盲区，通过精心塑造虚假人设、冒充国安干警大肆实施诈骗。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "【立人设、画大饼……拆解套路三步识破“假国安”骗局】由于国家安全机关履职具有特殊保密要求，部分群众对国家安全机关缺乏了解",
+       "ref": "N192"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国安部揭露假冒干警诈骗套路，提醒公众防范身份仿冒骗局",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "反诈防骗提示有助于保护你和家庭的安全，知道即可",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-13T03:37:41.363Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261013-oncof",
+   "created_at": "2026-10-13T03:37:41.363Z",
+   "source": "auto",
+   "title": "中小企业设定2030年效能目标",
+   "url": "https://www.chinanews.com.cn/cj/2026/10-13/10713541.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-13",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国家相关部门设定中小企业发展目标，规划到2030年规模以上中小企业人均营业收入累计增长15%左右。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/10-13/10713541.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "中小企业发展目标设定，释放哪些信号？",
+       "ref": "N91"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "该指标引导企业更加重视运营人效比与内部流程改进，而非单纯追求规模扩张。",
+     "kind": "观点",
+     "level": null,
+     "note": "",
+     "evidence": []
+    }
+   ],
+   "status": "ok",
+   "one_liner": "相关部门规划中小企业人均营收增长，引导重视流程改进",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你身处普通员工岗位参与业务单元管理与流程改进，该目标与你的日常工作导向直接契合",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [
+    {
+     "dimension": "工作与行业",
+     "direction": "利好",
+     "strength": 1,
+     "horizon": "半年以上",
+     "path": {
+      "fact": "国家相关部门规划到2030年规模以上中小企业人均营业收入累计增长15%",
+      "direct": "企业在发展中将更加侧重于内部运营人效比与流程优化",
+      "intermediate": "你所在的业务单元和管理层会更重视流程改进和项目效率指标",
+      "user_effect": "你在运营管理和流程改进岗位上的工作价值会更加凸显"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-13T03:37:41.363Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261013-grgmr",
+   "created_at": "2026-10-13T03:37:41.363Z",
+   "source": "auto",
+   "title": "智谱推出法律大模型GLM-Legal",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "智谱AI基于GLM-5.3-Flash底座架构，正式推出了专为法律行业工作流程打造的垂直领域大模型GLM-Legal。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "【智谱推出了基于 GLM-5.3-Flash 底层架构构建的垂直领域法律模型 GLM-Legal】智谱 AI（Z.ai）",
+       "ref": "N157"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "智谱推出法律大模型GLM-Legal，服务垂直行业工作流程",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "垂直领域大模型的推出丰富了行业AI工具选择，了解即可",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-13T03:37:41.363Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261013-q4di8",
+   "created_at": "2026-10-13T03:37:41.363Z",
+   "source": "auto",
+   "title": "Meta发布新模型Muse Wonder",
+   "url": "https://finance.sina.com.cn/world/2026-10-13/doc-iniuzeax8303541.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-13",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "Meta发布新一代AI模型Muse Wonder及个人代理应用，提供每月20美元或100美元的订阅服务，用于处理复杂专业任务。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/world/2026-10-13/doc-iniuzeax8303541.shtml",
+       "publisher": "环球市场播报",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "Meta发布新模型Muse Wonder 高管称性能跻身业界前沿水平",
+       "ref": "N263"
+      },
+      {
+       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuyxuw0487254.shtml",
+       "publisher": "环球市场播报",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "扎克伯格：Meta在人工智能前沿已赶上竞争对手",
+       "ref": "N307"
+      },
+      {
+       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-13/doc-iniuyxuz8302435.shtml",
+       "publisher": "环球市场播报",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "Meta推出最新AI模型Muse Wonder",
+       "ref": "N315"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3177402",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "Meta AI负责人亚历山大·王：这些（Muse Wonder）是真正的前沿模型。 我们确实认为它们可与当前最佳模型竞争",
+       "ref": "N316"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "Meta发布新模型Muse Wonder及个人代理付费订阅服务",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "海外高级别AI代理工具的发布反映了行业进展，了解即可",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-13T03:37:41.363Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261013-ifzw1",
+   "created_at": "2026-10-13T03:37:41.363Z",
+   "source": "auto",
+   "title": "央行开展650亿逆回购操作",
+   "url": "https://finance.sina.com.cn/money/bank/bank_yhfg/2026-10-13/doc-iniuzuyn0426734.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-13",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "中国人民银行于10月13日以固定利率、数量招标方式开展了650亿元7天期逆回购操作，利率维持1.40%，实现公开市场净投放650亿元。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/money/bank/bank_yhfg/2026-10-13/doc-iniuzuyn0426734.shtml",
+       "publisher": "金融一线",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "央行今日开展650亿元7天期逆回购操作",
+       "ref": "N95"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/10-13/10713526.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "10月13日央行开展650亿元7天期逆回购操作",
+       "ref": "N105"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "央行公开市场今日净投放650.0亿元人民币。",
+       "ref": "N110"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "央行进行 650 亿元 7 天期逆回购操作 操作利率 1.4%。",
+       "ref": "N111"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3177556",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "中国央行今日开展650亿元人民币7天期逆回购操作，利率1.40% （上次为1.40%）。今日无逆回购到期。",
+       "ref": "N112"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "央行开展650亿逆回购操作，保持流动性合理充裕",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "公开市场逆回购操作维持市场流动性稳定，对宏观经济有支撑",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-13T03:37:41.363Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261013-ymh86",
+   "created_at": "2026-10-13T03:37:41.363Z",
+   "source": "auto",
+   "title": "增值税法施行文旅政策迎调整",
+   "url": "https://www.chinanews.com.cn/cj/2026/10-13/10713509.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-13",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "随着增值税法施行，国家有关部门对文旅行业的相关税收优惠与扶持政策进行了系统解读与调整。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/10-13/10713509.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "增值税法施行后，文旅行业这些政策有变化",
+       "ref": "N118"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "除了头版内容，今天《人民日报》涉及财经的主要内容还包括： 1、李强将出席第140届广交会开幕式及相关活动 2、增值税法施",
+       "ref": "N204"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "增值税法施行推动文旅行业相关税收优惠政策进行系统调整",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "文旅税收政策调整可能会影响家庭旅游度假的成本，了解即可",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-13T03:37:41.363Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261013-wagy4",
+   "created_at": "2026-10-13T03:37:41.363Z",
+   "source": "auto",
+   "title": "警惕卖脸兼职与人脸授权风险",
+   "url": "https://www.chinanews.com.cn/sh/2026/10-13/10713508.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-13",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "当前市场上出现将个人肖像授权给平台用于AI短剧或广告的商业模式，个人上传照片并签署协议即可获得肖像授权收益。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/10-13/10713508.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-13",
+       "stance": "支持",
+       "note": "“3天赚上千元” 普通人“卖脸兼职”真的可行吗？",
+       "ref": "N122"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "此类“卖脸兼职”存在肖像权被滥用、个人信息泄露以及深度伪造风险，公众应保持警惕。",
+     "kind": "观点",
+     "level": null,
+     "note": "",
+     "evidence": []
+    }
+   ],
+   "status": "ok",
+   "one_liner": "市场上出现人脸授权兼职模式，存在个人信息与肖像被滥用风险",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "防范个人肖像和人脸信息泄露风险关乎个人隐私与安全，知道即可",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-13T03:37:41.363Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261012-us2jv",
    "created_at": "2026-10-12T02:29:04.133Z",
