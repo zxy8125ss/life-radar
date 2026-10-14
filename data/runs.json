@@ -2,6 +2,19 @@
  "last_daily": "2026-10-13",
  "log": [
   {
+   "date": "2026-10-14",
+   "ok": false,
+   "added": 0,
+   "note": "Gemini 不可用：gemini-3.6-flash 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. ",
+   "news": {
+    "新浪财经7×24": 800,
+    "中新网": 120,
+    "华尔街见闻": 600,
+    "新浪滚动": 400
+   },
+   "detail": "Gemini 不可用：gemini-3.6-flash 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } }  | gemini-3.5-flash-lite 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } }  | gemini-3.5-flash-lite 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
+  },
+  {
    "date": "2026-10-13",
    "ok": true,
    "added": 17,
