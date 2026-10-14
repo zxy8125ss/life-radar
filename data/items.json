@@ -1,6 +1,922 @@
 {
- "updated_at": "2026-10-13T03:37:41.383Z",
+ "updated_at": "2026-10-14T05:19:27.782Z",
  "items": [
+  {
+   "id": "d20261014-0kbps",
+   "created_at": "2026-10-14T05:19:27.764Z",
+   "source": "auto",
+   "title": "中欧就混动汽车贸易达成共识",
+   "url": "https://wallstreetcn.com/livenews/3178388",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-14",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "中欧双方在贸易投资磋商机制下就混动汽车、电动汽车贸易问题开展了密集磋商并达成共识。",
+     "kind": "事实",
+     "level": "A",
+     "note": "有利于混动车主后续的行业与贸易预期",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3178388",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "中国汽车工业协会发布关于中欧混动汽车、电动汽车磋商共识的声明，近日，中欧双方秉持相互尊重、平等协商的原则，在贸易投资磋商",
+       "ref": "N34"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/10-14/10714301.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "中国汽车工业协会：欢迎并支持中欧混动汽车、电动汽车磋商共识",
+       "ref": "N37"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "【中国汽车工业协会：愿继续发挥桥梁纽带作用，支持中欧在贸易投资磋商机制下相向而行】10月14日，中国汽车工业协会发布关于",
+       "ref": "N40"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "【中欧就混动汽车、电动汽车磋商达成共识 专家解读】近日，中欧在贸易投资磋商机制下持续对话，双方本着相互尊重、平等协商的原",
+       "ref": "N254"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "中欧就混动汽车贸易达成共识，对你日常驾驶的混动车型后续行业预期带来利好",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你驾驶混动汽车出行，中欧混动汽车贸易共识与你的车辆所属品类相关。",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-14T05:19:27.764Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261014-cohpr",
+   "created_at": "2026-10-14T05:19:27.764Z",
+   "source": "auto",
+   "title": "湖南北部等多地将迎暴雨",
+   "url": "https://www.chinanews.com.cn/sh/2026/10-14/10714304.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-14",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "10月14日至15日，湖南北部等地局地有大暴雨，并伴有短时强降水等强对流天气，中央气象台已发布暴雨蓝色预警。",
+     "kind": "事实",
+     "level": "B",
+     "note": "提醒注意周末出行及常德方向路况",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/10-14/10714304.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "中国气象局启动重大气象灾害暴雨四级应急响应",
+       "ref": "N14"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/10-14/10714136.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "贵州湖北湖南江西等地降雨较强 新一轮冷空气即将影响我国",
+       "ref": "N215"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/10-14/10714118.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "贵州湖南江西等地有较强降水 新一轮冷空气将自西向东影响我国大部地区",
+       "ref": "N230"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "湖南北部有大暴雨并伴强对流，你周末常去常德钓鱼需提前注意行车安全",
+   "undetermined": null,
+   "relevance": 3,
+   "relevance_reason": "你周末常去常德澧县、石门一带钓鱼，湖南北部暴雨天气将直接影响你的长途出行路况。",
+   "profile_refs": [
+    "city",
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利空",
+     "strength": 2,
+     "horizon": "1周内",
+     "path": {
+      "fact": "10月14日至15日湖南北部等地局地有大暴雨并伴短时强降水",
+      "direct": "常德及周边高速公路和路段可能出现积水或视线不良",
+      "intermediate": "周末前往常德钓鱼的长途驾驶风险上升",
+      "user_effect": "你周末驾车前往常德时可能遭遇恶劣天气和道路拥堵，增加行车安全隐患"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "高"
+    }
+   ],
+   "action": {
+    "do": "检查车辆雨刮器与轮胎状况，并关注天气预报调整周末出行时段或路线",
+    "trigger": "本周准备驾车前往常德钓鱼前",
+    "basis": "暴雨天气下高速路况存在积水滑溜风险，提前防范可有效避免因视线不佳或路况突变造成的行程延误与安全隐患",
+    "confidence": "高",
+    "review_on": "2026-10-17",
+    "status": "待办"
+   },
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-14T05:19:27.764Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261014-l6wtx",
+   "created_at": "2026-10-14T05:19:27.764Z",
+   "source": "auto",
+   "title": "9月CPI同比涨幅扩大至0.9%",
+   "url": "https://www.chinanews.com.cn/cj/2026/10-14/10714169.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-14",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "2026年9月份，全国居民消费价格指数（CPI）同比上涨0.9%，涨幅比上月扩大0.1个百分点。",
+     "kind": "事实",
+     "level": "A",
+     "note": "宏观物价水平变化",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/10-14/10714169.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "国家统计局：2026年9月份CPI、PPI同比涨幅均扩大",
+       "ref": "N173"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "【国家统计局城市司首席统计师董莉娟解读2026年9月份CPI和PPI数据】9月份，居民消费价格指数（CPI）环比上涨0.",
+       "ref": "N195"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3178290",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "中国9月CPI同比0.9%，同比涨幅为三个月高点，前值为0.8%。 中国9月PPI同比5.0%，同比涨幅为2022年6月",
+       "ref": "N203"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "9月份猪肉价格环比上涨1.2%。",
+     "kind": "事实",
+     "level": "B",
+     "note": "家庭日常肉菜消费参考",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "【国家统计局：9月猪肉价格上涨1.2%】9月份，食品烟酒及在外餐饮类价格环比上涨0.2%，影响CPI上涨约0.06个百分",
+       "ref": "N202"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "9月CPI涨幅扩大且猪肉价格上涨，对你的家庭日常食品消费支出有微幅拉动",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你已建立家庭，宏观物价及肉类价格变动会直接影响你的家庭日常生活消费预算。",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [
+    {
+     "dimension": "物价与家庭消费",
+     "direction": "利空",
+     "strength": 1,
+     "horizon": "1-3个月",
+     "path": {
+      "fact": "9月份全国CPI同比上涨0.9%且猪肉价格环比上涨1.2%",
+      "direct": "肉类等部分日常食品采购价格出现小幅上扬",
+      "intermediate": "家庭餐桌采购成本小幅增加",
+      "user_effect": "你的家庭日常生活开支中食品单项支出将出现微幅上升"
+     },
+     "based_on": [
+      0,
+      1
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-14T05:19:27.764Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261014-xr98t",
+   "created_at": "2026-10-14T05:19:27.764Z",
+   "source": "auto",
+   "title": "9月PPI同比上涨5.0%",
+   "url": "https://www.chinanews.com.cn/cj/2026/10-14/10714169.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-14",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "2026年9月份，全国工业生产者出厂价格指数（PPI）同比上涨5.0%，涨幅为2022年6月以来最高。",
+     "kind": "事实",
+     "level": "A",
+     "note": "工业及大宗商品价格数据",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/10-14/10714169.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "国家统计局：2026年9月份CPI、PPI同比涨幅均扩大",
+       "ref": "N173"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3178290",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "中国9月CPI同比0.9%，同比涨幅为三个月高点，前值为0.8%。 中国9月PPI同比5.0%，同比涨幅为2022年6月",
+       "ref": "N203"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "9月PPI同比上涨5.0%创阶段新高，对宏观经济运行产生影响但对你近期生活无直接触发",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你从事公司运营管理工作，了解宏观工业品价格走势对洞察宏观经济有参考价值。",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-14T05:19:27.764Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261014-cdjmw",
+   "created_at": "2026-10-14T05:19:27.764Z",
+   "source": "auto",
+   "title": "国际油价高位震荡与地缘风险",
+   "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-14/doc-inivcxxp7263340.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-14",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "受中东局势及地缘冲突影响，国际油价近期在94-105美元/桶区间波动，摩根士丹利等机构将第四季度布伦特原油预期上调至105美元/桶。",
+     "kind": "事实",
+     "level": "A",
+     "note": "直接影响混动车主的出行加油成本预测",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-14/doc-inivcxxp7263340.shtml",
+       "publisher": "市场资讯",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "光大期货能源化工类日报10.14",
+       "ref": "N214"
+      },
+      {
+       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-14/doc-inivcxxn0400251.shtml",
+       "publisher": "环球市场播报",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "摩根大通上调第四季度、明年第一季度布伦特现货原油价格预期",
+       "ref": "N253"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "摩根士丹利将第四季度布伦特原油价格预期上调每桶5美元至105美元。",
+       "ref": "N275"
+      },
+      {
+       "url": "https://finance.sina.com.cn/stock/2026-10-14/doc-inivctrq0497121.shtml",
+       "publisher": "21世纪经济报道",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "国际油价拉升，金银下跌，美以商讨重启对伊军事行动，沙特首都再传爆炸声",
+       "ref": "N280"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国际油价高位震荡且机构上调预期，将推高你的混动车长途出行加油成本",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你拥有混动车并经常长途自驾，国际油价上涨会直接推高你的日常及周末远行加油花销。",
+   "profile_refs": [
+    "vehicle_type",
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利空",
+     "strength": 2,
+     "horizon": "1-3个月",
+     "path": {
+      "fact": "国际油价近期在94-105美元/桶区间波动且机构上调原油预期",
+      "direct": "国内成品油零售价格面临维持高位或进一步上调的压力",
+      "intermediate": "汽车日常燃油补能单价上升",
+      "user_effect": "你周末常去常德长途钓鱼以及日常通勤的燃油支出将会增加"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-14T05:19:27.764Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261014-ze0tj",
+   "created_at": "2026-10-14T05:19:27.764Z",
+   "source": "auto",
+   "title": "国家医保局探索医疗价格预立项",
+   "url": "https://wallstreetcn.com/livenews/3178377",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-14",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国家医保局提出探索建立医疗服务价格预立项制度，支持更多医药新技术新产品加快进入临床规模化应用。",
+     "kind": "事实",
+     "level": "A",
+     "note": "医保与医疗服务新政",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3178377",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "据国家医保局消息，10月13日，国家医疗保障局党组召开会议，会议要求，要积极支持医药科技创新。探索建立医疗服务价格预立项",
+       "ref": "N60"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "【国家医保局：探索建立医疗服务价格预立项制度 支持更多医药新技术新产品加快进入临床规模化应用】据国家医保局消息，10月1",
+       "ref": "N65"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "【国家医保局：加强医保目录和支付管理 强化医药价格管理】据国家医保局消息，10月13日，国家医疗保障局党组召开会议，传达",
+       "ref": "N67"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国家医保局探索医疗价格预立项，有助于未来新医药技术普及但当前对你无直接影响",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你已成家立业，医保和医疗服务价格机制的改革与你的家庭健康保障长期相关。",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-14T05:19:27.764Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261014-mzzzw",
+   "created_at": "2026-10-14T05:19:27.764Z",
+   "source": "auto",
+   "title": "Visa获准境内筹备清算机构",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-14/doc-inivcpix8655616.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-14",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "中国人民银行批准威士信息技术（北京）有限公司（Visa全资企业）筹备银行卡清算机构。",
+     "kind": "事实",
+     "level": "A",
+     "note": "金融支付领域开放动态",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/jjxw/2026-10-14/doc-inivcpix8655616.shtml",
+       "publisher": "市场资讯",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "Visa独资企业获批筹备国内银行卡清算机构",
+       "ref": "N237"
+      },
+      {
+       "url": "https://finance.sina.com.cn/money/bank/bank_hydt/2026-10-14/doc-inivctrq0496136.shtml",
+       "publisher": "上海证券报",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "银行卡清算市场将再添新主体，央行批准Visa在境内筹备银行卡清算机构",
+       "ref": "N282"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "Visa获准境内筹备清算机构，属于金融支付开放动态对你个人支付体验暂无实质影响",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "支付清算机构筹备属于宏观金融开放进展，知道即可。",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-14T05:19:27.764Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261014-r3afq",
+   "created_at": "2026-10-14T05:19:27.764Z",
+   "source": "auto",
+   "title": "商务部等推进汽车流通消费改革",
+   "url": "https://www.chinanews.com.cn/cj/2026/10-14/10714215.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-14",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "相关部门提出深入推进汽车流通消费改革试点，加快破除汽车流通消费领域不合理限制性措施，创新汽车使用管理模式。",
+     "kind": "事实",
+     "level": "B",
+     "note": "汽车消费政策导向",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/10-14/10714215.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "七部门再出组合拳 汽车消费期待迎来新转机",
+       "ref": "N127"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "商务部等推进汽车流通消费改革，长期有利于改善汽车使用环境",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你拥有混动汽车，汽车流通与使用管理模式创新与你的车生活相关。",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-14T05:19:27.764Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261014-46r5v",
+   "created_at": "2026-10-14T05:19:27.764Z",
+   "source": "auto",
+   "title": "央行开展560亿元逆回购操作",
+   "url": "https://www.chinanews.com.cn/cj/2026/10-14/10714162.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-14",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "中国人民银行于10月14日开展560亿元7天期逆回购操作，中标利率维持1.40%不变。",
+     "kind": "事实",
+     "level": "A",
+     "note": "公开市场流动性保持平稳",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/10-14/10714162.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "10月14日央行开展560亿元7天期逆回购操作",
+       "ref": "N189"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3178279",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "中国央行今日开展560亿元人民币7天期逆回购操作，利率1.40% （上次为1.40%）。今日无逆回购到期。",
+       "ref": "N205"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "央行公告称，开展560亿元人民币7天期逆回购操作，利率1.40%，持平于此前1.40%的水平。",
+       "ref": "N207"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "央行开展逆回购操作保持流动性平稳，对你的资金环境无直接影响",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "公开市场操作属于宏观流动性管理，知道即可。",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-14T05:19:27.764Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261014-jzupa",
+   "created_at": "2026-10-14T05:19:27.764Z",
+   "source": "auto",
+   "title": "全固态电池量产线竣工投产",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "广州巨湾技研在南沙举行全固态电池量产升级竣工投产仪式，这是行业首条通过现有产线技改升级生产固态电池的产线。",
+     "kind": "事实",
+     "level": "B",
+     "note": "新能源电池技术进展",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "【巨湾技研从极快充电池延伸至固态电池，吉瓦时级产线投产】10月13日，广州巨湾技研在广州南沙总部基地举行全固态电池量产升",
+       "ref": "N23"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "全固态电池量产线竣工投产，为新能源汽车技术升级奠定基础",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你驾驶混动汽车，电池技术突破属于行业长远动态，了解即可。",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-14T05:19:27.764Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261014-uq2xg",
+   "created_at": "2026-10-14T05:19:27.764Z",
+   "source": "auto",
+   "title": "前三季度中国民营企业进出口增长",
+   "url": "https://www.chinanews.com.cn/cj/2026/10-14/10714246.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-14",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "海关总署发布数据，前三季度我国民营企业进出口22.73万亿元，增长19.1%，占外贸总值56.9%。",
+     "kind": "事实",
+     "level": "B",
+     "note": "外贸宏观数据",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/10-14/10714246.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "海关总署：前三季度我国民营企业进出口22.73万亿元，增长19.1%",
+       "ref": "N74"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "前三季度民营企业进出口保持增长，反映外贸运行稳健",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "宏观外贸数据对了解整体经济活力有参考意义。",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-14T05:19:27.764Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261014-z8kiu",
+   "created_at": "2026-10-14T05:19:27.764Z",
+   "source": "auto",
+   "title": "湖南湘江新区动漫出海",
+   "url": "https://www.chinanews.com.cn/cj/2026/10-14/10714279.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-14",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "湖南湘江新区动画连续剧《恰同学少年》入选“中非中阿视听共享项目”，在海外推广。",
+     "kind": "事实",
+     "level": "B",
+     "note": "湖南本地文化产业动态",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/10-14/10714279.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "湖南湘江新区动漫产业出海观察：从“借船”到“造船”",
+       "ref": "N31"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "湖南湘江新区动漫作品出海，丰富了本地文化产业国际化发展",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你身处长沙，本地文化产业动态属于常住城市的背景信息。",
+   "profile_refs": [
+    "city"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-14T05:19:27.764Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261014-k6x0w",
+   "created_at": "2026-10-14T05:19:27.764Z",
+   "source": "auto",
+   "title": "湖南江永推进蔬菜移栽机械化",
+   "url": "https://www.chinanews.com.cn/cj/2026/10-14/10714266.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-14",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "湖南江永县供粤港澳蔬菜基地全面推进秋冬蔬菜移栽“机器换人”，提升现代农业生产效率。",
+     "kind": "事实",
+     "level": "B",
+     "note": "湖南省内农业动态",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/10-14/10714266.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "湖南江永蔬菜移栽“机器换人” 筑牢大湾区“菜篮子”",
+       "ref": "N35"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "湖南江永推进蔬菜移栽机械化，提升现代农业生产效率",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "省内农业机械化推进有助于农产品供应稳定，属于背景信息。",
+   "profile_refs": [
+    "city"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-14T05:19:27.764Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261014-79v9f",
+   "created_at": "2026-10-14T05:19:27.764Z",
+   "source": "auto",
+   "title": "国家广电总局持续治理AI魔改视频",
+   "url": "https://www.chinanews.com.cn/gn/2026/10-14/10714192.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-14",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国家广电总局开展的“AI魔改”视频专项治理取得实效，重点网络视听平台9月共清理违规视频近1.3万条。",
+     "kind": "事实",
+     "level": "B",
+     "note": "网络内容规范治理",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/gn/2026/10-14/10714192.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "9月清理“AI魔改”违规视频近1.3万条 处置违规账号30余个",
+       "ref": "N162"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "广电总局治理AI魔改视频清理违规内容，规范网络视听生态",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "网络内容治理属于行业监管常态，知道即可。",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-14T05:19:27.764Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261014-5xbbb",
+   "created_at": "2026-10-14T05:19:27.764Z",
+   "source": "auto",
+   "title": "IMF发布最新世界经济展望",
+   "url": "https://finance.sina.com.cn/stock/y/2026-10-14/doc-inivcxxn0387175.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-14",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国际货币基金组织（IMF）发布最新报告，将2026年全球经济增长预期小幅上调至3.1%。",
+     "kind": "事实",
+     "level": "B",
+     "note": "宏观经济全球预测",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/stock/y/2026-10-14/doc-inivcxxn0387175.shtml",
+       "publisher": "股市直击",
+       "published_at": "2026-10-14",
+       "stance": "支持",
+       "note": "四大证券报头版头条内容精华摘要_2026年10月14日_财经新闻",
+       "ref": "N260"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "IMF小幅上调全球经济增长预期，提供宏观经济参考",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "全球经济预期属于宏观背景，了解即可。",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-14T05:19:27.764Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261013-cw4ks",
    "created_at": "2026-10-13T03:37:41.363Z",
