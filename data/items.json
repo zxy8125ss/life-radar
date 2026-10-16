@@ -1,6 +1,228 @@
 {
- "updated_at": "2026-10-15T01:37:49.148Z",
+ "updated_at": "2026-10-16T01:26:40.315Z",
  "items": [
+  {
+   "id": "d20261016-sqaco",
+   "created_at": "2026-10-16T01:26:40.301Z",
+   "source": "auto",
+   "title": "国际油价收盘涨跌不一",
+   "url": "https://wallstreetcn.com/livenews/3179661",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-16",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "截至10月15日收盘，纽约商品交易所11月交货的轻质原油期货价格收于每桶97.97美元，涨幅为3.03%；12月交货的伦敦布伦特原油期货价格收于每桶105.92美元，跌幅为0.13%。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-16",
+       "stance": "支持",
+       "note": "【国际油价15日涨跌不一】截至当天收盘，纽约商品交易所11月交货的轻质原油期货价格上涨2.88美元，收于每桶97.97美",
+       "ref": "N138"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3179661",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-16",
+       "stance": "支持",
+       "note": "WTI 11月原油期货收涨2.88美元，涨幅将近3.03%，报97.97美元/桶，逼近9月15日收盘位100.75美元，",
+       "ref": "N163"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国际油价维持高位震荡，你开混动车且周末跑长途，出行燃油成本面临上涨压力",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你周末常去常德澧县、石门钓鱼需要驾车出行，国际油价高位震荡会直接传导至国内油价。",
+   "profile_refs": [
+    "vehicle_type",
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利空",
+     "strength": 1,
+     "horizon": "1-3个月",
+     "path": {
+      "fact": "国际油价收于高位且受地缘局势支撑",
+      "direct": "国内成品油零售价存在上调或高位维持预期",
+      "intermediate": "你周末驾车前往常德钓鱼的燃油消耗成本增加",
+      "user_effect": "你每周末长途往返常德的用车出行支出小幅上升"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-16T01:26:40.301Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261016-mu4zk",
+   "created_at": "2026-10-16T01:26:40.301Z",
+   "source": "auto",
+   "title": "美国EIA原油库存超预期大幅下降",
+   "url": "https://wallstreetcn.com/livenews/3179606",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-16",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "美国至10月9日当周EIA原油库存减少855.7万桶，创2月以来最大单周降幅。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-16",
+       "stance": "支持",
+       "note": "美国至10月9日当周EIA原油库存 -855.7万桶，预期-28.8万桶，前值-318.6万桶。 美国至10月9日当周E",
+       "ref": "N247"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3179606",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-16",
+       "stance": "支持",
+       "note": "据美国能源信息署（EIA），美国上周EIA原油库存下降856万桶，彭博用户预计减少240万桶、分析师预期增加9.55万桶",
+       "ref": "N248"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "美国EIA原油库存大幅下降，支撑国际油价高位，推升你的出行成本",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你经常驾车跑长途去钓鱼，美国原油库存超预期下降将进一步推高油价，增加你的用车开支。",
+   "profile_refs": [
+    "vehicle_type",
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利空",
+     "strength": 1,
+     "horizon": "1-3个月",
+     "path": {
+      "fact": "美国EIA原油库存减少855.7万桶创单周大降",
+      "direct": "国际原油供给偏紧支撑油价走高",
+      "intermediate": "国内成品油价格面临上调或居高不下",
+      "user_effect": "你周末往返常德钓鱼的混动车辆加油成本增加"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-16T01:26:40.301Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261016-p4p4l",
+   "created_at": "2026-10-16T01:26:40.301Z",
+   "source": "auto",
+   "title": "美伊就打击伊朗预案进行磋商",
+   "url": "https://wallstreetcn.com/livenews/3179698",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-16",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "以色列与西方情报显示伊朗正采取军事方面的“极端举措”，以色列总理内塔尼亚胡与美国国务卿鲁比奥通电话，就对伊朗实施军事打击计划进行磋商。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3179698",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-16",
+       "stance": "支持",
+       "note": "当地时间15日，据以色列方面援引以色列安全官员消息称，以色列与西方情报显示伊朗正采取军事方面的“极端举措”，因此以色列总",
+       "ref": "N135"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-16",
+       "stance": "支持",
+       "note": "【以色列官员称美以就打击伊朗预案进行磋商】当地时间15日，据以色列方面援引以色列安全官员消息称，以色列与西方情报显示伊朗",
+       "ref": "N140"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "美伊就打击预案磋商加剧地缘局势紧张，间接推高国际油价增加你的出行成本",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你周末经常驾车去常德钓鱼，地缘政治引发的油价波动会直接传导至你的加油开支中。",
+   "profile_refs": [
+    "vehicle_type",
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利空",
+     "strength": 1,
+     "horizon": "1-3个月",
+     "path": {
+      "fact": "美伊就对伊朗军事打击计划进行磋商",
+      "direct": "中东地缘政治风险升级推升国际油价预期",
+      "intermediate": "国内成品油零售限价面临上行压力",
+      "user_effect": "你周末长途驾车去常德钓鱼的燃油成本上升"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-16T01:26:40.301Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261015-jia2d",
    "created_at": "2026-10-15T01:37:49.132Z",
