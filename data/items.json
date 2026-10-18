@@ -1,6 +1,286 @@
 {
- "updated_at": "2026-10-17T01:22:22.429Z",
+ "updated_at": "2026-10-18T01:09:15.639Z",
  "items": [
+  {
+   "id": "d20261018-ftc9w",
+   "created_at": "2026-10-18T01:09:15.620Z",
+   "source": "auto",
+   "title": "湖南西北部面临山洪灾害气象风险",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "水利部和中国气象局于10月17日18时联合发布黄色山洪灾害气象预警。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-17",
+       "stance": "支持",
+       "note": "【水利部和中国气象局联合发布黄色山洪灾害气象预警】水利部和中国气象局10月17日18时联合发布黄色山洪灾害气象预警：预计",
+       "ref": "N110"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "预警显示，10月17日20时至18日20时，湖南西北部等地的部分地区可能发生山洪灾害。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-17",
+       "stance": "支持",
+       "note": "【水利部和中国气象局联合发布黄色山洪灾害气象预警】水利部和中国气象局10月17日18时联合发布黄色山洪灾害气象预警：预计",
+       "ref": "N110"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "湖南西北部发布山洪灾害预警，你周末常去澧县石门钓鱼需注意出行安全",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你周末常去常德澧县、石门一带钓鱼，湖南西北部的山洪预警与你的出行路线直接相关",
+   "profile_refs": [
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利空",
+     "strength": 2,
+     "horizon": "1周内",
+     "path": {
+      "fact": "水利部和中国气象局联合发布湖南西北部山洪灾害气象预警",
+      "direct": "常德西北部山区遭遇强降雨及山洪风险，部分路段可能实施交通管制或发生塌方",
+      "intermediate": "你周末前往澧县、石门钓鱼途经的高速或山区道路通行受阻",
+      "user_effect": "增加你周末出行行程延误、绕行或遭遇恶劣天气滞留的风险"
+     },
+     "based_on": [
+      0,
+      1
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [
+    "相关度不足 3，删除建议"
+   ],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-18T01:09:15.620Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261018-emtil",
+   "created_at": "2026-10-18T01:09:15.620Z",
+   "source": "auto",
+   "title": "用人单位欠缴社保最高可罚3倍",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "11月1日起，《全国税务行政处罚裁量基准（2026年版）》开始施行，社保缴费违法行为首次纳入全国统一税务行政处罚裁量体系。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-17",
+       "stance": "支持",
+       "note": "【自愿放弃无效 用人单位欠缴社保最高罚3倍 新规即将施行】11月1日，《全国税务行政处罚裁量基准（2026年版）》开始施",
+       "ref": "N188"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "新规明确用人单位欠缴社保最高可处以3倍罚款，且员工自愿放弃缴纳社保的声明无效。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-17",
+       "stance": "支持",
+       "note": "【自愿放弃无效 用人单位欠缴社保最高罚3倍 新规即将施行】11月1日，《全国税务行政处罚裁量基准（2026年版）》开始施",
+       "ref": "N188"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "社保违法惩处新规11月起施行，用人单位欠缴最高可罚3倍",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你在公司担任运营管理岗，新规主要规范用人单位合规性，对作为普通员工的你影响有限",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-18T01:09:15.620Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261018-8myuz",
+   "created_at": "2026-10-18T01:09:15.620Z",
+   "source": "auto",
+   "title": "9月大额存单利率呈现期限分化",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-17/doc-inivnzsi6522021.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-17",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "融360报告显示，2026年9月银行大额存单利率期限分化明显，2年期降幅最大，5年期逆势微涨。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/jjxw/2026-10-17/doc-inivnzsi6522021.shtml",
+       "publisher": "滚动播报",
+       "published_at": "2026-10-17",
+       "stance": "支持",
+       "note": "大额存单利率分化：2年期降幅最大，5年期逆势微涨",
+       "ref": "N200"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "针对5年期存款停售，部分银行表示存量到期可自动转存，但转存利率按3年期定期存款利率执行。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/jjxw/2026-10-17/doc-inivnvkv8220272.shtml",
+       "publisher": "每日经济新闻",
+       "published_at": "2026-10-17",
+       "stance": "支持",
+       "note": "记者调查：有银行回应称存期不变 但自动转存利率与3年期定存利率相同",
+       "ref": "N221"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "9月大额存单利率呈现期限分化，中长期存款政策持续收紧",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "大额存单及存款利率变化会影响你的家庭理财收益预期，知道即可",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-18T01:09:15.620Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261018-tzeyp",
+   "created_at": "2026-10-18T01:09:15.620Z",
+   "source": "auto",
+   "title": "部分“固收+”理财产品出现净值回撤",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "受多资产价格阶段性调整等因素影响，2026年以来部分以稳健增值为卖点的“固收+”理财产品出现净值回撤。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-17",
+       "stance": "支持",
+       "note": "【部分“固收+”理财产品净值回撤 风控与预期管理临考】以稳健增值为卖点的“固收+”理财产品，正面临净值波动的考验。今年以",
+       "ref": "N246"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "产品净值波动使相关理财机构的收益增强策略有效性与风险管理面临考验。",
+     "kind": "推测",
+     "level": null,
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-17",
+       "stance": "支持",
+       "note": "【部分“固收+”理财产品净值回撤 风控与预期管理临考】以稳健增值为卖点的“固收+”理财产品，正面临净值波动的考验。今年以",
+       "ref": "N246"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "部分固收+理财产品出现净值回撤，稳健型理财面临波动考验",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "固收+理财净值波动会直接影响家庭稳健资产的收益情况，需保持关注",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-18T01:09:15.620Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261017-fbl47",
    "created_at": "2026-10-17T01:22:22.309Z",
