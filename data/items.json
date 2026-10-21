@@ -1,6 +1,330 @@
 {
- "updated_at": "2026-10-20T01:53:51.245Z",
+ "updated_at": "2026-10-21T01:40:11.856Z",
  "items": [
+  {
+   "id": "d20261021-vkdvo",
+   "created_at": "2026-10-21T01:40:11.688Z",
+   "source": "auto",
+   "title": "中东部多地迎大风降温与降水",
+   "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718246.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-21",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "10月21日起，冷空气影响我国中东部地区，江南不少地方降温猛烈，隔日如换季，新疆北部雨雪增多。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-21",
+       "stance": "支持",
+       "note": "【中东部大部降水稀少 江南多地降温如换季】今天（10月21日）起，中东部大部降水稀少，新疆北部雨雪增多。同时，受冷空气影",
+       "ref": "N29"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/10-21/10718246.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-21",
+       "stance": "支持",
+       "note": "台风“蔷琵”继续向西偏北方向移动 中东部地区仍有大风降温天气",
+       "ref": "N46"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "江南多地迎大风降温，可能影响你周末前往常德的出行及衣物增减",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你周末常去常德钓鱼，冷空气降温会直接影响你的户外出行穿衣及垂钓体验",
+   "profile_refs": [
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "物价与家庭消费",
+     "direction": "中性",
+     "strength": 1,
+     "horizon": "1周内",
+     "path": {
+      "fact": "10月21日起冷空气影响中东部，江南降温猛烈",
+      "direct": "长沙及常德气温显著下降",
+      "intermediate": "换季衣物及户外防寒装备需求上升",
+      "user_effect": "你需要提前为自己和家人准备厚衣物以应对降温"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "高"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-21T01:40:11.688Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261021-0fqaa",
+   "created_at": "2026-10-21T01:40:11.688Z",
+   "source": "auto",
+   "title": "LPR继续保持不变",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-21/doc-inivxrpa4743982.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-21",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "10月20日央行公布的新一期贷款市场报价利率（LPR）显示，1年期LPR为3.0%，5年期以上LPR为3.5%，均连续17个月保持不变。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/jjxw/2026-10-21/doc-inivxrpa4743982.shtml",
+       "publisher": "中国证券报-中证网",
+       "published_at": "2026-10-21",
+       "stance": "支持",
+       "note": "LPR连续17个月“按兵不动”",
+       "ref": "N225"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "LPR连续17个月保持不变，对你的房贷和理财成本无边际变化",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你已婚且涉及家庭财务，LPR维持不变意味着你的房贷利率短期内保持稳定",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-21T01:40:11.688Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261021-car7b",
+   "created_at": "2026-10-21T01:40:11.688Z",
+   "source": "auto",
+   "title": "国际油价与原油库存动态",
+   "url": "https://wallstreetcn.com/livenews/3182104",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-21",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "受美伊谈判传闻等因素影响，国际油价近期出现震荡回落，WTI原油期货收报101.79美元/桶，布伦特原油期货亦有所下跌。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3182104",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-21",
+       "stance": "支持",
+       "note": "WTI 11月原油期货收跌1.87美元，跌幅1.80%，报101.79美元/桶，北京时间19:36曾达到110.48美元",
+       "ref": "N179"
+      },
+      {
+       "url": "https://finance.sina.com.cn/world/2026-10-20/doc-inivwyrc5651665.shtml",
+       "publisher": "环球市场播报",
+       "published_at": "2026-10-20",
+       "stance": "支持",
+       "note": "卡塔尔和巴基斯坦据报提出新方案以推动结束伊朗战争 布伦特原油跌3%",
+       "ref": "N241"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "美国截至10月16日当周API原油库存减少493.1万桶，降幅超预期。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-21",
+       "stance": "支持",
+       "note": "美国至10月16日当周API原油库存 -493.1万桶，预期-110.7万桶，前值-1112.3万桶。 美国至10月16",
+       "ref": "N156"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3182147",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-21",
+       "stance": "支持",
+       "note": "美国石油协会（API）数据显示，上周，美国API原油库存 -493.1万桶，之前一周 -1112.3万桶。 上周API库",
+       "ref": "N158"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国际油价震荡回落，可能小幅降低你驾驶混动车的出行油耗成本",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你驾驶混动车且常跑长途，油价波动会影响你的出行燃油支出",
+   "profile_refs": [
+    "vehicle_type",
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利好",
+     "strength": 1,
+     "horizon": "1-3个月",
+     "path": {
+      "fact": "国际油价近期出现震荡回落",
+      "direct": "国内成品油零售价预期面临下调压力",
+      "intermediate": "你驾驶混动车长途出行的加油成本小幅减少",
+      "user_effect": "你的日常及周末长途通勤燃油花销略有下降"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-21T01:40:11.688Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261021-jfdeg",
+   "created_at": "2026-10-21T01:40:11.688Z",
+   "source": "auto",
+   "title": "理想汽车发布连山电动技术体系",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "理想汽车于10月20日晚正式发布“连山”电动技术体系，并推出自研电池保障计划，承诺若电池自燃则赔付新车。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-20",
+       "stance": "支持",
+       "note": "【理想汽车推自研电池保障计划，若自燃或赔新车】 10月20日晚，理想汽车在其Power Day上正式发布“连山”电动技术",
+       "ref": "N287"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "理想汽车发布连山电动技术体系，对你驾驶的混动车暂无直接影响",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你拥有混动车型，了解车企新技术动态有助于你关注行业发展",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-21T01:40:11.688Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261021-9s1ux",
+   "created_at": "2026-10-21T01:40:11.688Z",
+   "source": "auto",
+   "title": "工行与农行派发中期现金红利",
+   "url": "https://wallstreetcn.com/livenews/3182188",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-21",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "工商银行与农业银行于10月21日向A股股东派发2026年中期现金红利，合计约821亿元。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-21",
+       "stance": "支持",
+       "note": "【千亿级红利陆续落袋，透视银行中期分红新局】10月21日，工商银行与农业银行向A股股东派发2026年中期现金红利，合计约",
+       "ref": "N123"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3182188",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-21",
+       "stance": "支持",
+       "note": "10月21日，工商银行与农业银行向A股股东派发2026年中期现金红利，合计约821亿元。Wind数据显示，截至目前已有2",
+       "ref": "N124"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "工行与农行派发中期现金红利，若你持有相关银行股会收到分红",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你作为家庭资产管理者若持有大行股份，会直接收到中期现金红利",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-21T01:40:11.688Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261020-3gv2k",
    "created_at": "2026-10-20T01:53:51.230Z",
