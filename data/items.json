@@ -1,6 +1,153 @@
 {
- "updated_at": "2026-10-22T01:35:22.220Z",
+ "updated_at": "2026-10-23T01:35:47.059Z",
  "items": [
+  {
+   "id": "d20261023-f9fw0",
+   "created_at": "2026-10-23T01:35:47.041Z",
+   "source": "auto",
+   "title": "国际油价大涨与中东局势升级",
+   "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-23/doc-iniweiyw4882856.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-23",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "受中东局势升级及沙特遇袭事件影响，国际油价大幅上涨，WTI原油收于每桶99.47美元，布伦特原油收于每桶113.17美元。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-23/doc-iniweiyw4882856.shtml",
+       "publisher": "市场资讯",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "华泰期货：地缘局势继续推高油价，但与基本面持续背离",
+       "ref": "N10"
+      },
+      {
+       "url": "https://finance.sina.com.cn/money/future/fmnews/2026-10-23/doc-iniwecst4991282.shtml",
+       "publisher": "市场资讯",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "突发！沙特国防部和原油设施遇袭！刚刚，黄金、白银、纳指暴跌，油价大涨！恐慌情绪蔓延！普京重磅发声",
+       "ref": "N99"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "【国际油价22日上涨】截至当天收盘，纽约商品交易所12月交货的轻质原油期货价格上涨2.32美元，收于每桶99.47美元，",
+       "ref": "N177"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国际油价大幅上涨，你周末去常德钓鱼的长途加油开支将有所增加",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你经常开混动车前往常德长途钓鱼，国际油价大涨预示国内油价即将上调，会增加你的长途加油开支",
+   "profile_refs": [
+    "vehicle_type",
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利空",
+     "strength": 1,
+     "horizon": "1-3个月",
+     "path": {
+      "fact": "国际原油价格大幅上涨，WTI与布伦特原油高位收盘",
+      "direct": "国内成品油调价窗口开启后汽油零售价格大概率跟随上调",
+      "intermediate": "混动车型在长途高速行驶时主要依赖燃油驱动，每公里油耗成本增加",
+      "user_effect": "你周末前往常德、石门钓鱼的长途往返燃油开支将有所增加"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-23T01:35:47.041Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261023-8m9sm",
+   "created_at": "2026-10-23T01:35:47.041Z",
+   "source": "auto",
+   "title": "全国蛋价跌回“4元时代”",
+   "url": "https://www.chinanews.com.cn/cj/2026/10-23/10719473.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-23",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国庆节前价格较高的鸡蛋，目前在全国范围内已回落至“4元时代”，市民购买刚需食品成本下降。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/10-23/10719473.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "全国蛋价跌回“4元时代” 未来还会降吗？走势预测→",
+       "ref": "N74"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "全国鸡蛋价格跌回4元时代，你家庭日常采购食材开支将略微降低",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你已婚组建了家庭，全国鸡蛋价格回落有助于略微降低你家庭日常买菜等生鲜支出",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [
+    {
+     "dimension": "物价与家庭消费",
+     "direction": "利好",
+     "strength": 1,
+     "horizon": "1周内",
+     "path": {
+      "fact": "全国鸡蛋价格回落至每斤4元左右",
+      "direct": "终端零售市场的鸡蛋价格同步下行",
+      "intermediate": "家庭日常购买刚需食品的消费支出减少",
+      "user_effect": "你家庭日常采购食材的开支将略微降低"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "高"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-23T01:35:47.041Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261022-1201c",
    "created_at": "2026-10-22T01:35:22.204Z",
