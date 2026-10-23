@@ -1,6 +1,607 @@
 {
- "updated_at": "2026-10-23T01:35:47.059Z",
+ "updated_at": "2026-10-23T02:02:30.184Z",
  "items": [
+  {
+   "id": "d20261023-tga2x",
+   "created_at": "2026-10-23T02:02:30.170Z",
+   "source": "auto",
+   "title": "国际油价大涨与中东供应担忧",
+   "url": "https://wallstreetcn.com/livenews/3184104",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-23",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "受中东局势升级及沙特能源设施遇袭等因素影响，国际油价延续涨势，布伦特原油期货收于每桶113.17美元，WTI原油期货收于每桶99.47美元。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3184104",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "现货黄金跌破4000美元/盎司关口，日内跌幅0.7%。 国际油价延续涨势，布油、WTI原油期货均涨逾1%。",
+       "ref": "N1"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "【国际油价22日上涨】截至当天收盘，纽约商品交易所12月交货的轻质原油期货价格上涨2.32美元，收于每桶99.47美元，",
+       "ref": "N195"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3183921",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "WTI 12月原油期货收涨2.32美元，涨幅将近2.39%，报99.47美元/桶。 布伦特12月原油期货收涨4.35美元",
+       "ref": "N208"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国际油价继续大涨，将推高你的日常及周末远途出行成本",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你开的是混动车且周末常跑长途，油价上涨会直接增加你的用车开支",
+   "profile_refs": [
+    "vehicle_type",
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利空",
+     "strength": 2,
+     "horizon": "1周内",
+     "path": {
+      "fact": "国际油价延续涨势，布伦特原油收于113.17美元",
+      "direct": "国内成品油零售价面临上调预期，加油成本增加",
+      "intermediate": "你周末去常德钓鱼的长途自驾油耗支出上升",
+      "user_effect": "你的每月出行燃油预算将小幅增加"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-23T02:02:30.170Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261023-j166w",
+   "created_at": "2026-10-23T02:02:30.170Z",
+   "source": "auto",
+   "title": "央行开展隔夜逆回购操作",
+   "url": "https://www.chinanews.com.cn/cj/2026/10-23/10719522.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-23",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "中国央行公开市场今日7天期逆回购操作量为零，开展2580亿元隔夜逆回购操作，当日实现净投放250亿元。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/10-23/10719522.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "央行开展2580亿元隔夜逆回购操作",
+       "ref": "N4"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "央行公开市场今日净投放250.0亿元人民币。",
+       "ref": "N28"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3184076",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "中国央行公开市场今日七天期逆回购操作量为零，进行2580亿元人民币隔夜逆回购操作。今日2330亿元逆回购到期。中国央行公",
+       "ref": "N30"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "央行开展隔夜逆回购投放资金，短期流动性保持合理充裕",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你平时关注理财与资金情况，央行公开市场操作反映了市场流动性变化",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-23T02:02:30.170Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261023-ycz8n",
+   "created_at": "2026-10-23T02:02:30.170Z",
+   "source": "auto",
+   "title": "比亚迪发布车载AI智能体",
+   "url": "https://www.chinanews.com.cn/cj/2026/10-23/10719529.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-23",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "比亚迪正式发布汽车行业首个AI超级智能体“迪迪虾”，基于璇玑架构2.0陆续向旗下多款车型推送。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/10-23/10719529.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "玩得转、搞得定、聊得来，汽车行业首个AI超级智能体「迪迪虾」上车",
+       "ref": "N20"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "比亚迪发布车载AI智能体，未来或提升你开混动车的智能体验",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你开的是混动车，这类车载新技术升级值得了解",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-23T02:02:30.170Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261023-hisc1",
+   "created_at": "2026-10-23T02:02:30.170Z",
+   "source": "auto",
+   "title": "前三季度经济运行平稳向新",
+   "url": "https://wallstreetcn.com/livenews/3184071",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-23",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国家税务总局发票数据显示，前三季度我国经济保持平稳运行、持续向新向优，工业销售收入较快增长，人工智能等新动能行业发展加快。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3184071",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "国家税务总局发票数据显示，前三季度我国经济运行平稳、向新向优，其中三季度工业、新动能行业、省际贸易、设备投资较二季度发展",
+       "ref": "N39"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "【国家税务总局最新发票数据显示：前三季度我国经济保持平稳运行、持续向新向优】国家税务总局发票数据显示，前三季度我国经济运",
+       "ref": "N54"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "前三季度经济运行平稳向新，反映整体宏观经济环境保持稳健",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "身为企业运营管理人员，了解宏观经济走势有助于掌握行业大盘",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-23T02:02:30.170Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261023-4dpsg",
+   "created_at": "2026-10-23T02:02:30.170Z",
+   "source": "auto",
+   "title": "全国蛋价维持在4元时代",
+   "url": "https://www.chinanews.com.cn/cj/2026/10-23/10719473.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-23",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国庆节前价格较高的鸡蛋，目前价格明显回落，全国蛋价已跌回“4元时代”。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/10-23/10719473.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "全国蛋价跌回“4元时代” 未来还会降吗？走势预测→",
+       "ref": "N92"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "全国蛋价跌回4元时代，将小幅降低你家庭日常的买菜开销",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你是已婚家庭成员，鸡蛋价格回落会直接带来家庭伙食费的小幅节约",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-23T02:02:30.170Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261023-qyveq",
+   "created_at": "2026-10-23T02:02:30.170Z",
+   "source": "auto",
+   "title": "湖南中医药大学戴爱国被查",
+   "url": "https://www.chinanews.com.cn/gn/2026/10-23/10719506.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-23",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "湖南中医药大学原党委书记戴爱国涉嫌严重违纪违法，主动向组织交代问题，正接受湖南省纪委监委纪律审查和监察调查。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/gn/2026/10-23/10719506.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "湖南中医药大学原党委书记戴爱国接受审查调查",
+       "ref": "N10"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "湖南中医药大学原党委书记被查，属于本地高校反腐通报",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你在湖南长沙生活，本地重要通报属于日常知悉信息",
+   "profile_refs": [
+    "city"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-23T02:02:30.170Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261023-ucp6q",
+   "created_at": "2026-10-23T02:02:30.170Z",
+   "source": "auto",
+   "title": "OpenAI推出决策API定价",
+   "url": "https://wallstreetcn.com/livenews/3183947",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-23",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "OpenAI宣布决策API正式全面开放，将每输入100万Tokens定价在0.10美元，其输入成本为0.01美元。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3183947",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "OpenAI：决策API正式全面开放。 决策API将每输入100万Tokens定价在0.10美元，其输入成本为0.01美",
+       "ref": "N187"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "OpenAI推出决策API定价，为你可能接触的AI工具应用提供成本参考",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你从事运营和项目管理，了解前沿AI接口成本有助于评估流程改进工具",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-23T02:02:30.170Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261023-g0bpn",
+   "created_at": "2026-10-23T02:02:30.170Z",
+   "source": "auto",
+   "title": "苹果开放批量采购应用订阅",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "苹果宣布企业和教育机构可通过多席位购买功能批量采购应用自动续订订阅，相关功能自10月28日起在沙盒环境中测试。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "【苹果开放订阅多席位购买，支持企业和学校批量采购应用订阅】当地时间10月22日，苹果宣布，企业和教育机构可通过多席位购买",
+       "ref": "N105"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "苹果开放批量采购应用订阅，主要面向企业及教育机构你",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你从事项目管理和运营，企业级软件采购方式的变化可以了解一下",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-23T02:02:30.170Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261023-spm0j",
+   "created_at": "2026-10-23T02:02:30.170Z",
+   "source": "auto",
+   "title": "娃哈哈集团董事长许思敏离职",
+   "url": "https://wallstreetcn.com/livenews/3184053",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-23",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "知情人士透露，杭州娃哈哈集团有限公司法定代表人、董事长兼总经理许思敏已于近日离职。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3184053",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "从知情人士处获悉，杭州娃哈哈集团有限公司法定代表人、董事长兼总经理许思敏辞职。上述人士表示，许思敏还未完全离开公司，接任",
+       "ref": "N65"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-22",
+       "stance": "支持",
+       "note": "【娃哈哈集团董事长许思敏离职】10月22日，从多个独立信源处获悉，杭州娃哈哈集团有限公司法定代表人、董事长兼总经理许思敏",
+       "ref": "N269"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "娃哈哈董事长许思敏离职，属于知名企业高层人事变动",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "身为企业运营管理人员，关注大型消费品企业的高管变动有助于商业认知",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-23T02:02:30.170Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261023-v2ef2",
+   "created_at": "2026-10-23T02:02:30.170Z",
+   "source": "auto",
+   "title": "中国船舶行业前三季度增长",
+   "url": "https://wallstreetcn.com/livenews/3184009",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-23",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "工信部最新数据显示，今年前三季度，全国造船完工量同比增长50.7%，船舶行业维持高景气。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "【行业维持高景气 船企生产交付忙】工信部最新数据显示，今年前三季度，全国造船完工量同比增长50.7%。船舶行业维持高景气",
+       "ref": "N118"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3184009",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "工信部最新数据显示，今年前三季度，全国造船完工量同比增长50.7%。国产第二艘大型邮轮“爱达·花城号”即将建成交付、全球",
+       "ref": "N137"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "中国船舶行业前三季度高景气增长，反映制造业细分领域向好",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你从事业务单元管理和项目管理，了解工业制造业数据可作为行业参考",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-23T02:02:30.170Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261023-989v5",
+   "created_at": "2026-10-23T02:02:30.170Z",
+   "source": "auto",
+   "title": "前三季度中国消费市场平稳",
+   "url": "https://wallstreetcn.com/livenews/3184089",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-23",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "商务部消费促进司负责人表示，前三季度通过深入实施提振消费专项行动及促消费政策，推动消费市场规模稳步扩大、居民消费结构持续优化。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3184089",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "商务部消费促进司负责人谈2026年前三季度我国消费市场情况，前三季度，商务部认真贯彻落实党中央、国务院决策部署，深入实施",
+       "ref": "N17"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "前三季度中国消费市场平稳，反映国内整体消费需求保持稳步扩大",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你身处企业运营管理岗位且已婚，宏观消费大盘走势与你的工作和生活相关",
+   "profile_refs": [
+    "occupation",
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-23T02:02:30.170Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261023-f9fw0",
    "created_at": "2026-10-23T01:35:47.041Z",
