@@ -1,6 +1,210 @@
 {
- "updated_at": "2026-10-24T01:39:57.333Z",
+ "updated_at": "2026-10-24T02:02:52.426Z",
  "items": [
+  {
+   "id": "d20261024-9d326",
+   "created_at": "2026-10-24T02:02:52.404Z",
+   "source": "auto",
+   "title": "国际油价显著上涨",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "受中东局势紧张和市场担忧原油供应中断等因素影响，国际油价显著上涨，其中布伦特原油期货价格创近6个月来新高。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "【油价大涨金价银价大跌】受中东局势紧张和市场担忧原油供应中断等因素影响，国际油价23日显著上涨，其中，布伦特原油期货价格",
+       "ref": "N14"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "【布伦特原油期价创5个月来新高】受中东局势紧张、市场担忧原油供应中断等因素影响，国际油价23日上涨，伦敦布伦特原油期货价",
+       "ref": "N303"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "纽约商品交易所12月交货的轻质原油期货价格收于每桶103.27美元，涨幅为3.82%。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "【油价大涨金价银价大跌】受中东局势紧张和市场担忧原油供应中断等因素影响，国际油价23日显著上涨，其中，布伦特原油期货价格",
+       "ref": "N14"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "【国际油价23日显著上涨】国际油价23日显著上涨。截至当天收盘，纽约商品交易所12月交货的轻质原油期货价格上涨3.80美",
+       "ref": "N68"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国际油价显著上涨，你未来往返常德钓鱼的长途用油成本可能小幅增加",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你常开混动车前往常德长途钓鱼，国际油价上涨未来可能增加你的出行油耗开支",
+   "profile_refs": [
+    "vehicle_type",
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利空",
+     "strength": 1,
+     "horizon": "1-3个月",
+     "path": {
+      "fact": "国际原油价格显著上涨超3.8%，创近6个月新高（依据[0][1]）",
+      "direct": "国际油价走高加大了国内成品油价格上调的预期",
+      "intermediate": "油价上调将增加燃油车及混动车加油成本",
+      "user_effect": "你驾驶混动车往返常德钓鱼的长途出行用油成本将略有增加"
+     },
+     "based_on": [
+      0,
+      1
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-24T02:02:52.404Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261024-b5o5a",
+   "created_at": "2026-10-24T02:02:52.404Z",
+   "source": "auto",
+   "title": "月之暗面发布Kimi K3.1 Pro",
+   "url": "https://wallstreetcn.com/livenews/3184968",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-24",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "月之暗面正式推出3万亿级参数模型Kimi K3.1 Pro，支持100万上下文，在代码、金融研究等长程Agent能力上提升显著。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3184968",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "月之暗面正式推出Kimi K3.1 Pro，这是K3.1系列的第一个模型，也是公司迄今能力最强的3万亿级参数模型，支持1",
+       "ref": "N99"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "【月之暗面发布 Kimi K3.1 Pro 以及 K3.1 Pro Highspeed 模型】10月24日1点16分，月",
+       "ref": "N100"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "Kimi发布新模型提升长程能力，可关注其能否辅助你的运营流程优化",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你从事公司运营管理与流程改进，新推出的长文本AI模型可作为你提升工作效率的工具参考",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-24T02:02:52.404Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261024-lgzb0",
+   "created_at": "2026-10-24T02:02:52.404Z",
+   "source": "auto",
+   "title": "AI全流程院线长片上映",
+   "url": "https://wallstreetcn.com/livenews/3184814",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-23",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国内首部获得国家电影局公映许可证的AI全流程院线长片《三星堆：未来往事》正式上映。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3184814",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "10月23日，国内首部获得国家电影局公映许可证（俗称“龙标”）的AI全流程院线长片《三星堆：未来往事》今日正式上映。据了",
+       "ref": "N264"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国内首部AI全流程电影上映，可作为你和家人休闲观影的新选择",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "国内首部AI院线长片上映属于电影娱乐资讯，可作为你和家庭成员周末休闲的观影选择",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-24T02:02:52.404Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261024-z31bg",
    "created_at": "2026-10-24T01:39:57.312Z",
