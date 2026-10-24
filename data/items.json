@@ -1,6 +1,564 @@
 {
- "updated_at": "2026-10-24T02:02:52.426Z",
+ "updated_at": "2026-10-24T04:59:45.930Z",
  "items": [
+  {
+   "id": "d20261024-lagmh",
+   "created_at": "2026-10-24T04:59:45.908Z",
+   "source": "auto",
+   "title": "谢卫江任湖南省政府党组书记",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "湖南省委决定，谢卫江同志任湖南省政府党组书记。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "【谢卫江任湖南省政府党组书记】湖南省委决定：谢卫江同志任湖南省政府党组书记。（湖南日报）",
+       "ref": "N2"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "谢卫江任湖南省政府党组书记，人事变动对你的日常工作暂无直接影响",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你在湖南长沙工作，省级领导班子调整属于宏观人事动态，知道即可",
+   "profile_refs": [
+    "city",
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-24T04:59:45.908Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261024-b0q1o",
+   "created_at": "2026-10-24T04:59:45.908Z",
+   "source": "auto",
+   "title": "企业微信客服账号遭外挂攻破",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "2026年10月24日，针对部分企业微信客服账号发送色情引流信息，企业微信官方回应称系某第三方外挂服务被攻破所致。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "【微信回应耐克等账号发色情链接：系第三方外挂服务被攻破】10月24日，针对多个公司企业微信客服账号向客户发送疑似色情引流",
+       "ref": "N1"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "企业微信客服外挂被攻破出现色情引流，若你所在公司使用企业微信需防范账号安全风险",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你在企业从事运营管理岗，企业微信的安全漏洞可能对业务沟通或客户维护产生潜在影响",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [
+    {
+     "dimension": "工作与行业",
+     "direction": "利空",
+     "strength": 1,
+     "horizon": "1周内",
+     "path": {
+      "fact": "企业微信客服第三方外挂服务被攻破导致发送色情引流信息",
+      "direct": "部分企业微信账号存在被黑灰产利用及封禁的风险",
+      "intermediate": "若企业端客服账号受波及可能影响客户服务流程",
+      "user_effect": "你需关注公司内部客服系统安全，防范业务沟通中断或合规风险"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-24T04:59:45.908Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261024-il99q",
+   "created_at": "2026-10-24T04:59:45.908Z",
+   "source": "auto",
+   "title": "信通院指大模型Token价格翻倍",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "中国信通院报告指出，大模型词元（Token）服务价格回升明显，词元价格较去年下半年翻倍，日均消耗量增长3倍。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "【信通院报告：大模型价格回升明显，词元价格较去年下半年翻倍，日均消耗量增长3倍】随着大模型技术迅速迭代，词元（Token",
+       "ref": "N15"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "大模型Token价格较去年翻倍，若你负责的项目涉及AI应用成本将上升",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你从事项目管理和流程改进，大模型服务成本上升会直接影响相关业务项目的预算执行",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [
+    {
+     "dimension": "工作与行业",
+     "direction": "利空",
+     "strength": 2,
+     "horizon": "1-3个月",
+     "path": {
+      "fact": "大模型Token服务价格较去年下半年翻倍",
+      "direct": "企业采购大模型API及算力成本显著增加",
+      "intermediate": "相关业务单元的项目运营预算与成本核算压力增大",
+      "user_effect": "你在管理流程改进或项目时，需要重新评估AI相关工具的使用成本与ROI"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-24T04:59:45.908Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261024-4fidq",
+   "created_at": "2026-10-24T04:59:45.908Z",
+   "source": "auto",
+   "title": "国家AI中试基地发布首个汽车AI基座",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "在2026世界智能网联汽车大会上，中国移动牵头建设的国家人工智能应用中试基地发布了业内首个汽车行业AI基座，并面向全行业开放共享。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "【首个汽车行业AI基座发布 面向全行业开放共享】据“首都建设报”微信公众号，10月23日，在2026世界智能网联汽车大会",
+       "ref": "N19"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国家AI中试基地发布首个汽车AI基座，对新能源汽车行业带来技术支撑",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你驾驶混动车型且常跑长途，汽车智能化发展属于行业动态，了解即可",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-24T04:59:45.908Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261024-ernvx",
+   "created_at": "2026-10-24T04:59:45.908Z",
+   "source": "auto",
+   "title": "我国9月动力及其他电池产量同比增57%",
+   "url": "https://wallstreetcn.com/livenews/3185096",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-24",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "乘联分会数据显示，2026年9月我国动力和其它电池合计产量为237GWh，同比增长57%。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3185096",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "乘联分会会长崔东树发文分析新能源车锂电池市场：9月，我国动力和其它电池合计产量为237GWh，同比增长57%；1-9月，",
+       "ref": "N20"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "【崔东树：9月，我国动力和其它电池合计产量为237GWh，同比增长57%】乘联分会会长崔东树发文分析新能源车锂电池市场：",
+       "ref": "N22"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "2026年1–9月，我国动力和其它电池累计产量为1833GWh，同比增长63%。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3185096",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "乘联分会会长崔东树发文分析新能源车锂电池市场：9月，我国动力和其它电池合计产量为237GWh，同比增长57%；1-9月，",
+       "ref": "N20"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "【崔东树：9月，我国动力和其它电池合计产量为237GWh，同比增长57%】乘联分会会长崔东树发文分析新能源车锂电池市场：",
+       "ref": "N22"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "我国9月动力电池产量同比大增，反映新能源车产业链保持旺盛供给",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你开的是混动汽车，上游电池产量增长反映了汽车及相关供应链的总体景气度",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-24T04:59:45.908Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261024-u8wj0",
+   "created_at": "2026-10-24T04:59:45.908Z",
+   "source": "auto",
+   "title": "南方区域电力市场正式运行",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "南方区域电力市场正式运行，打通了广东、广西、云南、贵州、海南五个省区的电力交易市场。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "【南方区域电力市场今起正式运行】今天上午，南方区域电力市场将正式运行，标志着全国统一电力市场建设迎来重大里程碑式节点。它",
+       "ref": "N50"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "南方区域电力市场正式运行，推进跨省电力资源优化配置",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你常住湖南长沙，南方区域电力市场建设属于宏观能源改革，了解即可",
+   "profile_refs": [
+    "city"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-24T04:59:45.908Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261024-im2jw",
+   "created_at": "2026-10-24T04:59:45.908Z",
+   "source": "auto",
+   "title": "美国10月制造业PMI创53个月新高",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniwfrun2588250.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-23",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "美国10月标普全球制造业PMI初值录得56.0，超出市场预期，创下53个月来新高。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-23/doc-iniwfrun2588250.shtml",
+       "publisher": "环球市场播报",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "美国10月制造业PMI升至56.0，超出市场预期，制造业扩张速度加快",
+       "ref": "N185"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "美国10月标普全球制造业PMI初值录得56，为53个月来高点。",
+       "ref": "N211"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3184866",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "美国10月标普全球制造业PMI初值56，创53个月新高。 美国10月标普全球服务业PMI初值57.9，创2个月新低。 美",
+       "ref": "N214"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "美国10月制造业PMI创53个月新高，反映外部制造景气度超预期",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "宏观经济指标变动对整体商业环境有潜在传导，知道即可",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-24T04:59:45.908Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261024-zve97",
+   "created_at": "2026-10-24T04:59:45.908Z",
+   "source": "auto",
+   "title": "专项行动深度治理短视频AI虚假营销",
+   "url": "https://wallstreetcn.com/livenews/3184893",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-23",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "网络治理专项行动重点整治假扮弱势群体、利用AI仿冒人物虚假营销等五类短视频虚假人设违规行为。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3184893",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "本次专项行动聚焦短视频虚假人设乱象，开展深度治理，重点整治以下五类违规行为：假扮弱势群体骗取关注、虚构职业资质发布专业内",
+       "ref": "N192"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "短视频AI虚假营销专项治理开展，有助于净化网络视听环境",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "这属于常见的网络生态治理政策，日常浏览短视频时了解即可",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-24T04:59:45.908Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261024-3uudt",
+   "created_at": "2026-10-24T04:59:45.908Z",
+   "source": "auto",
+   "title": "研讨会关注防范AI时代恩格斯停顿",
+   "url": "https://www.chinanews.com.cn/cj/2026/10-23/10720012.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-23",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "三里河研讨会指出，迈入人工智能时代，需要防范AI时代“恩格斯停顿”，规避过度就业替代并促进技术红利共享。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/10-23/10720012.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "三里河研讨会：跨越“恩格斯停顿”，让技术革命促进共享发展",
+       "ref": "N235"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "研讨会关注防范AI时代恩格斯停顿，探讨就业替代与技术红利共享",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你从事运营管理和流程改进，关注AI对就业与效率的影响属于行业前沿思考，知道即可",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-24T04:59:45.908Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261024-ccpxe",
+   "created_at": "2026-10-24T04:59:45.908Z",
+   "source": "auto",
+   "title": "四部门规范优质中小企业培育认定",
+   "url": "https://finance.sina.com.cn/china/2026-10-23/doc-iniwfmnh8349688.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-23",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "工业和信息化部等四部门联合印发通知，进一步防范不良中介机构影响专精特新等优质中小企业的培育与认定。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/china/2026-10-23/doc-iniwfmnh8349688.shtml",
+       "publisher": "新华社",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "四部门：防范不良中介机构影响优质中小企业培育认定",
+       "ref": "N250"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "四部门规范优质中小企业培育认定并防范不良中介影响",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "该政策规范专精特新等企业认定流程，对企业合规培育有指导意义，知道即可",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-24T04:59:45.908Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261024-9d326",
    "created_at": "2026-10-24T02:02:52.404Z",
