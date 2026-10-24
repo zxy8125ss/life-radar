@@ -1,6 +1,275 @@
 {
- "updated_at": "2026-10-23T02:02:30.184Z",
+ "updated_at": "2026-10-24T01:39:57.333Z",
  "items": [
+  {
+   "id": "d20261024-z31bg",
+   "created_at": "2026-10-24T01:39:57.312Z",
+   "source": "auto",
+   "title": "王志军任湖南省委书记",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "中共中央决定王志军任湖南省委委员、常委、书记，沈晓明不再担任该职务。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "【王志军任湖南省委书记】日前，中共中央决定：王志军同志任湖南省委委员、常委、书记，沈晓明同志不再担任湖南省委书记、常委、",
+       "ref": "N1"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "湖南省委主要领导调整，涉及你常驻省份的宏观政经动态",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你常驻湖南长沙，省委主要领导变动属于省内重大动态",
+   "profile_refs": [
+    "city"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-24T01:39:57.312Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261024-2jh5b",
+   "created_at": "2026-10-24T01:39:57.312Z",
+   "source": "auto",
+   "title": "国办发文适应AI发展构建就业友好模式",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国务院办公厅印发意见，要求适应人工智能技术发展，助力构建就业友好型发展方式。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "除了头版内容，今天《人民日报》涉及财经的主要内容还包括： 1、国办印发意见 适应人工智能技术发展助力构建就业友好型发展方",
+       "ref": "N24"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "国务院常务会议研究了统筹人口与经济社会发展有关工作，并听取推进全国服务业大会部署落实情况汇报。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "【李强主持召开国务院常务会议 研究统筹人口与经济社会发展有关工作 听取推进全国服务业大会部署落实情况汇报】国务院总理李强",
+       "ref": "N310"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国办发文引导AI就业友好发展，属于管理与产业宏观政策",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你从事公司运营管理工作，国家关于AI与就业的引导政策属于行业宏观背景",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-24T01:39:57.312Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261024-ls8zg",
+   "created_at": "2026-10-24T01:39:57.312Z",
+   "source": "auto",
+   "title": "月之暗面发布大模型Kimi K3.1 Pro",
+   "url": "https://wallstreetcn.com/livenews/3184968",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-24",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "月之暗面于2026年10月24日正式推出3万亿级参数模型Kimi K3.1 Pro，支持100万上下文。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3184968",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "月之暗面正式推出Kimi K3.1 Pro，这是K3.1系列的第一个模型，也是公司迄今能力最强的3万亿级参数模型，支持1",
+       "ref": "N97"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "【月之暗面发布 Kimi K3.1 Pro 以及 K3.1 Pro Highspeed 模型】10月24日1点16分，月",
+       "ref": "N98"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "该模型提升了代码、3D创作及长程Agent能力，并同步推出了Highspeed版本。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3184968",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "月之暗面正式推出Kimi K3.1 Pro，这是K3.1系列的第一个模型，也是公司迄今能力最强的3万亿级参数模型，支持1",
+       "ref": "N97"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "Kimi推出新模型并强化Agent能力，属于生产力工具更新",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你从事流程改进与项目管理工作，大模型及Agent能力提升属于可关注的技术效能工具动态",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-24T01:39:57.312Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261024-1rx44",
+   "created_at": "2026-10-24T01:39:57.312Z",
+   "source": "auto",
+   "title": "大额存单返场但额度紧俏且利率走低",
+   "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-23/doc-iniwfmnk5022862.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-23",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "2026年下半年大额存单重新上架，但面临额度紧俏且整体利率下行的状况。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-23/doc-iniwfmnk5022862.shtml",
+       "publisher": "证券导报",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "大额存单返场：国有行1.6%售罄，海南银行三年期1.85%仍可寻",
+       "ref": "N319"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "国有大行1.6%利率的产品迅速售罄，部分地方银行三年期利率维持在1.85%左右。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-10-23/doc-iniwfmnk5022862.shtml",
+       "publisher": "证券导报",
+       "published_at": "2026-10-23",
+       "stance": "支持",
+       "note": "大额存单返场：国有行1.6%售罄，海南银行三年期1.85%仍可寻",
+       "ref": "N319"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "大额存单利率走低且额度紧俏，低风险理财收益承压",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你作为已婚家庭决策者，大额存单利率下行属于家庭稳健理财环境变化",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [
+    {
+     "dimension": "理财与基金",
+     "direction": "利空",
+     "strength": 1,
+     "horizon": "1-3个月",
+     "path": {
+      "fact": "2026年下半年大额存单利率下行且额度紧俏，国有大行1.6%利率产品售罄",
+      "direct": "银行无风险及低风险存款类产品预期收益率进一步走低",
+      "intermediate": "家庭稳健型资产配置的收益率缩水、锁定长期收益成本变高",
+      "user_effect": "若你规划家庭闲置资金保本理财，难以获取过往同等水平的收益率"
+     },
+     "based_on": [
+      0,
+      1
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-24T01:39:57.312Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261023-tga2x",
    "created_at": "2026-10-23T02:02:30.170Z",
