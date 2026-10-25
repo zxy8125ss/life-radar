@@ -1,6 +1,689 @@
 {
- "updated_at": "2026-10-24T04:59:45.930Z",
+ "updated_at": "2026-10-25T01:15:35.409Z",
  "items": [
+  {
+   "id": "d20261025-e0r92",
+   "created_at": "2026-10-25T01:15:35.390Z",
+   "source": "auto",
+   "title": "靳伟履新湖南省委副书记",
+   "url": "https://www.chinanews.com.cn/gn/2026/10-25/10720553.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-25",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "中共中央批准靳伟同志任中共湖南省委委员、常委、副书记。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/gn/2026/10-25/10720553.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-25",
+       "stance": "支持",
+       "note": "靳伟同志任中共湖南省委副书记",
+       "ref": "N9"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-25",
+       "stance": "支持",
+       "note": "【靳伟任中共湖南省委副书记】近日，中共中央批准：靳伟同志任中共湖南省委委员、常委、副书记。（湖南日报）",
+       "ref": "N21"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "湖南省委班子人事调整，你可了解省内政务新动态",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你生活在湖南长沙，人事履新属于省内重大政务动态。",
+   "profile_refs": [
+    "city"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-25T01:15:35.390Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261025-xb76m",
+   "created_at": "2026-10-25T01:15:35.390Z",
+   "source": "auto",
+   "title": "常德粮油企业产销对接达成超3.6亿元意向",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "在2026“湘粮中国行·重庆站”产销对接活动中，常德粮油企业达成意向成交额3.61亿元。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-25",
+       "stance": "支持",
+       "note": "【常德粮油企业重庆产销对接达成意向成交额3.61亿元】据常德日报，10月23日，2026“湘粮中国行·重庆站”产销对接活",
+       "ref": "N2"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "常德粮油企业产销对接成交超3.6亿元，展示了常德农业产销动态",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你周末常去常德一带，当地粮油产业有新推销成果。",
+   "profile_refs": [
+    "long_trip"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-25T01:15:35.390Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261025-2t2z2",
+   "created_at": "2026-10-25T01:15:35.390Z",
+   "source": "auto",
+   "title": "八家互联网企业签署营销宣传自律公约",
+   "url": "https://wallstreetcn.com/livenews/3185145",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-24",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "巨量引擎、百度、腾讯、美团等8家企业共同签署《互联网营销宣传自律公约》，承诺坚守真实合规底线。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3185145",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "10月23日，第33届中国国际广告节在北京市海淀区开幕。开幕式上，巨量引擎、百度、腾讯、快手、京东集团、美团、360集团",
+       "ref": "N85"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "【中国国际广告节开幕 8家企业签署互联网营销宣传自律公约】第33届中国国际广告节在北京市海淀区开幕。开幕式上，巨量引擎、",
+       "ref": "N87"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "第33届中国国际广告节期间发布《AIGC时代互联网广告治理蓝皮书》，倡导“以AI治AI”应对黑灰产伪造素材风险。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3185149",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "第33届中国国际广告节期间，《AIGC时代互联网广告治理蓝皮书》正式发布。 当前，AIGC技术带来效率提升的另一面是风险",
+       "ref": "N78"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "【《AIGC时代互联网广告治理蓝皮书》发布，倡导“以AI治AI”】10月24日，第33届中国国际广告节期间，《AIGC时",
+       "ref": "N79"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "互联网营销自律公约与AI治理蓝皮书发布，可作你运营合规的行业参考",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你从事运营管理与流程改进，互联网营销合规与AI治理倡议可作行业背景参考。",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-25T01:15:35.390Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261025-379bn",
+   "created_at": "2026-10-25T01:15:35.390Z",
+   "source": "auto",
+   "title": "字节跳动整合AI应用小云雀至即梦平台",
+   "url": "https://wallstreetcn.com/livenews/3185128",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-24",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "字节跳动剪映团队完成业务整合，将AI短剧创作平台小云雀并入智能创作平台即梦，产品保留独立入口。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3185128",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "从知情人士处获悉，近期剪映内部完成了一次业务整合，AI短剧创作平台小云雀并入智能创作平台即梦，产品仍保留独立入口。此次调",
+       "ref": "N113"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "【字节AI应用再整合：小云雀并入即梦】从知情人士处获悉，近期剪映内部完成了一次业务整合，AI短剧创作平台小云雀并入智能创",
+       "ref": "N116"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "字节跳动将AI短剧平台小云雀整合入即梦，保留独立入口",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你从事运营管理工作，互联网AI工具整合动态可作为日常效率工具的背景信息。",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-25T01:15:35.390Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261025-aa2oe",
+   "created_at": "2026-10-25T01:15:35.390Z",
+   "source": "auto",
+   "title": "百度健康AI服务月活跃用户突破5000万",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "百度健康升级文心健康管家，并发布具有健康动态视频识别功能的健康相机，其AI服务月活跃用户超5000万。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "【百度健康AI服务月活破5000万】10月24日，百度健康宣布升级文心健康管家，并发布健康动态视频识别的健康相机和好医矩",
+       "ref": "N109"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "百度健康AI月活破5000万，上线健康相机与文心健康管家",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你作为公司运营管理人员且已婚，健康类AI应用动态可作为生活与科技参考。",
+   "profile_refs": [
+    "family",
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-25T01:15:35.390Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261025-oo4cd",
+   "created_at": "2026-10-25T01:15:35.390Z",
+   "source": "auto",
+   "title": "张雪将在湖南麻阳挑战摩托车水上行驶纪录",
+   "url": "https://wallstreetcn.com/livenews/3185125",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-24",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "“张雪机车”创始人张雪计划于10月25日在湖南省怀化市麻阳苗族自治县挑战“改装摩托车在开阔水域行驶最远距离”吉尼斯世界纪录。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3185125",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "10月25日，“张雪机车”创始人张雪将驾驶改装摩托车张雪机车MX450，在湖南省怀化市麻阳苗族自治县郭公坪镇小坡村挑战拟",
+       "ref": "N115"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "【张雪将于明日在湖南麻阳挑战吉尼斯世界纪录】10月25日，“张雪机车”创始人张雪将驾驶改装摩托车张雪机车MX450，在湖",
+       "ref": "N117"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "摩托车挑战水上行驶纪录活动在湖南怀化举行，属于省内热点赛事",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你生活在湖南，怀化麻阳的户外极限挑战活动属于省内文旅体育热点。",
+   "profile_refs": [
+    "city"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-25T01:15:35.390Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261025-g5dhb",
+   "created_at": "2026-10-25T01:15:35.390Z",
+   "source": "auto",
+   "title": "新能源汽车出口退税率将于2027年下调至9%",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "根据财政部和税务总局公告，自2027年4月起新能源汽车出口退税率由13%下调至9%。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-25",
+       "stance": "支持",
+       "note": "【中信证券：出口退税退坡，全球化布局可望破局】中信证券发布研报称，根据财政部、税务总局10月12日的公告，2027年4月",
+       "ref": "N39"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "新能源汽车出口退税率将于2027年下调，属于远期车企出口政策调整",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你驾驶混动车型，新能源汽车出口退税率下调属于汽车产业远期政策变动。",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-25T01:15:35.390Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261025-zklwi",
+   "created_at": "2026-10-25T01:15:35.390Z",
+   "source": "auto",
+   "title": "亿纬锂能大圆柱电池工厂处于满产状态",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "亿纬锂能大圆柱电池已量产工厂均处于满产状态，公司三季度单季毛利率环比有所提升。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "【亿纬锂能：公司大圆柱电池已量产的工厂均处于满产状态】10月24日，亿纬锂能管理层在最新披露的投资者关系活动记录表中表示",
+       "ref": "N108"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "【亿纬锂能：公司持续推进盈利修复，后续公司将继续推进相关优化工作】亿纬锂能在投资者关系活动中表示，公司三季度单季毛利率环",
+       "ref": "N110"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "亿纬锂能大圆柱电池工厂满产，反映新能源车上游电池产业链旺盛现状",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你驾驶混动汽车，上游电池厂商满产反映了新能源汽车产业链供需状况。",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-25T01:15:35.390Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261025-dqk9a",
+   "created_at": "2026-10-25T01:15:35.390Z",
+   "source": "auto",
+   "title": "现货黄金跌破4000美元且国内金饰价格下调",
+   "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-24/doc-iniwhnxy1633004.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-24",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "美东时间10月24日现货黄金跌破每盎司4000美元关口，国内多家品牌足金饰品价格下调6元/克。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-25",
+       "stance": "支持",
+       "note": "【深圳水贝被挤爆 网友：金价大跌买金比菜市场人多】美东时间周五，现货黄金价格跌破每盎司4000美元关口，截至收盘，现货黄",
+       "ref": "N18"
+      },
+      {
+       "url": "https://finance.sina.com.cn/stock/marketresearch/2026-10-24/doc-iniwhnxy1633004.shtml",
+       "publisher": "上海证券报",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "市场一夜不平静：金价跌破4000美元，油价大涨",
+       "ref": "N200"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国际金价下跌且国内金饰每克下调6元，金价小幅波动对你影响有限",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你已婚，金饰价格小幅下调6元/克属于家庭消费与黄金市场的日常行情。",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-25T01:15:35.390Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261025-xvdup",
+   "created_at": "2026-10-25T01:15:35.390Z",
+   "source": "auto",
+   "title": "广交会二期推动品质家居成套化集成供给",
+   "url": "https://www.chinanews.com.cn/sh/2026/10-24/10720494.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-24",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "第140届广交会第二期聚焦“品质家居”，参展企业推动从单品供给向成套集成式供给转型。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-25",
+       "stance": "支持",
+       "note": "【从单品到成套供给 广交会家居外贸跑出增长新曲线】今天是第140届广交会第二期线下展的第三天。第140届广交会二期聚焦“",
+       "ref": "N23"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/10-24/10720494.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "中国风首饰被抢着下单，装配式房屋1小时成交5台……这届广交会中国“品质家居”圈粉全球",
+       "ref": "N81"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/10-24/10720459.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "广交会观察：从鲜花到“永生花” 中国创新园林用品热销海外",
+       "ref": "N89"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/10-24/10720432.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "非遗技艺融入中国时尚饰品 东方美学“圈粉”境外采购商",
+       "ref": "N101"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "广交会展示品质家居成套集成趋势，可作家居消费方面的资讯了解",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你已婚，广交会家居成套化集成供给趋势属于家庭消费方面的行业动态。",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-25T01:15:35.390Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261025-404zl",
+   "created_at": "2026-10-25T01:15:35.390Z",
+   "source": "auto",
+   "title": "全国场车安全监管鼓励推广数字化预警手段",
+   "url": "https://www.chinanews.com.cn/sh/2026/10-24/10720399.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-24",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "全国场(厂)内专用机动车辆使用安全监管工作座谈会鼓励各地试点推广智慧叉车、视频监控等数字化手段降低事故率。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/10-24/10720399.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "全国场车安全监管会议鼓励推广数字化手段防事故",
+       "ref": "N107"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "厂内专用车辆监管鼓励试点智慧预警，可作公司安全运营流程参考",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你负责流程改进与业务单元管理，厂内机动车智慧化监管鼓励政策可作安全运营流程参考。",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-25T01:15:35.390Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261025-ksza3",
+   "created_at": "2026-10-25T01:15:35.390Z",
+   "source": "auto",
+   "title": "冷空气影响北方多地迎降温雨雪",
+   "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720559.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-25",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "受新一股冷空气影响，西北、华北、东北等地将陆续出现降温雨雪，降雨后续将集中在西南地区东部及周边。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-25",
+       "stance": "支持",
+       "note": "【冷空气上线！北方雨雪增多 多地迎立秋后最冷一天】今天（10月25日），华东沿海降雨将明显减弱，华北、西北多地迎明显降水",
+       "ref": "N5"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720559.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-25",
+       "stance": "支持",
+       "note": "新一股冷空气上线！北方多地迎立秋后最冷一天 华北西北有明显雨雪",
+       "ref": "N6"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "新一股冷空气影响北方并逐渐影响周边，你周末户外钓鱼需关注气温变化",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你常住长沙并常在周末去常德钓鱼，冷空气南下后续带来的降雨降温影响湖南周边天气。",
+   "profile_refs": [
+    "city",
+    "long_trip"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-25T01:15:35.390Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261024-lagmh",
    "created_at": "2026-10-24T04:59:45.908Z",
