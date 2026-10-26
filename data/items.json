@@ -1,6 +1,682 @@
 {
- "updated_at": "2026-10-25T01:15:35.409Z",
+ "updated_at": "2026-10-26T01:18:31.203Z",
  "items": [
+  {
+   "id": "d20261026-deg52",
+   "created_at": "2026-10-26T01:18:31.192Z",
+   "source": "auto",
+   "title": "中欧班列长沙前三季度增长",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "前三季度，中欧班列（长沙）共发运798列，同比增长10.1%，进出口货值137.6亿元，同比增长15.8%。",
+     "kind": "事实",
+     "level": "B",
+     "note": "反映长沙外贸与物流通道平稳增长，编辑可关注本地物流态势。",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-25",
+       "stance": "支持",
+       "note": "【中欧班列（长沙）前三季度发运量增长10.1%】星沙海关统计，前三季度，中欧班列（长沙）共发运798列，同比增长10.1",
+       "ref": "N247"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "中欧班列长沙发运量保持增长，反映本地物流与外贸态势向好",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你身处长沙，当地物流和外贸通道的发展反映了整体经济活力",
+   "profile_refs": [
+    "city"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-26T01:18:31.192Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261026-86j1y",
+   "created_at": "2026-10-26T01:18:31.192Z",
+   "source": "auto",
+   "title": "常德粮油企业重庆产销对接",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "常德粮油企业在重庆举办的2026“湘粮中国行·重庆站”产销对接活动中，达成意向成交额3.61亿元。",
+     "kind": "事实",
+     "level": "B",
+     "note": "关联常德本地农业产业及粮油经济动向。",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-25",
+       "stance": "支持",
+       "note": "【常德粮油企业重庆产销对接达成意向成交额3.61亿元】据常德日报，10月23日，2026“湘粮中国行·重庆站”产销对接活",
+       "ref": "N257"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "常德粮油在重庆产销对接达成意向，关联你常去的家乡产业动态",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你周末常去常德澧县、石门一带，当地的产业活动与你有关联",
+   "profile_refs": [
+    "long_trip"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-26T01:18:31.192Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261026-ukldb",
+   "created_at": "2026-10-26T01:18:31.192Z",
+   "source": "auto",
+   "title": "张雪机车水上行驶破纪录",
+   "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720639.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-25",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "张雪机车创始人张雪在湖南麻阳锦江水域驾驶改装摩托车MX450完成40.74公里水上行驶，刷新吉尼斯世界纪录，并被聘为怀化文旅推广大使。",
+     "kind": "事实",
+     "level": "A",
+     "note": "发生在湖南麻阳的本地名人及文旅亮点事件。",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/10-25/10720639.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-25",
+       "stance": "支持",
+       "note": "40.74公里！张雪刷新“改装摩托车在开阔水域行驶最远距离”吉尼斯世界纪录",
+       "ref": "N207"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-25",
+       "stance": "支持",
+       "note": "【张雪在家乡刷新吉尼斯纪录】10月25日，张雪机车创始人张雪在家乡湖南麻阳，驾驶改装摩托车MX450，成功刷新“改装摩托",
+       "ref": "N226"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-25",
+       "stance": "支持",
+       "note": "【怀化市委书记为张雪颁发聘书】据“怀化新闻网”微信公众号消息，10月24日下午，湖南省怀化市委书记韦朝晖在麻阳会见张雪及",
+       "ref": "N246"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "张雪机车在湖南麻阳水上行驶破纪录，增添本地文旅看点",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你在湖南长沙生活，省内发生的特色文旅亮点值得了解",
+   "profile_refs": [
+    "city"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-26T01:18:31.192Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261026-ki7gy",
+   "created_at": "2026-10-26T01:18:31.192Z",
+   "source": "auto",
+   "title": "上证综合指数新规今起实施",
+   "url": "https://www.chinanews.com.cn/cj/2026/10-26/10720908.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-26",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "修订后的上证系列综合指数编制方案于10月26日起正式实施，其中增加单个样本权重不超过15%的权重上限规则。",
+     "kind": "事实",
+     "level": "A",
+     "note": "A股核心指数编制规则调整，影响市场行情观察。",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/10-26/10720908.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-26",
+       "stance": "支持",
+       "note": "上证系列综合指数新规今起实施！将带来哪些变化？详细解读→",
+       "ref": "N6"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-26",
+       "stance": "支持",
+       "note": "【上证系列综合指数新规今起实施】作为A股最核心的宽基指数，上证综合指数，就像观察市场冷暖的“温度计”。今天，上证系列综合",
+       "ref": "N14"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-26",
+       "stance": "支持",
+       "note": "【上证系列综合指数新规今起实施】10月26日，上证指数、科创综指等上证系列综合指数开始实施修订后的编制方案，相关指数基金",
+       "ref": "N37"
+      },
+      {
+       "url": "https://finance.sina.com.cn/jjxw/2026-10-26/doc-iniwnzec5740486.shtml",
+       "publisher": "证券日报",
+       "published_at": "2026-10-26",
+       "stance": "支持",
+       "note": "上证系列综合指数新规今起实施",
+       "ref": "N77"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3185173",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-25",
+       "stance": "支持",
+       "note": "26日，上交所将实施修订后的上证系列综合指数编制方案，修订指数包括上证指数、上证A股指数、上证流通指数、科创综指及衍生指",
+       "ref": "N228"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/10-25/10720603.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-25",
+       "stance": "支持",
+       "note": "重要调整！修订后的上证系列综合指数26日起实施",
+       "ref": "N232"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "上证系列综合指数编制方案新规实施，影响市场行情观察",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你可能会关注资本市场动态，核心指数规则调整知晓即可",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-26T01:18:31.192Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261026-w1ngn",
+   "created_at": "2026-10-26T01:18:31.192Z",
+   "source": "auto",
+   "title": "国际油价与中东局势动态",
+   "url": "https://wallstreetcn.com/livenews/3185285",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-26",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "受地缘局势和供应担忧影响，近期国际油价高位波动，美油布油一度显著上涨随后有所回落。",
+     "kind": "事实",
+     "level": "A",
+     "note": "直接关系到混动车主的周末出行燃油/用车成本决策。",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3185285",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-26",
+       "stance": "支持",
+       "note": "油价飙升引发通胀忧虑，上周五美股、美债承压，道指收跌1.2%，苹果市值一度超英伟达；国际油价涨超3%；金价跌至7月以来最",
+       "ref": "N60"
+      },
+      {
+       "url": "https://finance.sina.com.cn/wm/2026-10-26/doc-iniwnzcy2519034.shtml",
+       "publisher": "21世纪经济报道",
+       "published_at": "2026-10-26",
+       "stance": "支持",
+       "note": "国际油价直线下挫，黄金重回4000美元，美股期指集体拉升，特朗普称美俄乌三方会谈很快举行",
+       "ref": "N75"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-26",
+       "stance": "支持",
+       "note": "【标普500股指期货周一早盘走高，原油价格走低】周一早盘，美国股票指数期货走高，原油合约下跌，原因是周末中东没有发生军事",
+       "ref": "N86"
+      },
+      {
+       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-26/doc-iniwnuwa2632266.shtml",
+       "publisher": "环球市场播报",
+       "published_at": "2026-10-26",
+       "stance": "支持",
+       "note": "原油从六个月高点小幅回落 交易员评估伊朗风险",
+       "ref": "N87"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国际油价近期高位波动，对你的混动车出行成本带来一定影响",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你开混动车且周末常跑长途，国际油价波动会直接影响你的出行花销",
+   "profile_refs": [
+    "vehicle_type",
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利空",
+     "strength": 1,
+     "horizon": "1周内",
+     "path": {
+      "fact": "近期国际油价高位波动",
+      "direct": "国内成品油零售价面临调整或维持高位",
+      "intermediate": "你周末长途驾车出行的用油成本上升",
+      "user_effect": "长途往返常德的燃油开销增加"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-26T01:18:31.192Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261026-ud6c9",
+   "created_at": "2026-10-26T01:18:31.192Z",
+   "source": "auto",
+   "title": "央行开展7000亿MLF操作",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "中国人民银行于10月26日以固定数量、利率招标、多重价位中标方式开展7000亿元1年期中期借贷便利（MLF）操作。",
+     "kind": "事实",
+     "level": "B",
+     "note": "反映央行保持银行体系流动性充裕的货币政策操作。",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-26",
+       "stance": "支持",
+       "note": "【央行今日开展7000亿元中期借贷便利操作】为保持银行体系流动性充裕，今天，中国人民银行将以固定数量、利率招标、多重价位",
+       "ref": "N40"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "央行开展7000亿MLF操作，保持银行体系流动性充裕",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你平时关注宏观经济与理财，了解央行货币政策变动有助于把握市场环境",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-26T01:18:31.192Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261026-mfm6n",
+   "created_at": "2026-10-26T01:18:31.192Z",
+   "source": "auto",
+   "title": "A股震荡与机构策略分析",
+   "url": "https://wallstreetcn.com/livenews/3185287",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-26",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "券商研报显示，近期A股市场持续震荡后在周五出现放量反弹，情绪指数一度进入悲观区间，多项指标接近历史底部。",
+     "kind": "事实",
+     "level": "A",
+     "note": "反映近期资本市场整体情绪与机构观点。",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3185287",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-26",
+       "stance": "支持",
+       "note": "华泰证券发布A股策略研报称，上周A股前弱后强，周五放量修复，但主要指数全周小幅收跌。测算A股情绪指数自8月以来首次进入悲",
+       "ref": "N47"
+      },
+      {
+       "url": "https://finance.sina.com.cn/roll/2026-10-26/doc-iniwnzcz9314129.shtml",
+       "publisher": "第一财经",
+       "published_at": "2026-10-26",
+       "stance": "支持",
+       "note": "A股探底回升，释放了什么信号",
+       "ref": "N50"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-25",
+       "stance": "支持",
+       "note": "【招商策略：A股多项指标已接近历史底部区间】招商策略研报认为，近期市场快速下跌后，A股多项指标已接近历史底部区间：成交明",
+       "ref": "N125"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "A股震荡后反弹情绪接近底部，市场整体波动持续",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你可能会关注股市情绪和行情变化，了解市场震荡情况即可",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-26T01:18:31.192Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261026-oqzyd",
+   "created_at": "2026-10-26T01:18:31.192Z",
+   "source": "auto",
+   "title": "黄金价格跌破4000美元大关",
+   "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-10-26/doc-iniwnzef2532129.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-26",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "现货黄金价格近期跌破每盎司4000美元整数关口，创下三个月新低，国内金饰价格随之下调。",
+     "kind": "事实",
+     "level": "A",
+     "note": "贵金属市场价格变动，引发线下购买热潮。",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-10-26/doc-iniwnzef2532129.shtml",
+       "publisher": "滚动播报",
+       "published_at": "2026-10-26",
+       "stance": "支持",
+       "note": "黄金交易提醒：金价跌破4000大关！超级央行周来袭，多头能否守住最后防线？",
+       "ref": "N52"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-25",
+       "stance": "支持",
+       "note": "【深圳水贝被挤爆 网友：金价大跌买金比菜市场人多】美东时间周五，现货黄金价格跌破每盎司4000美元关口，截至收盘，现货黄",
+       "ref": "N268"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "现货黄金价格跌破4000美元大关，贵金属价格有所下调",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你作为家庭成员可能会关注贵金属价格变动，了解市场行情即可",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-26T01:18:31.192Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261026-5jsfg",
+   "created_at": "2026-10-26T01:18:31.192Z",
+   "source": "auto",
+   "title": "快递行业“反内卷”持续推进",
+   "url": "https://wallstreetcn.com/livenews/3185209",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-25",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "申通快递在业绩说明会上表示，快递行业本轮“反内卷”核心是禁止低于成本的恶性价格战，9月起部分核心区域揽收价有所修复。",
+     "kind": "事实",
+     "level": "A",
+     "note": "涉及电商物流与快递价格走势的行业动态。",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3185209",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-25",
+       "stance": "支持",
+       "note": "申通快递10月25日在业绩说明会表示，本轮“反内卷”核心是禁止低于成本的恶性价格战，淡旺季之间的价格波动乃是跟随电商促销",
+       "ref": "N143"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-25",
+       "stance": "支持",
+       "note": "【申通快递：快递行业的“反内卷”预计有望持续】申通快递10月25日在业绩说明会表示，本轮“反内卷”核心是禁止低于成本的恶",
+       "ref": "N147"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-25",
+       "stance": "支持",
+       "note": "【申通快递：前三季度行业件量增速为4.3%，四季度预计件量增速环比有所回暖】申通快递10月25日在业绩说明会表示，202",
+       "ref": "N151"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "快递行业推进反内卷修复价格，部分核心区域揽收价上涨",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你在企业从事运营管理与项目管理，关注行业成本变动有助于业务洞察",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-26T01:18:31.192Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261026-9p9n3",
+   "created_at": "2026-10-26T01:18:31.192Z",
+   "source": "auto",
+   "title": "新就业形态人员参保推进",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-24/doc-iniwikck7993017.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-24",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "继征求意见稿后，多家平台联合倡议推动新就业形态人员（如骑手、司机等）参保医保，相关保障权益迎来新进展。",
+     "kind": "事实",
+     "level": "B",
+     "note": "关乎灵活用工与新就业形态劳动者保障的民生动向。",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/jjxw/2026-10-24/doc-iniwikck7993017.shtml",
+       "publisher": "一财网",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "七平台联合倡议推动新就业形态人员参保医保：责任明确化，骑手司机盼落地",
+       "ref": "N289"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "新就业形态人员参保推进，灵活用工保障迎来新进展",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你在企业从事运营管理工作，了解灵活用工与社保动向有助于拓展管理视野",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-26T01:18:31.192Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261026-k464q",
+   "created_at": "2026-10-26T01:18:31.192Z",
+   "source": "auto",
+   "title": "AI应用与大模型动态集成",
+   "url": "https://wallstreetcn.com/livenews/3185128",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-24",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "近期字节跳动将AI短剧创作平台小云雀并入即梦平台，多款AI工具及智能体在各领域加快迭代适配。",
+     "kind": "事实",
+     "level": "A",
+     "note": "反映日常使用的办公和内容创作AI工具的最新更新。",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-26",
+       "stance": "支持",
+       "note": "【千问App宣布全面适配iPhone Duo】10月26日，阿里巴巴旗下个人AI助手千问App宣布，现已全面适配iPho",
+       "ref": "N1"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3185128",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "从知情人士处获悉，近期剪映内部完成了一次业务整合，AI短剧创作平台小云雀并入智能创作平台即梦，产品仍保留独立入口。此次调",
+       "ref": "N286"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3185127",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-24",
+       "stance": "支持",
+       "note": "10月24日，腾讯WorkBuddy宣布已接入模型Kimi-K3.1-Pro。据介绍，WorkBuddy同步接入高速版模",
+       "ref": "N287"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "AI工具与大模型加速迭代适配，日常办公与创作效率提升",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你在企业担任运营管理和流程改进岗位，了解AI工具更新有助于提升日常办公效率",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-26T01:18:31.192Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261025-e0r92",
    "created_at": "2026-10-25T01:15:35.390Z",
