@@ -1,6 +1,629 @@
 {
- "updated_at": "2026-10-29T02:31:19.944Z",
+ "updated_at": "2026-10-30T02:41:06.205Z",
  "items": [
+  {
+   "id": "d20261030-o0vwq",
+   "created_at": "2026-10-30T02:41:05.972Z",
+   "source": "auto",
+   "title": "后续：国际原油价格回升至100美元以上",
+   "url": "https://wallstreetcn.com/livenews/3190917",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-30",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "截至2026年10月29日收盘，纽约WTI原油期货收报每桶102.00美元，布伦特原油期货收报每桶114.88美元，国际油价重回100美元以上。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3190917",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-30",
+       "stance": "支持",
+       "note": "国际油价走高，布油、WTI原油期货现涨约2.8%，分别报113.87美元/桶和104.86美元/桶。",
+       "ref": "N39"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-30",
+       "stance": "支持",
+       "note": "【国际油价29日微跌】截至当天收盘，纽约商品交易所12月交货的轻质原油期货价格下跌78美分，收于每桶102.00美元，跌",
+       "ref": "N204"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-30",
+       "stance": "支持",
+       "note": "WTI 12月原油期货收报102美元/桶。NYMEX 11月天然气期货收报2.9520美元/百万英热单位。NYMEX 1",
+       "ref": "N222"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3190710",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-30",
+       "stance": "支持",
+       "note": "WTI 12月原油期货收跌0.78美元，跌幅0.76%，报102美元/桶。 布伦特12月原油期货收跌0.44美元，跌幅0",
+       "ref": "N223"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国际油价重回100美元以上，你开混动车长途跑常德的加油成本预计将增加",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你开混动车且周末常去常德外出来回，国际油价上涨将增加你的加油开支",
+   "profile_refs": [
+    "vehicle_type",
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利空",
+     "strength": 2,
+     "horizon": "1-3个月",
+     "path": {
+      "fact": "2026年10月29日国际原油价格大幅回升至每桶100美元以上（idx 0）",
+      "direct": "国内成品油调价参考的国际原油均价拉升",
+      "intermediate": "下一轮国内汽柴油零售限价上调概率加大",
+      "user_effect": "你驾驶混动车且常有长途行程，后续加油的单次开支与用油成本将有所上升"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "高"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-30T02:41:05.972Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261030-wu7sm",
+   "created_at": "2026-10-30T02:41:05.972Z",
+   "source": "auto",
+   "title": "两股冷空气接连袭我国带来降雨降温",
+   "url": "https://www.chinanews.com.cn/sh/2026/10-30/10723113.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-30",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "2026年10月30日至11月1日期间有两股冷空气接连影响我国，给黄淮至长江中下游一带带来明显降水。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/10-30/10723113.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-30",
+       "stance": "支持",
+       "note": "冷空气接连影响我国 西藏南部雨雪天气持续",
+       "ref": "N56"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/10-30/10723111.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-30",
+       "stance": "支持",
+       "note": "西藏降雪进入核心影响时段 两股冷空气接连来袭北方多地冷上加冷",
+       "ref": "N72"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-30",
+       "stance": "支持",
+       "note": "【西藏降雪进入核心影响时段 北方多地将迎立秋后最冷一天】今明天（10月30日至31日），受孟加拉湾特强气旋风暴和高空槽共",
+       "ref": "N75"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/10-30/10723103.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-30",
+       "stance": "支持",
+       "note": "西藏南部将有强雨雪天气 北方将有大风降温过程",
+       "ref": "N91"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "本周末长江中下游迎来降雨降温，可能影响你前往常德钓鱼的计划与出行安全",
+   "undetermined": null,
+   "relevance": 3,
+   "relevance_reason": "你常住长沙且周末常去常德澧县、石门钓鱼，本周末长江中下游降雨降温将影响你的长途出行与户外行程",
+   "profile_refs": [
+    "city",
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利空",
+     "strength": 2,
+     "horizon": "1周内",
+     "path": {
+      "fact": "10月30日至11月1日两股冷空气接连带来长江中下游明显降水（idx 0）",
+      "direct": "你常住的长沙及常德地区在本周末（10月31日-11月1日）出现降雨与降温",
+      "intermediate": "常德澧县、石门水域钓鱼环境变差，且长途高速驾车视线与路面状况受雨天影响",
+      "user_effect": "你本周末的常德户外钓鱼计划体验变差，且长途往返驾驶安全风险增加"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "高"
+    }
+   ],
+   "action": {
+    "do": "关注常德澧县及石门本周末具体降雨时段预报，评估是否调整钓鱼行程，若出行需备好雨具与保暖衣物",
+    "trigger": "本周末（10月31日–11月1日）出发前往常德钓鱼前",
+    "basis": "避免在降雨降温恶劣天气下盲目长途驾车与户外钓鱼带来的体验损失及安全隐患",
+    "confidence": "高",
+    "review_on": "2026-11-01",
+    "status": "已降级"
+   },
+   "validation_notes": [
+    "待办建议超过 3 条，降为知道即可"
+   ],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-30T02:41:05.972Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261030-g068n",
+   "created_at": "2026-10-30T02:41:05.972Z",
+   "source": "auto",
+   "title": "多地公布11月代理购电价格明显上调",
+   "url": "https://wallstreetcn.com/livenews/3190831",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-30",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "全国多地公布的2026年11月电网企业代理购电价格较10月明显上调，部分地区最高涨幅达79.86%。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-30",
+       "stance": "支持",
+       "note": "【多地代理购电价格上涨 行业有望迎来盈利修复】近日，全国各地2026年11月电网企业代理购电价格陆续公布，多地电价明显上",
+       "ref": "N128"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3190831",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-30",
+       "stance": "支持",
+       "note": "近日，全国各地2026年11月电网企业代理购电价格陆续公布，多地电价明显上调。与2026年10月相比，多地区电价均有不同",
+       "ref": "N129"
+      }
+     ]
+    }
+   ],
+   "status": "undetermined",
+   "one_liner": "多地公布11月代理购电价格上调，暂无法确认湖南及个人充电用电是否受影响",
+   "undetermined": {
+    "reason": "该新闻未说明是否包含湖南省，且未明确上调是否覆盖居民或私家车充电用电",
+    "missing": "湖南省2026年11月代理购电具体方案及是否涉及居民与个人充电桩"
+   },
+   "relevance": 1,
+   "relevance_reason": "你拥有混动车辆，电价政策变动可能影响用电充电成本，但该信息暂缺乏具体地区与适用对象说明",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-30T02:41:05.972Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261030-1pcgs",
+   "created_at": "2026-10-30T02:41:05.972Z",
+   "source": "auto",
+   "title": "财险公司保险产品开发新规11月1日施行",
+   "url": "https://www.chinanews.com.cn/sh/2026/10-30/10723094.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-30",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "金融监管总局修订的《财产保险公司保险产品开发管理规定》将于2026年11月1日起施行。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/10-30/10723094.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-30",
+       "stance": "支持",
+       "note": "11月起，这些新规将影响你我生活",
+       "ref": "N109"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3190810",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-30",
+       "stance": "支持",
+       "note": "金融监管总局修订发布的《财产保险公司保险产品开发管理规定》将于11月1日起施行，这是财险业近十年来首次对产品开发管理规定",
+       "ref": "N161"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "财险产品开发新规11月1日起施行，规范车险等保险产品监管",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你拥有车辆，财险新规规范产品开发监管，与你后续投保或续保车险相关",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [
+    {
+     "dimension": "物价与家庭消费",
+     "direction": "中性",
+     "strength": 1,
+     "horizon": "半年以上",
+     "path": {
+      "fact": "财产保险公司保险产品开发管理规定将于2026年11月1日起施行（idx 0）",
+      "direct": "财险公司保险产品开发与备案监管要求进一步规范",
+      "intermediate": "市场上车险等财险产品条款将更加严谨透明",
+      "user_effect": "你在未来为家庭车辆投保或续保时，保险产品的规范性和保障度更具透明度"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-30T02:41:05.972Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261030-s9p5j",
+   "created_at": "2026-10-30T02:41:05.972Z",
+   "source": "auto",
+   "title": "兼职意外受损能否计入误工费引关注",
+   "url": "https://www.chinanews.com.cn/sh/2026/10-30/10723092.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-30",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "随着兼职劳动者收入结构多样化，兼职发生意外伤害后副业收入损失能否计入误工费成为社会关注话题。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/10-30/10723092.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-10-30",
+       "stance": "支持",
+       "note": "兼职意外受伤，副业收入损失能计入误工费吗？",
+       "ref": "N116"
+      }
+     ]
+    }
+   ],
+   "status": "undetermined",
+   "one_liner": "兼职副业损失计入误工费讨论升温，因缺乏你的副业信息暂无法判断影响",
+   "undetermined": {
+    "reason": "画像中未显示你是否拥有兼职或副业收入，无法判断该司法与法律讨论对你的实际影响",
+    "missing": "你是否从事兼职或拥有副业收入"
+   },
+   "relevance": 1,
+   "relevance_reason": "误工费认定涉及个人收入结构，由于不确定你是否有副业，暂无法分析直接关联",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-30T02:41:05.972Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261030-1c9p4",
+   "created_at": "2026-10-30T02:41:05.972Z",
+   "source": "auto",
+   "title": "OpenAI更新模型规范并扩充监测范围",
+   "url": "https://wallstreetcn.com/livenews/3190693",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-30",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "OpenAI发布更新的模型规范，新增上下文、监督和代理指引，并将AI失准监测范围扩大至所有前沿模型。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-30",
+       "stance": "支持",
+       "note": "OpenAI：大幅扩大对前沿智能体的监控。",
+       "ref": "N201"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-30",
+       "stance": "支持",
+       "note": "OpenAI：模型规范修订新增关于上下文、监督和代理的指引，并取消详细的风格指引。",
+       "ref": "N232"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3190693",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-30",
+       "stance": "支持",
+       "note": "OpenAI：我们正在更新模型规范，这是我们对外说明希望模型如何表现的公开描述。",
+       "ref": "N233"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3190676",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-30",
+       "stance": "支持",
+       "note": "OpenAI：更新模型规范，这是我们关于希望模型如何表现的公开说明。 本次更新围绕五项价值重构指引，分别为贴合人类意图、",
+       "ref": "N245"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-30",
+       "stance": "支持",
+       "note": "OpenAI：正在探索新的训练方法，助力模型学习这些核心价值观，更好理解并遵循规范里明确的行为准则。",
+       "ref": "N246"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-30",
+       "stance": "支持",
+       "note": "OpenAI：本次更新围绕五项价值重构指引，分别为贴合人类意图、伤害最小化、诚实与透明、人类自主以及人文关怀。",
+       "ref": "N247"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3190654",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-30",
+       "stance": "支持",
+       "note": "OpenAI将AI失准监测范围扩大至所有前沿模型。",
+       "ref": "N261"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "OpenAI更新前沿模型规范，可作为你日常使用AI辅助运营工作的合规参考",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你从事运营管理与流程改进工作，AI工具规范更新属于工作相关的辅助技术动态",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [
+    {
+     "dimension": "工作与行业",
+     "direction": "中性",
+     "strength": 1,
+     "horizon": "1-3个月",
+     "path": {
+      "fact": "OpenAI发布更新模型规范并扩充监测范围（idx 0）",
+      "direct": "主流前沿AI模型的使用指引与合规监测标准得到明确",
+      "intermediate": "在办公运营中使用AI辅助分析与流程改进时的规范要求更清晰",
+      "user_effect": "有助于你在运营管理岗位上更合规地应用AI辅助工具与改进流程"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-30T02:41:05.972Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261030-xaatt",
+   "created_at": "2026-10-30T02:41:05.972Z",
+   "source": "auto",
+   "title": "市场监管总局召开企业公平竞争座谈会",
+   "url": "https://wallstreetcn.com/livenews/3190939",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-10-30",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国家市场监督管理总局于2026年10月28日召开座谈会，听取互联网平台、汽车、医药等领域企业对公平竞争与统一大市场建设的意见。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3190939",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-10-30",
+       "stance": "支持",
+       "note": "10月28日，国家市场监督管理总局召开企业公平竞争座谈会，围绕“发挥‘反垄断反不正当竞争’工作作用，有力推进全国统一大市",
+       "ref": "N5"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-30",
+       "stance": "支持",
+       "note": "【企业公平竞争座谈会在京召开】10月28日，国家市场监督管理总局召开企业公平竞争座谈会，围绕“发挥‘反垄断反不正当竞争’",
+       "ref": "N7"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "市场监管总局召开公平竞争座谈会，属于宏观营商合规环境动态",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你从事公司运营管理岗，宏观营商环境与公平竞争监管动态可作为政策把控参考",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [
+    {
+     "dimension": "工作与行业",
+     "direction": "中性",
+     "strength": 1,
+     "horizon": "1-3个月",
+     "path": {
+      "fact": "国家市场监督管理总局于2026年10月28日召开座谈会听取公平竞争意见（idx 0）",
+      "direct": "国家对重点行业公平竞争与统一大市场建设的监管政策持续推进",
+      "intermediate": "市场整体营商合规标准和竞争规则逐步完善",
+      "user_effect": "你可关注企业合规大环境趋势，辅助自身在运营管理与流程改进中的政策把控"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "低"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-30T02:41:05.972Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261030-jcxje",
+   "created_at": "2026-10-30T02:41:05.972Z",
+   "source": "auto",
+   "title": "星巴克探索在得来速点餐中引入AI",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "星巴克正在研究并测试在得来速点餐服务后台运行AI模型，协助咖啡师提高点餐录入效率。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-10-30",
+       "stance": "支持",
+       "note": "【星巴克探索在得来速中引入AI，加速咖啡师接单】星巴克正在研究将人工智能技术引入得来速（drive-thrus）点餐服务",
+       "ref": "N148"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "星巴克测试AI辅助点餐，可为你从事流程改进与运营提效提供案例参考",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你负责业务流程改进与运营管理，星巴克利用AI优化点餐流程可作为案例参考",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [
+    {
+     "dimension": "工作与行业",
+     "direction": "中性",
+     "strength": 1,
+     "horizon": "1-3个月",
+     "path": {
+      "fact": "星巴克测试在得来速点餐后台运行AI模型协助录入（idx 0）",
+      "direct": "展示了AI技术在服务业一线运营流程中的提效落地应用",
+      "intermediate": "为业务单元管理和流程改进提供了实操维度的案例借鉴",
+      "user_effect": "为你日常运营管理及业务流程改进规划提供可参考的提效思路"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-10-30T02:41:05.972Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261029-0yf3k",
    "created_at": "2026-10-29T02:31:19.929Z",
