@@ -1,6 +1,653 @@
 {
- "updated_at": "2026-11-04T03:04:36.667Z",
+ "updated_at": "2026-11-05T03:34:01.154Z",
  "items": [
+  {
+   "id": "d20261105-zniql",
+   "created_at": "2026-11-05T03:34:01.138Z",
+   "source": "auto",
+   "title": "冷空气南下 湖南等地5日6日将迎大雨",
+   "url": "https://www.chinanews.com.cn/sh/2026/11-05/10726481.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-05",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "11月5日至9日东西两路冷空气先后南下影响我国，全国大部地区气温将创今年下半年来新低。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-05/10726481.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-05",
+       "stance": "支持",
+       "note": "东西两路冷空气先后影响我国 大部气温将创新低并伴大范围雨雪",
+       "ref": "N4"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "预计11月5日至6日，湖南、贵州、江西等地有较强降雨，局地有大雨。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-05/10726393.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-05",
+       "stance": "支持",
+       "note": "我国中东部将现大范围降水 气温大面积创新低",
+       "ref": "N70"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-05/10726375.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-05",
+       "stance": "支持",
+       "note": "贵州湖南江西等地有中到大雨 冷空气将影响内蒙古和东北地区等地",
+       "ref": "N89"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "湖南等地迎来降温大雨天气，对你周末长途驾车出行有一定路况影响",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你周末常去常德澧县、石门一带钓鱼，湖南局地强降雨会直接影响你的高速出行",
+   "profile_refs": [
+    "city",
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利空",
+     "strength": 2,
+     "horizon": "1周内",
+     "path": {
+      "fact": "11月5日至6日湖南局地有大雨",
+      "direct": "高速公路湿滑、视线变差并可能出现局部积水",
+      "intermediate": "行车安全系数下降且拥堵概率上升",
+      "user_effect": "你周末驾车前往常德澧县、石门钓鱼时需减速慢行并注意路况"
+     },
+     "based_on": [
+      1
+     ],
+     "confidence": "高"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-05T03:34:01.138Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261105-dblvu",
+   "created_at": "2026-11-05T03:34:01.138Z",
+   "source": "auto",
+   "title": "人社部明确员工转正调岗不得再设试用期",
+   "url": "https://www.chinanews.com.cn/sh/2026/11-05/10726383.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-05",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "人社部明确回应，员工转正后再被调入公司其他部门的，用人单位不得再次与其约定试用期。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-05/10726383.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-05",
+       "stance": "支持",
+       "note": "转正后被调入其他部门，还能再约定试用期吗？人社部解答",
+       "ref": "N71"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "人社部明确转正调岗不得设试用期，对你在运营管理中的团队用工管理有合规提示作用",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你在公司从事业务单元管理与流程改进，这项用工新规与你的管理工作相关",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-05T03:34:01.138Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261105-apla7",
+   "created_at": "2026-11-05T03:34:01.138Z",
+   "source": "auto",
+   "title": "国家发布企业风险管理有效性评价指南",
+   "url": "https://www.chinanews.com.cn/cj/2026/11-05/10726455.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-05",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "市场监管总局批准发布《企业风险管理有效性评价指南》国家标准，为企业风险管理评价提供统一规范。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-05/10726455.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-05",
+       "stance": "支持",
+       "note": "《企业风险管理有效性评价指南》国家标准发布",
+       "ref": "N18"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "该标准从看历史、看体系、看敞口、看能力、看感受五个维度交叉验证企业风险管理成效。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-05/10726455.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-05",
+       "stance": "支持",
+       "note": "《企业风险管理有效性评价指南》国家标准发布",
+       "ref": "N18"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国家发布企业风险管理评价新标准，对你的项目管理和流程改进工作提供参考",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你在公司从事项目管理和流程改进工作，企业风险管理国家标准的发布与你的专业领域相关",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-05T03:34:01.138Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261105-wncff",
+   "created_at": "2026-11-05T03:34:01.138Z",
+   "source": "auto",
+   "title": "vivo与比亚迪签署合作推动手车互融",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "vivo与比亚迪正式签署战略合作协议，全面深化智能终端与新能源汽车领域的生态协同。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-05",
+       "stance": "支持",
+       "note": "【vivo与比亚迪正式签署战略合作协议】10月30日，vivo与比亚迪正式签署战略合作协议，双方将基于长期深度互信与技术",
+       "ref": "N2"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "双方将实现AI智能体跨端融合，推动“手车互联”向“手车互融”演进。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-05",
+       "stance": "支持",
+       "note": "【vivo与比亚迪正式签署战略合作协议】10月30日，vivo与比亚迪正式签署战略合作协议，双方将基于长期深度互信与技术",
+       "ref": "N2"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-05",
+       "stance": "支持",
+       "note": "比亚迪：比亚迪与vivo达成战略合作，实现AI智能体跨端融合，共建智慧出行新生态。",
+       "ref": "N30"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "vivo与比亚迪深化手车互融合作，未来有望提升你驾驶混动汽车时的智能互联体验",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你驾驶混动汽车，这类新能源车企的智能互联生态升级与你的车机体验相关",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-05T03:34:01.138Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261105-z9dhy",
+   "created_at": "2026-11-05T03:34:01.138Z",
+   "source": "auto",
+   "title": "人身险产品预定利率研究值下调至1.9%",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-05/doc-inixrqee5736708.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-05",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "中国保险行业协会召开例会指出，人身保险业最新的预定利率研究值为1.9%，较上一期下降了4个基点。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/jjxw/2026-11-05/doc-inixrqee5736708.shtml",
+       "publisher": "证券日报",
+       "published_at": "2026-11-05",
+       "stance": "支持",
+       "note": "较上期下降4个基点 人身险产品最新预定利率研究值为1.9%",
+       "ref": "N184"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "人身险预定利率研究值进一步下调，提示储蓄型保险收益空间在收窄",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "作为已婚家庭的一员，保险产品的收益率变化与你的家庭长期财务规划相关",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-05T03:34:01.138Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261105-n4ccl",
+   "created_at": "2026-11-05T03:34:01.138Z",
+   "source": "auto",
+   "title": "警方提示警惕刷脸打卡兼职诈骗",
+   "url": "https://www.chinanews.com.cn/sh/2026/11-05/10726387.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-05",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "公安部及警方提示，市场上出现“刷脸打卡日结工资”的新型兼职骗局，求职者配合核验时身份信息易被窃取。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-05/10726387.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-05",
+       "stance": "支持",
+       "note": "新型网络诈骗方式出现：本地号码、“真人”面孔、“正规”界面……全都可能是假的！（附真实案例+防骗指南）",
+       "ref": "N80"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-04/10726327.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-04",
+       "stance": "支持",
+       "note": "刷脸打卡就能日结工资？警惕这种新型兼职骗局",
+       "ref": "N289"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "被窃取的个人身份信息可能会流入电信诈骗和网络赌博等犯罪团伙手中。",
+     "kind": "推测",
+     "level": null,
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-04/10726327.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-04",
+       "stance": "支持",
+       "note": "刷脸打卡就能日结工资？警惕这种新型兼职骗局",
+       "ref": "N289"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "警方提示警惕刷脸打卡兼职诈骗，提醒防范新型身份信息窃取风险",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "作为家庭成员，了解此类兼职诈骗手法有助于提高防范意识，保障家庭网络安全",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-05T03:34:01.138Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261105-wv9dy",
+   "created_at": "2026-11-05T03:34:01.138Z",
+   "source": "auto",
+   "title": "第十届国际调解高峰论坛在长沙举办",
+   "url": "https://www.chinanews.com.cn/gn/2026/11-04/10726260.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-04",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "第十届国际调解高峰论坛于11月4日在长沙举行，中外法律界、调解界及企业界代表共同研讨商事调解发展之道。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/gn/2026/11-04/10726260.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-04",
+       "stance": "支持",
+       "note": "第十届国际调解高峰论坛在长沙举行",
+       "ref": "N310"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "第十届国际调解高峰论坛在长沙举办，展示了本地商事法律服务的发展",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你在长沙常住，该国际性论坛在当地举办是你了解行业法治环境的一个窗口",
+   "profile_refs": [
+    "city"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-05T03:34:01.138Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261105-9hbzj",
+   "created_at": "2026-11-05T03:34:01.138Z",
+   "source": "auto",
+   "title": "央行开展3000亿元买断式逆回购",
+   "url": "https://finance.sina.com.cn/roll/2026-11-05/doc-inixrumy8899350.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-05",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "中国人民银行于11月5日开展3000亿元3个月期（91天）买断式逆回购操作，到期日为2027年2月4日。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/roll/2026-11-05/doc-inixrumy8899350.shtml",
+       "publisher": "市场资讯",
+       "published_at": "2026-11-05",
+       "stance": "支持",
+       "note": "央行11月5日开展3000亿元3个月期买断式逆回购，净回笼2000亿元",
+       "ref": "N103"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-05",
+       "stance": "支持",
+       "note": "【央行将开展3000亿元买断式逆回购操作】11月4日，中国人民银行发布公告称，将在5日以固定数量、利率招标、多重价位中标",
+       "ref": "N175"
+      },
+      {
+       "url": "https://finance.sina.com.cn/jjxw/2026-11-05/doc-inixrqea8960742.shtml",
+       "publisher": "证券日报",
+       "published_at": "2026-11-05",
+       "stance": "支持",
+       "note": "央行缩量续做3个月期买断式逆回购",
+       "ref": "N183"
+      },
+      {
+       "url": "https://finance.sina.com.cn/roll/2026-11-05/doc-inixrcqs6516562.shtml",
+       "publisher": "上海证券报",
+       "published_at": "2026-11-05",
+       "stance": "支持",
+       "note": "3个月期买断式逆回购缩量续作",
+       "ref": "N240"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "央行开展3000亿元买断式逆回购，释放流动性以维护市场资金面平稳",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "央行货币政策操作会影响整体市场利率，与你的家庭理财和资产配置相关",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-05T03:34:01.138Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261105-sjfzp",
+   "created_at": "2026-11-05T03:34:01.138Z",
+   "source": "auto",
+   "title": "前三季度中国新能源车占全球份额63%",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "乘联会崔东树表示，2026年1至9月中国新能源乘用车占世界市场的份额达到63%，其中7至9月达65.5%。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-05",
+       "stance": "支持",
+       "note": "【崔东树：2026年1—9月中国新能源乘用车世界份额达到63% 2026年7—9月达到65.5%的较好水平】2026年1",
+       "ref": "N6"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "前三季度中国新能源车占全球份额过半，产业保持高速增长",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你驾驶混动汽车，了解新能源汽车的全球市场份额有助于你把握行业整体趋势",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-05T03:34:01.138Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261105-qu0k3",
+   "created_at": "2026-11-05T03:34:01.138Z",
+   "source": "auto",
+   "title": "行业预计2027年高端磷酸铁锂供给偏紧",
+   "url": "https://wallstreetcn.com/livenews/3194549",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-05",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "锂电上市公司在业绩会上表示，预计2027年高端磷酸铁锂电池正极材料仍将处于供应偏紧的状态。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-05",
+       "stance": "支持",
+       "note": "【高端磷酸铁锂供应偏紧 上市公司积极扩产】“综合来看，预计2027年高端磷酸铁锂仍将处于供应偏紧的状态。”11月2日，湖",
+       "ref": "N136"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3194549",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-05",
+       "stance": "支持",
+       "note": "“综合来看，预计2027年高端磷酸铁锂仍将处于供应偏紧的状态。”11月2日，湖南一家正极材料上市公司在三季度业绩说明会上",
+       "ref": "N153"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "随着储能市场需求增长及固态电池中试推进，锂电池行业竞争重心正从单纯规模扩张转向结构性增长。",
+     "kind": "观点",
+     "level": null,
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-05",
+       "stance": "支持",
+       "note": "【锂电企业业绩会释放趋势信号：储能市场增量明确 固态电池成必然方向】近日，锂电企业在三季报业绩会上释放多重趋势信号：储能",
+       "ref": "N138"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3194540",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-05",
+       "stance": "支持",
+       "note": "近日，锂电企业在三季报业绩会上释放多重趋势信号：储能市场增长预期确定性增强、固态电池中试稳步推进、高端产品供应偏紧……折",
+       "ref": "N171"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "行业预计高端磷酸铁锂2027年供给偏紧，反映出产业链结构性分化",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你拥有混动汽车，核心电池材料的供需状况与新能源车后市供应链发展相关",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-05T03:34:01.138Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261104-1cxih",
    "created_at": "2026-11-04T03:04:36.572Z",
