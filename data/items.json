@@ -1,6 +1,428 @@
 {
- "updated_at": "2026-11-05T03:34:01.154Z",
+ "updated_at": "2026-11-06T03:29:48.768Z",
  "items": [
+  {
+   "id": "d20261106-ozded",
+   "created_at": "2026-11-06T03:29:48.756Z",
+   "source": "auto",
+   "title": "后续：立冬新一轮冷空气将袭江南",
+   "url": "https://www.chinanews.com.cn/sh/2026/11-06/10727147.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-06",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "受冷暖空气影响，11月7日至9日新一轮冷空气将影响我国，南方部分地区有暴雨，中东部大范围地区将现雨雪天气。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-06/10727147.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-06",
+       "stance": "支持",
+       "note": "强度同期少见！中东部大范围雨雪将至 华北北部等地将现强降雪",
+       "ref": "N6"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-06/10727036.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-06",
+       "stance": "支持",
+       "note": "大范围降水在酝酿！我国多地将现强雨雪 大部气温将创新低",
+       "ref": "N72"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-06",
+       "stance": "支持",
+       "note": "【大范围降水将至！我国多地将现强雨雪 大部气温创新低】今天（11月6日），我国降水天气主要出现在江南、东北等地。明天，降",
+       "ref": "N100"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-06/10727006.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-06",
+       "stance": "支持",
+       "note": "冷空气继续影响中东部地区 中东部地区将有大范围雨雪天气",
+       "ref": "N120"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "11月7日进入立冬节气后，南北方多地将迎换季式降温，气温转为较常年明显偏低水平。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-06/10727143.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-06",
+       "stance": "支持",
+       "note": "立冬冷空气携换季式降温来袭 全国感冒指数地图看哪里极易感冒",
+       "ref": "N9"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-06/10727036.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-06",
+       "stance": "支持",
+       "note": "大范围降水在酝酿！我国多地将现强雨雪 大部气温将创新低",
+       "ref": "N72"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-06",
+       "stance": "支持",
+       "note": "【大范围降水将至！我国多地将现强雨雪 大部气温创新低】今天（11月6日），我国降水天气主要出现在江南、东北等地。明天，降",
+       "ref": "N100"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "立冬后强降温来袭，你周末跑常德需防范雨雪天气",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你周末常去常德澧县、石门钓鱼，降温雨雪天气对你的出行有直接影响。",
+   "profile_refs": [
+    "city",
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利空",
+     "strength": 2,
+     "horizon": "1周内",
+     "path": {
+      "fact": "11月7日至9日南方部分地区有暴雨及雨雪天气",
+      "direct": "长张高速等路段可能出现湿滑、团雾或道路结冰",
+      "intermediate": "你周末长途驾车出行时道路通行条件变差",
+      "user_effect": "行车视线受阻、路面摩擦力下降，增加行车安全风险"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-06T03:29:48.756Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261106-izvd5",
+   "created_at": "2026-11-06T03:29:48.756Z",
+   "source": "auto",
+   "title": "十五五将全面推广智能有序充电",
+   "url": "https://wallstreetcn.com/livenews/3195545",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-06",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国家能源局表示，“十五五”时期将充分挖掘电动汽车调节潜力，全面推广智能有序充电并扩大车网互动规模化应用。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3195545",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-06",
+       "stance": "支持",
+       "note": "国家能源局发展规划司副司长葛炬表示，“十五五”时期将充分挖掘电动汽车、空调等电力负荷调节潜力，全面推广智能有序充电，扩大",
+       "ref": "N22"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-06",
+       "stance": "支持",
+       "note": "【国家能源局：“十五五”时期，推动2030年虚拟电厂调节能力达到5000万千瓦以上】11月6日，国家发展改革委召开奋进“",
+       "ref": "N23"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "我国计划推动到2030年虚拟电厂调节能力达到5000万千瓦以上。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3195545",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-06",
+       "stance": "支持",
+       "note": "国家能源局发展规划司副司长葛炬表示，“十五五”时期将充分挖掘电动汽车、空调等电力负荷调节潜力，全面推广智能有序充电，扩大",
+       "ref": "N22"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-06",
+       "stance": "支持",
+       "note": "【国家能源局：“十五五”时期，推动2030年虚拟电厂调节能力达到5000万千瓦以上】11月6日，国家发展改革委召开奋进“",
+       "ref": "N23"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "十五五将全面推广智能有序充电，对你未来充电成本或有优化空间",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你平时开混动车，智能有序充电的推广未来可能带来更好的充电体验或费用优惠。",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-06T03:29:48.756Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261106-5itug",
+   "created_at": "2026-11-06T03:29:48.756Z",
+   "source": "auto",
+   "title": "多地惠民保增加保障并简化理赔",
+   "url": "https://www.chinanews.com.cn/sh/2026/11-06/10727058.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-06",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "近期不少城市推出的新一年“惠民保”增加了保障内容，并简化了理赔流程。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-06/10727058.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-06",
+       "stance": "支持",
+       "note": "多地“惠民保”增加保障简化理赔流程 百姓看病更有“医”靠",
+       "ref": "N48"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "多地惠民保增加保障，为你的家庭医疗保障提供更多选择",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你已婚有家庭，商业补充医疗的优化与你的家庭风险保障相关。",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-06T03:29:48.756Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261106-4wd3w",
+   "created_at": "2026-11-06T03:29:48.756Z",
+   "source": "auto",
+   "title": "后续：国际原油期货价格回升",
+   "url": "https://wallstreetcn.com/livenews/3195318",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-06",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "11月5日国际油价上涨，纽约商品交易所12月交货的轻质原油期货收于每桶90.52美元，涨幅为2.72%。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-06",
+       "stance": "支持",
+       "note": "【国际油价5日上涨】国际油价5日上涨。截至当天收盘，纽约商品交易所12月交货的轻质原油期货价格上涨2.40美元，收于每桶",
+       "ref": "N216"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-06",
+       "stance": "支持",
+       "note": "WTI 12月原油期货收报90.52美元/桶，脱离10月7日以来最低收盘位88.12美元，亚太午盘以来持续走高，逼近50",
+       "ref": "N222"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3195318",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-06",
+       "stance": "支持",
+       "note": "WTI 12月原油期货收涨2.40美元，涨幅超过2.72%，报90.52美元/桶，脱离10月7日以来最低收盘位88.12",
+       "ref": "N223"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "1月交货的伦敦布伦特原油期货价格上涨3.67美元，收于每桶98.29美元，涨幅为3.88%。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-06",
+       "stance": "支持",
+       "note": "【国际油价5日上涨】国际油价5日上涨。截至当天收盘，纽约商品交易所12月交货的轻质原油期货价格上涨2.40美元，收于每桶",
+       "ref": "N216"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3195318",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-06",
+       "stance": "支持",
+       "note": "WTI 12月原油期货收涨2.40美元，涨幅超过2.72%，报90.52美元/桶，脱离10月7日以来最低收盘位88.12",
+       "ref": "N223"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国际原油期货价格有所回升，短期内油市震荡调整",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你平时开混动车，国际油价波动会间接影响国内成品油零售价预期。",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-06T03:29:48.756Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261106-htvn5",
+   "created_at": "2026-11-06T03:29:48.756Z",
+   "source": "auto",
+   "title": "沙特下调12月面向亚洲原油售价",
+   "url": "https://wallstreetcn.com/livenews/3195521",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-06",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "沙特阿美将12月面向亚洲客户的阿拉伯轻质原油官方售价较11月每桶下调2美元。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-06",
+       "stance": "支持",
+       "note": "【沙特将12月面向亚洲客户的原油售价下调至六年新低】沙特阿美周五将12月面向亚洲客户的阿拉伯轻质原油（Arab Ligh",
+       "ref": "N42"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3195521",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-06",
+       "stance": "支持",
+       "note": "沙特阿美周五将12月面向亚洲客户的阿拉伯轻质原油（Arab Light）官方售价较11月下调每桶2美元，较阿曼/迪拜原油",
+       "ref": "N43"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "下调后价格较阿曼/迪拜原油均价贴水扩大至每桶6.50美元，创2020年5月以来最低水平。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-06",
+       "stance": "支持",
+       "note": "【沙特将12月面向亚洲客户的原油售价下调至六年新低】沙特阿美周五将12月面向亚洲客户的阿拉伯轻质原油（Arab Ligh",
+       "ref": "N42"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3195521",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-06",
+       "stance": "支持",
+       "note": "沙特阿美周五将12月面向亚洲客户的阿拉伯轻质原油（Arab Light）官方售价较11月下调每桶2美元，较阿曼/迪拜原油",
+       "ref": "N43"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "沙特下调12月亚洲原油售价，亚洲区域原油成本结构微调",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你拥有混动车，原油售价变动是国内油价调整的参考因素之一。",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-06T03:29:48.756Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261105-zniql",
    "created_at": "2026-11-05T03:34:01.138Z",
