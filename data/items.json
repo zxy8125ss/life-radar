@@ -1,6 +1,905 @@
 {
- "updated_at": "2026-11-11T02:52:17.928Z",
+ "updated_at": "2026-11-12T03:52:04.248Z",
  "items": [
+  {
+   "id": "d20261112-48vii",
+   "created_at": "2026-11-12T03:52:04.231Z",
+   "source": "auto",
+   "title": "后续：11月12日24时国内成品油价格下调",
+   "url": "https://wallstreetcn.com/livenews/3198469",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-11",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "2026年11月12日24时，国内成品油零售限价大概率将下调。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3198469",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-11",
+       "stance": "支持",
+       "note": "从多家大宗商品市场机构获悉，11月12日24时，国内成品油零售限价大概率将结束上涨走势，迎来8月下旬以来的首次下调。 现",
+       "ref": "N319"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "本次下调预计将结束8月下旬以来的价格上涨走势。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3198469",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-11",
+       "stance": "支持",
+       "note": "从多家大宗商品市场机构获悉，11月12日24时，国内成品油零售限价大概率将结束上涨走势，迎来8月下旬以来的首次下调。 现",
+       "ref": "N319"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "今晚24时成品油价格下调，你开混动车可等调价后再加油",
+   "undetermined": null,
+   "relevance": 3,
+   "relevance_reason": "你开混动车且周末常跨市长途出行，油价下调直接影响你的用车成本",
+   "profile_refs": [
+    "vehicle_type",
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利好",
+     "strength": 1,
+     "horizon": "1周内",
+     "path": {
+      "fact": "2026年11月12日24时国内成品油零售限价大概率下调（基于声明0）",
+      "direct": "11月12日24时后加油每升单价降低",
+      "intermediate": "你周末长途往返常德开混动车有明确用油需求",
+      "user_effect": "调价后加油可直接减少近期用车油费支出"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "高"
+    }
+   ],
+   "action": {
+    "do": "将加油计划推迟至11月12日24时以后",
+    "trigger": "近期车辆油量偏低且有加油需求",
+    "basis": "推迟至调价后加油，按一箱油计算可节省数元至十几元油费支出",
+    "confidence": "高",
+    "review_on": "2026-11-13",
+    "status": "已降级"
+   },
+   "validation_notes": [
+    "待办建议超过 3 条，降为知道即可"
+   ],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-12T03:52:04.231Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261112-jr59j",
+   "created_at": "2026-11-12T03:52:04.231Z",
+   "source": "auto",
+   "title": "后续：未来三天湖南中南部等地将迎较强降雨",
+   "url": "https://www.chinanews.com.cn/sh/2026/11-12/10730610.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-12",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "2026年11月12日至下周初，受南支槽东移影响，湖南中部和南部等地有中到大雨。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-12/10730610.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "华南等地雨势较强 华北黄淮东北等地有大雾和霾天气",
+       "ref": "N133"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "【中东部雨雪发展华南等地雨势较强 北方多地昼夜温差可超15℃】今天（11月12日），云南仍有降水，明天减弱停歇。但同时，",
+       "ref": "N148"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-12/10730596.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "中央气象台：云南华南江南等地有降水 新疆等地多雨雪 华北黄淮等地有雾霾天气",
+       "ref": "N158"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "中央气象台提醒公众外出需关注预警信息并注意交通安全。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "【中东部雨雪发展华南等地雨势较强 北方多地昼夜温差可超15℃】今天（11月12日），云南仍有降水，明天减弱停歇。但同时，",
+       "ref": "N148"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-12/10730596.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "中央气象台：云南华南江南等地有降水 新疆等地多雨雪 华北黄淮等地有雾霾天气",
+       "ref": "N158"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "湖南中部等地未来三天有中到大雨，你日常及周末出行需注意安全",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你常住长沙且周末常去常德钓鱼，未来三天湖南中部等地的降雨会影响你的驾车出行与户外活动",
+   "profile_refs": [
+    "city",
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利空",
+     "strength": 1,
+     "horizon": "1周内",
+     "path": {
+      "fact": "2026年11月12日至下周初湖南中部等地有中到大雨（基于声明0）",
+      "direct": "长沙及周边区域道路湿滑且能见度下降",
+      "intermediate": "自驾行车风险增加且户外钓鱼条件变差",
+      "user_effect": "你日常驾车通勤及周末赴常德钓鱼的行程可能受到阻碍"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "高"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-12T03:52:04.231Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261112-luqtm",
+   "created_at": "2026-11-12T03:52:04.231Z",
+   "source": "auto",
+   "title": "央行发布三季度货政报告将保持适度宽松",
+   "url": "https://finance.sina.com.cn/money/bank/bank_yhfg/2026-11-12/doc-iniymsip3896851.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-12",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "央行在2026年第三季度货币政策执行报告中表示，将坚持实施适度宽松的货币政策。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/money/bank/bank_yhfg/2026-11-12/doc-iniymsip3896851.shtml",
+       "publisher": "上海证券报·中国证券网",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "央行发布2026年第三季度中国货币政策执行报告提出：加力实施支持资本市场两项货币政策工具",
+       "ref": "N162"
+      },
+      {
+       "url": "https://finance.sina.com.cn/money/bank/bank_yhfg/2026-11-12/doc-iniymsim1806797.shtml",
+       "publisher": "市场资讯",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "央行：坚持实施好适度宽松货币政策",
+       "ref": "N164"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3198472",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-11",
+       "stance": "支持",
+       "note": "中国央行Q3货币政策报告：坚持实施好适度宽松的货币政策，用好债市非银大额赎回互换便利，维护股票、债券、外汇等金融市场平稳",
+       "ref": "N314"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "报告指出将用好债市非银大额赎回互换便利，加力实施支持资本市场的两项货币政策工具。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/money/bank/bank_yhfg/2026-11-12/doc-iniymsip3896851.shtml",
+       "publisher": "上海证券报·中国证券网",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "央行发布2026年第三季度中国货币政策执行报告提出：加力实施支持资本市场两项货币政策工具",
+       "ref": "N162"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3198472",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-11",
+       "stance": "支持",
+       "note": "中国央行Q3货币政策报告：坚持实施好适度宽松的货币政策，用好债市非银大额赎回互换便利，维护股票、债券、外汇等金融市场平稳",
+       "ref": "N314"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "央行三季度货政报告强调保持适度宽松，了解宏观信号即可",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "央行货币政策走向属于宏观金融环境信号，你在关注经济形势时了解即可",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-12T03:52:04.231Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261112-6n4vs",
+   "created_at": "2026-11-12T03:52:04.231Z",
+   "source": "auto",
+   "title": "百度推出“词元所”大模型交易平台",
+   "url": "https://wallstreetcn.com/livenews/3198773",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-12",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "百度在百度世界2026大会上正式推出大模型交易平台“词元所”。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "【百度推出大模型交易平台词元所】百度世界2026开幕式上，百度创始人李彦宏表示，今年前9个月几乎每天都有不止一款新模型发",
+       "ref": "N41"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3198773",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "11月12日举办的百度世界2026开幕式上，百度正式推出大模型交易平台词元所。李彦宏表示，词元所是大模型的交易所。词元所",
+       "ref": "N42"
+      },
+      {
+       "url": "https://finance.sina.com.cn/roll/2026-11-12/doc-iniymwrm3863468.shtml",
+       "publisher": "新浪科技",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "李彦宏：模型越多选择越困难，百度推出“词元所”大模型交易平台",
+       "ref": "N45"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "百度创始人李彦宏认为大模型产业正朝着向上突破智能上限和向实扎根释放产业价值两条路径发展。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3198783",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "11月12日，在百度世界2026开幕式上，百度创始人李彦宏表示，大模型产业正在沿着两条路径发展：一是向上突破，推高智能上",
+       "ref": "N28"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "【百度推出两款文心应用模型】11月12日，在百度世界2026开幕式上，百度创始人李彦宏表示，大模型产业正在沿着两条路径发",
+       "ref": "N29"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "百度推出大模型交易平台词元所，属于行业动态了解即可",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "该平台发布属于AI产业前沿动态，你作为运营管理人员了解技术趋势即可",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-12T03:52:04.231Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261112-tlgop",
+   "created_at": "2026-11-12T03:52:04.231Z",
+   "source": "auto",
+   "title": "谷歌将Gemini AI助手接入苹果CarPlay",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "谷歌宣布将Gemini人工智能应用接入苹果CarPlay系统。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "【谷歌将Gemini语音AI助手接入苹果CarPlay】谷歌正在把Gemini人工智能应用接入苹果CarPlay系统。谷",
+       "ref": "N243"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "用户可在车机屏幕上与Gemini进行免提语音对话，对话记录将同步至iPhone端。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "【谷歌将Gemini语音AI助手接入苹果CarPlay】谷歌正在把Gemini人工智能应用接入苹果CarPlay系统。谷",
+       "ref": "N243"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "谷歌Gemini接入苹果CarPlay，属于车载科技动态了解即可",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "该功能属于车机系统应用更新，你作为车主了解车载应用动态即可",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-12T03:52:04.231Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261112-uh2qn",
+   "created_at": "2026-11-12T03:52:04.231Z",
+   "source": "auto",
+   "title": "部分企业限制个人AI Agent访问内部系统",
+   "url": "https://wallstreetcn.com/livenews/3198578",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-12",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "美国联合航空计划禁止个人AI助手访问其系统预订机票。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3198578",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "美国联合航空公司计划禁止个人人工智能助手访问其系统预订机票，引发市场对AI代理商业应用受限的关注。随着Meta Plat",
+       "ref": "N257"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "美联航禁止AI机器人预订机票。",
+       "ref": "N259"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "随着AI代理承担日常任务，越来越多的企业正重新评估并管理AI代理的商业接口权限。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3198578",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "美国联合航空公司计划禁止个人人工智能助手访问其系统预订机票，引发市场对AI代理商业应用受限的关注。随着Meta Plat",
+       "ref": "N257"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "部分企业限制个人AI Agent访问内部系统，了解管理趋势即可",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "企业对AI Agent权限的管控趋势，可为你从事业务流程管理提供一定参考",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-12T03:52:04.231Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261112-wtbmc",
+   "created_at": "2026-11-12T03:52:04.231Z",
+   "source": "auto",
+   "title": "中消协回应网购“AB货”同价不同质争议",
+   "url": "https://www.chinanews.com.cn/cj/2026/11-12/10730683.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-12",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "中消协发文指责部分电商经营者以同一链接同价发货却提供不同质量“AB货”的行为。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-12/10730683.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "中消协：网购“AB货”同价不同质 公平交易不容“欺生凌弱”",
+       "ref": "N44"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "中消协主张保护消费者合法权益，强调网购市场公平交易不容“欺生凌弱”。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-12/10730683.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "中消协：网购“AB货”同价不同质 公平交易不容“欺生凌弱”",
+       "ref": "N44"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "中消协批评网购AB货现象，你日常网购时注意防范风险",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "中消协针对网购质量问题的风险提示，你在家庭日常消费网购时了解防范即可",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-12T03:52:04.231Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261112-loc6k",
+   "created_at": "2026-11-12T03:52:04.231Z",
+   "source": "auto",
+   "title": "工信部核配700号段用于号码保护试点",
+   "url": "https://www.chinanews.com.cn/sh/2026/11-12/10730608.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-12",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "工信部批复10家企业开展号码保护服务业务试点，并为其核配700专用码号资源。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-12/10730608.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "700号段来了 放心接听 但这4种电话别接、别回、别点",
+       "ref": "N88"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "官方提醒公众接听相关服务号段的同时，仍需注意识别非法诈骗来电。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-12/10730608.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "700号段来了 放心接听 但这4种电话别接、别回、别点",
+       "ref": "N88"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "工信部试点700号段用于号码保护，接听相关来电时了解即可",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "工信部核配新号段用于隐私保护，你日常接到相关服务来电时了解背景即可",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-12T03:52:04.231Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261112-u0qe2",
+   "created_at": "2026-11-12T03:52:04.231Z",
+   "source": "auto",
+   "title": "发改委明确“十五五”将深化“人工智能+”",
+   "url": "https://www.chinanews.com.cn/gn/2026/11-12/10730629.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-12",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国家发展改革委透露，我国“十五五”时期将深化拓展“人工智能+”行动。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/gn/2026/11-12/10730629.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "“十五五”时期我国将深化拓展“人工智能+”行动",
+       "ref": "N84"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "规划强调将以落地应用牵引技术创新，推动AI在经济发展与政府治理中的应用。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/gn/2026/11-12/10730629.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "“十五五”时期我国将深化拓展“人工智能+”行动",
+       "ref": "N84"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "发改委明确十五五深化人工智能+，属于政策导向了解即可",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "国家深化AI应用的政策导向，可作为你规划项目与改进流程时的宏观背景参考",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-12T03:52:04.231Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261112-xoou5",
+   "created_at": "2026-11-12T03:52:04.231Z",
+   "source": "auto",
+   "title": "央行数据指三季度居民存款偏向定期化",
+   "url": "https://finance.sina.com.cn/money/bank/bank_hydt/2026-11-12/doc-iniymwrk8606444.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-12",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "截至2026年三季度末，我国人民币存款余额为349.45万亿元，其中居民存款占比50.2%。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/money/bank/bank_hydt/2026-11-12/doc-iniymwrk8606444.shtml",
+       "publisher": "每日经济新闻",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "钱去哪了？央行：三季度末人民币存款余额349.45万亿元，居民存款余额占50.2%，对公存款余额占49.3%",
+       "ref": "N19"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "央行数据显示当前我国人民币存款结构中定期存款占比依然偏高。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/money/bank/bank_hydt/2026-11-12/doc-iniymwrk8606444.shtml",
+       "publisher": "每日经济新闻",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "钱去哪了？央行：三季度末人民币存款余额349.45万亿元，居民存款余额占50.2%，对公存款余额占49.3%",
+       "ref": "N19"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "三季度居民存款偏向定期化，属于宏观储蓄数据对你无直接影响",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "居民存款结构数据反映整体储蓄倾向，属于宏观经济指标，了解即可",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-12T03:52:04.231Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261112-ynf1y",
+   "created_at": "2026-11-12T03:52:04.231Z",
+   "source": "auto",
+   "title": "10月全球插混与纯电车销量同比增8%",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniymsif1270393.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-12",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "机构Benchmark数据显示，2026年10月份全球纯电动和插电式混合动力汽车销量同比增长8%。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniymsif1270393.shtml",
+       "publisher": "环球市场播报",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "机构：10月份全球纯电和插电式混动汽车销量同比增长8%",
+       "ref": "N140"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "这表明全球新能源汽车市场在10月份呈现出重回增长的态势。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-12/doc-iniymsif1270393.shtml",
+       "publisher": "环球市场播报",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "机构：10月份全球纯电和插电式混动汽车销量同比增长8%",
+       "ref": "N140"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "10月全球插混与纯电车销量同比增8%，属于行业数据了解即可",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "新能源汽车市场销量数据反映行业大势，你作为混动车主了解即可",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-12T03:52:04.231Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261112-egyy0",
+   "created_at": "2026-11-12T03:52:04.231Z",
+   "source": "auto",
+   "title": "山西警方查获利用AI洗稿刷量黑灰产",
+   "url": "https://www.chinanews.com.cn/sh/2026/11-12/10730723.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-12",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "山西晋中警方查明有犯罪嫌疑人注册55家MCN机构及2000多个实名账号进行违规操作。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-12/10730723.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "MCN机构如何织起“买号—洗稿—刷量”的黑灰产业链？",
+       "ref": "N10"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "涉案团伙利用AI批量改写文章并借平台刷虚假流量，构成了黑灰产业链。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-12/10730723.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-12",
+       "stance": "支持",
+       "note": "MCN机构如何织起“买号—洗稿—刷量”的黑灰产业链？",
+       "ref": "N10"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "警方打击AI洗稿刷量黑灰产，你从事运营工作了解合规案例即可",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "该案例涉及AI内容运营的合规边界，你在从事运营管理及流程改进时可作防范参考",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-12T03:52:04.231Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261111-xhkz4",
    "created_at": "2026-11-11T02:52:17.740Z",
