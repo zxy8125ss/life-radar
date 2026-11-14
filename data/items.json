@@ -1,6 +1,968 @@
 {
- "updated_at": "2026-11-13T03:30:43.316Z",
+ "updated_at": "2026-11-14T03:22:31.234Z",
  "items": [
+  {
+   "id": "d20261114-h47gb",
+   "created_at": "2026-11-14T03:22:31.221Z",
+   "source": "auto",
+   "title": "后续：两股冷空气接连袭来 南方将迎雨雪",
+   "url": "https://www.chinanews.com.cn/sh/2026/11-14/10731901.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-14",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "11月14日起两股冷空气接连影响我国，大部地区气温将下降6至10℃。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-14/10731901.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "两股冷空气来袭部分地区降温可超10℃ 新一轮大范围雨雪将上线",
+       "ref": "N30"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "【两股冷空气接连来袭 新一轮大范围雨雪将上线】今天开始，两股冷空气接连影响我国，大部地区将降温6至10℃，下周气温又将创",
+       "ref": "N34"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "受冷暖空气交汇影响，南方多地将出现中到大雨，华北及湖南等地部分区域伴有大雾。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-14/10731901.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "两股冷空气来袭部分地区降温可超10℃ 新一轮大范围雨雪将上线",
+       "ref": "N30"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-14/10731878.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "华北黄淮东北等地仍有雾霾天气 中东部将有大范围大风降温和雨雪天气",
+       "ref": "N40"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "湖南将迎大雾与降雨，你周末驾车前往常德钓鱼需防范长途出行风险",
+   "undetermined": null,
+   "relevance": 3,
+   "relevance_reason": "你周末常驾车前往常德澧县和石门钓鱼，湖南部分区域大雾与中到大雨将直接影响你的长途驾车安全与行程",
+   "profile_refs": [
+    "city",
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利空",
+     "strength": 2,
+     "horizon": "1周内",
+     "path": {
+      "fact": "11月14日起两股冷空气接连影响，南方多地出现降雨且湖南等地部分区域伴有大雾",
+      "direct": "你周末从长沙开混动车前往常德澧县、石门钓鱼时，长途高速路面能见度降低且路面湿滑",
+      "intermediate": "长途驾车安全风险上升且户外钓鱼环境恶化",
+      "user_effect": "你的周末长途钓鱼出行受阻，驾车面临大雾交通安全风险与延误"
+     },
+     "based_on": [
+      0,
+      1
+     ],
+     "confidence": "高"
+    }
+   ],
+   "action": {
+    "do": "出行前关注长张高速等往返常德路段的雾天预警与封路信息，检查车灯与雨刮，必要时推迟或调整本周末的钓鱼行程",
+    "trigger": "本周末准备前往常德澧县或石门钓鱼出行前",
+    "basis": "湖南部分区域出现大雾与中到大雨，提前核查路况可防范高速公路交通事故风险并避免滞留公路，损失极小但能避开安全隐患",
+    "confidence": "高",
+    "review_on": "2026-11-15",
+    "status": "已降级"
+   },
+   "validation_notes": [
+    "待办建议超过 3 条，降为知道即可"
+   ],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-14T03:22:31.221Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261114-fboh1",
+   "created_at": "2026-11-14T03:22:31.221Z",
+   "source": "auto",
+   "title": "湖南农大与长沙隆平共建现代农业科创港",
+   "url": "https://www.chinanews.com.cn/sh/2026/11-14/10731886.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-14",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "11月13日，湖南农业大学—长沙隆平产业开发区现代农业科创港在长沙正式揭牌启航。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-14/10731886.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "湖南农业大学—长沙隆平产业开发区现代农业科创港揭牌启航",
+       "ref": "N26"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "长沙揭牌现代农业科创港，属于本地产业动态，对你暂无直接影响",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你常住长沙，该科创港揭牌属于本地农业产业新闻，与你的运营管理岗位无直接关联",
+   "profile_refs": [
+    "city",
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-14T03:22:31.221Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261114-42nvs",
+   "created_at": "2026-11-14T03:22:31.221Z",
+   "source": "auto",
+   "title": "OpenAI解散独立机器人团队",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyrprm0710726.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-14",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "OpenAI已解散独立机器人研究团队，将相关研究人员重新分配至核心研究和应用业务部门。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyrprm0710726.shtml",
+       "publisher": "环球市场播报",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "OpenAI撤销独立机器人研究团队 人员并入核心研究与应用部门",
+       "ref": "N167"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "【报道：OpenAI 解散独立机器人团队】OpenAI 已经解散独立机器人团队，将该团队研究员调至公司其他部门。公司称此",
+       "ref": "N175"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3199934",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "OpenAI已经解散独立机器人团队，将该团队研究员调至公司其他部门。公司称此举是为加速机器人方向研发，并非放弃机器人赛道",
+       "ref": "N181"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "市场消息：OpenAI解散其机器人团队。并将相关研究人员重新分配至公司其他部门。OpenAI表示，此举并非放弃机器人业务",
+       "ref": "N182"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "OpenAI表示此举旨在依托通用模型加快机器人方向研发，并非放弃机器人赛道。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-14/doc-iniyrprm0710726.shtml",
+       "publisher": "环球市场播报",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "OpenAI撤销独立机器人研究团队 人员并入核心研究与应用部门",
+       "ref": "N167"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "【报道：OpenAI 解散独立机器人团队】OpenAI 已经解散独立机器人团队，将该团队研究员调至公司其他部门。公司称此",
+       "ref": "N175"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "OpenAI拆分机器人团队，依托大模型推进研发，属于远期行业动态",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你从事公司通用运营管理，OpenAI解散独立机器人团队属于远期AI行业结构调整",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-14T03:22:31.221Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261114-i8rve",
+   "created_at": "2026-11-14T03:22:31.221Z",
+   "source": "auto",
+   "title": "后续：微软称全球服务中断系网络容量升级引发",
+   "url": "https://wallstreetcn.com/livenews/3199953",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-14",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "微软就此前发生的全球性服务中断致歉，并确认故障由早先网络容量升级引发，排除网络攻击或AI智能体干预。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "【微软就全球服务中断道歉 称故障非网络攻击所致】当地时间11月13日，微软公司就导致数百万用户受影响的全球性服务中断事件",
+       "ref": "N150"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3199953",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "微软全球服务故障修复取得进展，邮件积压量已接近正常水平。 各项服务正广泛复苏并趋于稳定。 该技术问题与网络攻击、AI智能",
+       "ref": "N159"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "微软：该技术问题与网络攻击、AI智能体无关。",
+       "ref": "N160"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "微软确认服务中断系网络升级所致，为你的运营风险管理提供参考",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你在公司从事项目与运营管理，微软服务中断原因澄清可作为系统运维与业务连续性管理的案例参考",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-14T03:22:31.221Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261114-9sf54",
+   "created_at": "2026-11-14T03:22:31.221Z",
+   "source": "auto",
+   "title": "央行公布10月数据：M2与社融增速均超7%",
+   "url": "https://wallstreetcn.com/livenews/3199857",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-13",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "截至2026年10月末，我国社会融资规模存量同比增长7.2%，M2余额同比增长7.1%。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-13",
+       "stance": "支持",
+       "note": "【10月末社融、M2增速均超7% 专家：年内降息降准可能性下降】中国人民银行公布2026年10月金融数据。10月末，社会",
+       "ref": "N256"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3199857",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-13",
+       "stance": "支持",
+       "note": "中国人民银行公布2026年10月金融数据。10月末，社会融资规模存量为469.16万亿元，同比增长7.2%；广义货币（M",
+       "ref": "N258"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "10月份单月新增社会融资规模为1.15万亿元，人民币贷款减少1000亿元。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3199842",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-13",
+       "stance": "支持",
+       "note": "中国10月新增社融1.15万亿元，人民币贷款减少1000亿元，M2同比增长7.1%。 美国10月PPI同比升6.5%，创",
+       "ref": "N285"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "10月M2与社融增速超7%，宏观流动性平稳，供你了解大环境参考",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你作为公司运营管理人员，央行公布的宏观金融数据可作为你了解宏观经济环境的背景参考",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-14T03:22:31.221Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261114-zy1ls",
+   "created_at": "2026-11-14T03:22:31.221Z",
+   "source": "auto",
+   "title": "广东茂名揽才活动走进湖南师大与长沙理工",
+   "url": "https://www.chinanews.com.cn/cj/2026/11-13/10731771.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-13",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "11月13日，“百万英才汇南粤”秋季招聘湖南专场走进湖南师范大学和长沙理工大学，提供粤港澳大湾区优质岗位。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-13/10731771.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-13",
+       "stance": "支持",
+       "note": "“百万英才汇南粤”招聘活动入湘 广东茂名携优质岗位揽才",
+       "ref": "N301"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "茂名在长沙高校开展招聘，主要面向应届生，对你当前工作无直接影响",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你常住长沙且已有工作，该招企活动主要面向长沙高校应届毕业生",
+   "profile_refs": [
+    "city",
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-14T03:22:31.221Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261114-fwj48",
+   "created_at": "2026-11-14T03:22:31.221Z",
+   "source": "auto",
+   "title": "发改委与能源局印发十五五新型储能方案",
+   "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-11-14/doc-iniyrprt3391284.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-14",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国家发展改革委、国家能源局联合印发《“十五五”新型储能实施方案》，推动新型储能加速走向市场化。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-11-14/doc-iniyrprt3391284.shtml",
+       "publisher": "上海证券报",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "新型储能将加速走向市场化 长时储能与容量电价机制成主线",
+       "ref": "N155"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "方案将长时储能与容量电价机制列为推进主线。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-11-14/doc-iniyrprt3391284.shtml",
+       "publisher": "上海证券报",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "新型储能将加速走向市场化 长时储能与容量电价机制成主线",
+       "ref": "N155"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "十五五新型储能方案印发推进市场化，属于远期能源政策，供你了解",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你驾驶混动车辆，新型储能电站与容量电价方案属于远期电力系统政策，对你个人用能无直接影响",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-14T03:22:31.221Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261114-dvj65",
+   "created_at": "2026-11-14T03:22:31.221Z",
+   "source": "auto",
+   "title": "国常会提出完善资本市场稳市机制",
+   "url": "https://wallstreetcn.com/livenews/3199960",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-14",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国务院常务会议提出要“完善资本市场稳市机制”，释放明确的政策呵护市场信号。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3199960",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "政策引导与市场力量同频共振，转化为A股内在稳定力量。11月6日召开的国务院常务会议提出“完善资本市场稳市机制”，释放明确",
+       "ref": "N152"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "【稳市活水持续涌入 着力增强A股内在稳定性】政策引导与市场力量同频共振，转化为A股内在稳定力量。11月6日召开的国务院常",
+       "ref": "N153"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国常会提出完善资本市场稳市机制，释放稳定信号，供你理财参考",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "国常会释放稳市信号属于宏观政策表态，可作为你关注市场情绪与理财环境的背景信息",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-14T03:22:31.221Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261114-agq24",
+   "created_at": "2026-11-14T03:22:31.221Z",
+   "source": "auto",
+   "title": "祁阳浯溪摩崖石刻新碑林开镌 迎旅发大会",
+   "url": "https://www.chinanews.com.cn/sh/2026/11-13/10731769.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-13",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "第七届湖南旅游发展大会将于12月10日至12日在湖南永州举办。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-13/10731769.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-13",
+       "stance": "支持",
+       "note": "迎接第七届湖南旅游发展大会 祁阳千年碑林迎新作",
+       "ref": "N303"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "祁阳浯溪摩崖石刻新碑林区首批20件书法作品正抓紧镌刻，以迎接旅发大会。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-13/10731769.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-13",
+       "stance": "支持",
+       "note": "迎接第七届湖南旅游发展大会 祁阳千年碑林迎新作",
+       "ref": "N303"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "湖南旅发大会将于12月在永州举办，可关注作为你后续周末游参考",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你常住湖南且周末有出游习惯，永州举办旅发大会可作为后续省内休闲出行的备选参考",
+   "profile_refs": [
+    "city",
+    "long_trip"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-14T03:22:31.221Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261114-x4tm4",
+   "created_at": "2026-11-14T03:22:31.221Z",
+   "source": "auto",
+   "title": "2026年湖南省创新创业大赛在长沙收官",
+   "url": "https://www.chinanews.com.cn/cj/2026/11-13/10731770.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-13",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "11月13日，2026年湖南省（国际）创新创业大赛颁奖仪式在长沙举行，共有34个项目（团队）获奖。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-13/10731770.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-13",
+       "stance": "支持",
+       "note": "34个项目（团队）获奖 2026年湖南省（国际）创新创业大赛收官",
+       "ref": "N302"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "湖南创新创业大赛在长沙收官，反映本地创新动态，供你了解行业",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你在长沙从事运营与项目管理，省内双创大赛成果反映了本地企业创新项目的最新动态",
+   "profile_refs": [
+    "city",
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-14T03:22:31.221Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261114-mk69s",
+   "created_at": "2026-11-14T03:22:31.221Z",
+   "source": "auto",
+   "title": "湖南出台规划推进海峡两岸产业合作区",
+   "url": "https://www.chinanews.com.cn/cj/2026/11-13/10731820.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-13",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "湖南推进海峡两岸产业合作区建设，目标到2030年吸引台资及关联企业超100家，培育1至2个省级以上产业集群。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-13/10731820.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-13",
+       "stance": "支持",
+       "note": "湖南推进海峡两岸产业合作区建设",
+       "ref": "N297"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "湖南出台海峡两岸产业合作区规划，属于省内产业政策，对你无直接影响",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你在湖南从事企业运营管理，该产业合作区规划属于省内招商与产业集群政策，供了解区域宏观动态",
+   "profile_refs": [
+    "city",
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-14T03:22:31.221Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261114-g1euv",
+   "created_at": "2026-11-14T03:22:31.221Z",
+   "source": "auto",
+   "title": "xAI优先推进AI编程工具与Grok代理",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "埃隆·马斯克旗下的xAI目前将AI编程工具及其Grok机器人代理产品列为优先发展事项。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-13",
+       "stance": "支持",
+       "note": "埃隆·马斯克旗下的 xAI 目前将 AI 编程工具及其 Grok 机器人代理产品列为优先事项。",
+       "ref": "N274"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "xAI将优先推进AI编程与代理工具，属于远期AI效率工具动态",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你在公司负责业务流程改进，AI Agent与自动化编程工具的前沿进展可作为远期提效工具的关注方向",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-14T03:22:31.221Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261114-x2my8",
+   "created_at": "2026-11-14T03:22:31.221Z",
+   "source": "auto",
+   "title": "人形机器人新赛道催生智能应用技术员岗位",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-14/doc-iniyryff0536320.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-14",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "随着具身智能机器人等产业发展，具身智能机器人应用技术员等新岗位涌现，释放就业潜力。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/jjxw/2026-11-14/doc-iniyryff0536320.shtml",
+       "publisher": "新华社",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "新赛道催生新岗位 就业潜力加快释放",
+       "ref": "N200"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "具身智能催生机器人应用技术员新岗位，反映自动化应用落地新趋势",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你在公司从事项目与运营管理，新赛道催生应用型技术岗位反映了新技术落地的分工趋势",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-14T03:22:31.221Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261114-golhp",
+   "created_at": "2026-11-14T03:22:31.221Z",
+   "source": "auto",
+   "title": "深圳华强北AI陪伴玩具消费旺季热销",
+   "url": "https://wallstreetcn.com/livenews/3199892",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-13",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "随着智能硬件迎来消费旺季，深圳华强北商圈AI陪伴玩具新品热销，支持离线对话与互动功能。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3199892",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-13",
+       "stance": "支持",
+       "note": "近期，智能硬件市场迎来消费旺季。在深圳华强北商圈，AI陪伴玩具新品持续迭代，不少档口前围满了客商。商户向记者展示了今年上",
+       "ref": "N211"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "华强北AI陪伴玩具消费季热销，反映智能硬件新趋势，供你家庭消费参考",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你已婚且常住长沙，智能陪伴硬件的热销动态可作为家庭消费与硬件趋势的背景参考",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-14T03:22:31.221Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261114-z9nlk",
+   "created_at": "2026-11-14T03:22:31.221Z",
+   "source": "auto",
+   "title": "金融监管总局限制信托与理财通道合作",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "金融监管总局印发《资产管理信托管理办法》，限制信托与理财机构的通道合作模式，将于2027年1月1日起施行。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "【“通道”不通了 理财信托合作模式面临重构】近日，金融监管总局一纸新规，限制了信托和理财两类资管机构的“甜蜜合作”。这一",
+       "ref": "N66"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "监管限制信托与理财通道合作，将于2027年施行，供你远期理财参考",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "资管新规规范信托与理财通道合作，影响远期理财产品供给结构，可作为理财观察参考",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-14T03:22:31.221Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261114-3xjy8",
+   "created_at": "2026-11-14T03:22:31.221Z",
+   "source": "auto",
+   "title": "TCL华星显示研发全流程硅基员工上岗",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "11月13日，TCL华星在武汉举行的显示生态大会上展示了显示研发设计全流程“硅基员工”，并于当日正式上岗。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "【TCL华星硅基员工昨日正式上岗】11月13日，TCL科技集团股份有限公司控股子公司TCL华星光电技术有限公司在湖北省武",
+       "ref": "N50"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "TCL华星引入研发全流程硅基员工，为你的运营流程改进提供案例参考",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你在公司负责流程改进与业务管理，企业部署数字员工实现研发流程自动化可作为运营改进的实践案例",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-14T03:22:31.221Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261113-rirpy",
    "created_at": "2026-11-13T03:30:43.305Z",
