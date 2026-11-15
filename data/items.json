@@ -1,6 +1,560 @@
 {
- "updated_at": "2026-11-14T03:22:31.234Z",
+ "updated_at": "2026-11-15T02:45:08.035Z",
  "items": [
+  {
+   "id": "d20261115-9r8a8",
+   "created_at": "2026-11-15T02:45:08.021Z",
+   "source": "auto",
+   "title": "2026年新版国家医保药品目录发布",
+   "url": "https://www.chinanews.com.cn/cj/2026/11-15/10732222.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-15",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国家医保局和人社部于2026年11月14日发布2026年版国家基本医保药品目录及商业健康保险创新药品目录。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-15/10732222.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-15",
+       "stance": "支持",
+       "note": "新增107种药品 如何进一步提升临床用药可及性，减轻患者负担？",
+       "ref": "N33"
+      },
+      {
+       "url": "https://finance.sina.com.cn/jjxw/2026-11-15/doc-iniyucer3563452.shtml",
+       "publisher": "市场资讯",
+       "published_at": "2026-11-15",
+       "stance": "支持",
+       "note": "基本医保药品目录新增107种药品",
+       "ref": "N55"
+      },
+      {
+       "url": "https://finance.sina.com.cn/jjxw/2026-11-14/doc-iniyskvi3035239.shtml",
+       "publisher": "澎湃新闻",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "2026年医保目录公布，新增107种，明年1月1日执行",
+       "ref": "N215"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3200083",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "从国家医保局获悉，2026年国家医保药品目录和商业健康保险创新药品目录在苏州发布。新版国家医保药品目录新增107种药品，",
+       "ref": "N217"
+      },
+      {
+       "url": "https://finance.sina.com.cn/jjxw/2026-11-14/doc-iniyskvi3028610.shtml",
+       "publisher": "新华社",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "再创新高！51个一类新药进入新版国家医保药品目录",
+       "ref": "N219"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "新版国家基本医保药品目录新增107种药品，其中包含51个一类新药。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3200083",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "从国家医保局获悉，2026年国家医保药品目录和商业健康保险创新药品目录在苏州发布。新版国家医保药品目录新增107种药品，",
+       "ref": "N217"
+      },
+      {
+       "url": "https://finance.sina.com.cn/jjxw/2026-11-14/doc-iniyskvi3028610.shtml",
+       "publisher": "新华社",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "再创新高！51个一类新药进入新版国家医保药品目录",
+       "ref": "N219"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国家发布2026年新版医保与商保药品目录，新增上百种新药保障",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "新版医保与商保药品目录发布并扩充新药，属于与你和家人医疗保障相关的公共政策信息",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-15T02:45:08.021Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261115-l5e32",
+   "created_at": "2026-11-15T02:45:08.021Z",
+   "source": "auto",
+   "title": "百万级抗癌药首纳基本医保",
+   "url": "https://wallstreetcn.com/livenews/3200088",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-14",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "药明巨诺的CAR-T产品瑞基奥仑赛注射液已被首次纳入国家基本医保目录。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3200088",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "从2026年创新药高质量发展大会了解到，药明巨诺的CAR-T产品瑞基奥仑赛注射液（商品名：倍诺达）进入国家基本医保目录，",
+       "ref": "N205"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3200084",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "11月14日，国家医保局宣布，药明巨诺的CAR-T药物瑞基奥仑赛已被纳入医保目录。进入医保前，瑞基奥仑赛的定价为129万",
+       "ref": "N213"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "【百万级CAR-T抗癌药首次纳入基本医保 患者自付降至10万元以内】百万级CAR-T抗癌疗法迎来历史性突破，药明巨诺瑞基",
+       "ref": "N214"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "瑞基奥仑赛此前定价为129万元/支，纳入医保并经报销后，患者自付费用降至10万元以内。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3200084",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "11月14日，国家医保局宣布，药明巨诺的CAR-T药物瑞基奥仑赛已被纳入医保目录。进入医保前，瑞基奥仑赛的定价为129万",
+       "ref": "N213"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "【百万级CAR-T抗癌药首次纳入基本医保 患者自付降至10万元以内】百万级CAR-T抗癌疗法迎来历史性突破，药明巨诺瑞基",
+       "ref": "N214"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "百万级抗癌药CAR-T首纳医保，自付降至10万元以内",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "重磅抗癌药大幅降价并纳入医保，属于家庭重大疾病保障方面的公共健康信息",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-15T02:45:08.021Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261115-cmt0w",
+   "created_at": "2026-11-15T02:45:08.021Z",
+   "source": "auto",
+   "title": "长沙显卡与整机电脑价格明显回落",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-14/doc-iniytnhv2612832.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-14",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "2026年11月14日，湖南长沙电脑硬件市场显卡及同配置整机价格出现明显回落。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/jjxw/2026-11-14/doc-iniytnhv2612832.shtml",
+       "publisher": "新浪",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "经销商回应显卡价格跳水：涨价有人买，降价反而观望",
+       "ref": "N99"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "5070显卡价格从高位8000元左右降至7000元出头，同配置整机一个月降价超一万元。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/jjxw/2026-11-14/doc-iniytnhv2612832.shtml",
+       "publisher": "新浪",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "经销商回应显卡价格跳水：涨价有人买，降价反而观望",
+       "ref": "N99"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "长沙显卡与整机电脑价格回落，部分整机一个月降价超万元",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你常住长沙，本地电脑硬件及整机市场出现明显降价行情",
+   "profile_refs": [
+    "city"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-15T02:45:08.021Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261115-868go",
+   "created_at": "2026-11-15T02:45:08.021Z",
+   "source": "auto",
+   "title": "华菱安赛乐米塔尔三期项目长沙开工",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "2026年11月13日下午，华菱安赛乐米塔尔汽车板有限公司三期项目在湖南长沙开工。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-15",
+       "stance": "支持",
+       "note": "【王志军会见安赛乐米塔尔集团执行主席拉克什米·米塔尔一行，并与谢卫江共同见证VAMA三期项目开工】11月13日下午，湖南",
+       "ref": "N49"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "华菱安赛乐米塔尔三期项目在长沙开工建设",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你常住长沙，本地大型汽车板工业项目开工建设",
+   "profile_refs": [
+    "city"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-15T02:45:08.021Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261115-2zao4",
+   "created_at": "2026-11-15T02:45:08.021Z",
+   "source": "auto",
+   "title": "2026年商保创新药目录新增12种药品",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "2026年商业健康保险创新药品目录调整新增12种药品，使总数达到28种。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "【新增12种药品 2026年商业健康保险创新药品目录共有28种】11月14日，国家医保局相关负责人表示：2026年开展的",
+       "ref": "N221"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "新版商保创新药目录纳入了全球首个实体瘤CAR-T及中国首个血友病创新药等药品。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "【新增12种药品 2026年商业健康保险创新药品目录共有28种】11月14日，国家医保局相关负责人表示：2026年开展的",
+       "ref": "N221"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "商保创新药目录新增12种药品，总数达到28种",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "商保创新药目录扩大收录范围，属于与你和家人健康保障相关的政策信息",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-15T02:45:08.021Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261115-2u4tc",
+   "created_at": "2026-11-15T02:45:08.021Z",
+   "source": "auto",
+   "title": "国产原研Bcl-2抑制剂首纳国家医保",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "首个国产原创Bcl-2抑制剂利沙托克拉已被首次纳入2026年国家基本医保药品目录。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "【首个国产原研Bcl-2抑制剂纳入2026年国家医保目录】今日，国家医疗保障局、人力资源社会保障部发布《国家基本医疗保险",
+       "ref": "N170"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国产原研Bcl-2抑制剂利沙托克拉首次纳入国家医保药品目录",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "国产抗肿瘤药降价纳入医保，属于公共医疗保障领域的参考资讯",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-15T02:45:08.021Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261115-jlcbi",
+   "created_at": "2026-11-15T02:45:08.021Z",
+   "source": "auto",
+   "title": "IgA肾病靶向药斯贝利单抗纳入医保",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "全球首个IgA肾病靶向生物制剂斯贝利单抗注射液被纳入2026年国家医保药品目录。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "【全球首个IgA肾病靶向生物制剂斯贝利单抗纳入医保】大冢制药全球首个IgA肾病靶向生物制剂斯贝利单抗注射液（商品名：伊再",
+       "ref": "N160"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "全球首个IgA肾病靶向药斯贝利单抗被纳入国家医保",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "肾病靶向药纳入医保降价，属于公共医疗保障方面的参考动态",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-15T02:45:08.021Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261115-8s3kr",
+   "created_at": "2026-11-15T02:45:08.021Z",
+   "source": "auto",
+   "title": "国际原油期货价格13日涨跌不一",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "2026年11月13日收盘，纽约商品交易所12月交货的轻质原油期货价格下跌0.2%至每桶88.56美元，1月交货的伦敦布伦特原油期货价格上涨0.02%至每桶95.84美元。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-14",
+       "stance": "支持",
+       "note": "【国际油价13日涨跌不一】国际油价13日涨跌不一。截至当天收盘，纽约商品交易所12月交货的轻质原油期货价格下跌18美分，",
+       "ref": "N308"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国际原油期货涨跌不一，微幅波动对油价影响极小",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你开混动车关注用油成本，但国际原油价格微幅涨跌对国内成品油调价影响极微",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-15T02:45:08.021Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261115-4w6gg",
+   "created_at": "2026-11-15T02:45:08.021Z",
+   "source": "auto",
+   "title": "特斯拉邀请部分用户订购Cybercab",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "特斯拉开始邀请部分客户订购其无方向盘和脚踏板的双座无人驾驶汽车Cybercab。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-15",
+       "stance": "支持",
+       "note": "【特斯拉开始邀请部分个人用户订购无人驾驶汽车Cybercab】特斯拉公司开始邀请部分客户订购Cybercab，这款双座车",
+       "ref": "N70"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "特斯拉开始邀请部分海外客户订购无人驾驶汽车Cybercab",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "作为车主可了解自动驾驶动态，但海外试点订购对你近期用车无直接影响",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-15T02:45:08.021Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261114-h47gb",
    "created_at": "2026-11-14T03:22:31.221Z",
