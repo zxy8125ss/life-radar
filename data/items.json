@@ -1,6 +1,709 @@
 {
- "updated_at": "2026-11-18T04:32:32.630Z",
+ "updated_at": "2026-11-19T04:16:24.669Z",
  "items": [
+  {
+   "id": "d20261119-vbadp",
+   "created_at": "2026-11-19T04:16:24.651Z",
+   "source": "auto",
+   "title": "国际原油期货再度下挫",
+   "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-19/doc-inizfqef0527120.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-19",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "WTI 12月原油期货收盘下跌2.75美元至83.26美元/桶，跌幅3.2%。",
+     "kind": "事实",
+     "level": "A",
+     "note": "对混动车主油费支出偏利好",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-19/doc-inizfqef0527120.shtml",
+       "publisher": "市场资讯",
+       "published_at": "2026-11-19",
+       "stance": "支持",
+       "note": "光大期货：11月19日能源化工日报",
+       "ref": "N36"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3202135",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-19",
+       "stance": "支持",
+       "note": "WTI 12月原油期货收跌2.75美元，跌幅3.20%，报83.26美元/桶。 布伦特1月原油期货收跌1.19美元，跌幅",
+       "ref": "N113"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国际原油价格下跌，你的混动车出行成本有望小幅下降",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你开混动车且常跑长途，国际油价下降会直接降低你的出行油费支出",
+   "profile_refs": [
+    "vehicle_type",
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利好",
+     "strength": 1,
+     "horizon": "1-3个月",
+     "path": {
+      "fact": "WTI 12月原油期货收盘下跌至83.26美元/桶",
+      "direct": "国内成品油零售价预期下调",
+      "intermediate": "加油站汽油价格回落",
+      "user_effect": "你日常出行及周末长途用车的加油成本将有所减少"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-19T04:16:24.651Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261119-4i0lx",
+   "created_at": "2026-11-19T04:16:24.651Z",
+   "source": "auto",
+   "title": "中东局势加剧与油轮遇袭",
+   "url": "https://wallstreetcn.com/livenews/3201969",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-18",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "霍尔木兹海峡有油轮遭不明发射物击中并起火，引发市场对能源运输与地缘风险的担忧。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3201969",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-18",
+       "stance": "支持",
+       "note": "英国海上贸易行动办公室18日发布通报说，一艘油轮17日在霍尔木兹海峡遭不明发射物击中并起火，一名海员失踪，搜救工作正在进",
+       "ref": "N180"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3201789",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-18",
+       "stance": "支持",
+       "note": "阿联酋阿布扎比国家石油公司旗下的物流与服务公司18日发表声明说，该公司一艘船17日晚通过霍尔木兹海峡时遭到袭击，造成11",
+       "ref": "N216"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "中东油轮遇袭引发地缘忧虑，可能推高未来油价",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "中东局势影响国际能源运输，对你日常和长途驾车所需的油费成本有潜在波动影响",
+   "profile_refs": [
+    "vehicle_type",
+    "long_trip"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-19T04:16:24.651Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261119-864w3",
+   "created_at": "2026-11-19T04:16:24.651Z",
+   "source": "auto",
+   "title": "全国大部气温将降至近期低点",
+   "url": "https://www.chinanews.com.cn/sh/2026/11-19/10734475.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-19",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "11月19日至20日冷空气影响趋于结束，中东部地区气温仍较低，多地气温将陆续降至近期低点并大范围创下立秋后新低，随后23日前后江南等地将迎降水增多。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-19/10734475.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-19",
+       "stance": "支持",
+       "note": "冷空气影响趋于结束 未来三天全国大部降水稀少",
+       "ref": "N41"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-19/10734469.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-19",
+       "stance": "支持",
+       "note": "南北方多地气温将陆续触底创新低 明起中东部进入降水间歇期",
+       "ref": "N57"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "全国气温降至近期低点，周末外出垂钓需注意防寒保暖",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你周末常去户外钓鱼，气温骤降会直接影响你的户外活动体验和保暖需求",
+   "profile_refs": [
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "物价与家庭消费",
+     "direction": "中性",
+     "strength": 1,
+     "horizon": "1周内",
+     "path": {
+      "fact": "11月19日至20日多地气温降至近期低点",
+      "direct": "户外体感温度显著降低",
+      "intermediate": "周末户外活动环境变冷",
+      "user_effect": "你周末前往水域钓鱼时需要准备更厚的御寒装备"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-19T04:16:24.651Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261119-se400",
+   "created_at": "2026-11-19T04:16:24.651Z",
+   "source": "auto",
+   "title": "2026世界计算大会长沙开幕",
+   "url": "https://wallstreetcn.com/livenews/3202212",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-19",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "2026世界计算大会于11月19日在长沙开幕。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3202212",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-19",
+       "stance": "支持",
+       "note": "① 07:50 日本9月核心机械订单； ② 08:30 澳大利亚10月就业人口、失业率； ③ 时间待定 习近平将同俄罗斯",
+       "ref": "N91"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "世界计算大会在长沙开幕，城市科技活动增加",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你在长沙工作生活，本地举办大型行业会议代表区域产业氛围活跃",
+   "profile_refs": [
+    "city"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-19T04:16:24.651Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261119-72sts",
+   "created_at": "2026-11-19T04:16:24.651Z",
+   "source": "auto",
+   "title": "10月全国城镇调查失业率5.1%",
+   "url": "https://wallstreetcn.com/livenews/3201727",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-18",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国家统计局发布数据，10月份全国城镇调查失业率为5.1%。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3201727",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-18",
+       "stance": "支持",
+       "note": "国家统计局发布2026年10月份分年龄组失业率数据。10月份，全国城镇调查失业率5.1%，全国城镇16-24岁劳动力失业",
+       "ref": "N235"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "10月全国城镇调查失业率为5.1%",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "失业率数据反映整体就业环境，对你在职场的宏观感知有一定参考意义",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-19T04:16:24.651Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261119-ucllb",
+   "created_at": "2026-11-19T04:16:24.651Z",
+   "source": "auto",
+   "title": "腾讯三季度净利636亿元",
+   "url": "https://wallstreetcn.com/livenews/3201804",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-18",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "腾讯控股第三季度营收2073.4亿元人民币，净利润636.1亿元人民币。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3201804",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-18",
+       "stance": "支持",
+       "note": "腾讯控股第三季度营收2,073.4亿元人民币，预估2,105.3亿元人民币。 第三季度净利润636.1亿元人民币，预估5",
+       "ref": "N214"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "腾讯三季度净利636亿元，业绩表现稳健",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "作为大型科技企业财报，反映了互联网行业的整体盈利状况",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-19T04:16:24.651Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261119-kzozb",
+   "created_at": "2026-11-19T04:16:24.651Z",
+   "source": "auto",
+   "title": "腾讯回应算力与AI组织冲击",
+   "url": "https://wallstreetcn.com/livenews/3202016",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-18",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "腾讯管理层在业绩会上表示，算力限制对模型训练带来约束，下一版本混元模型可能需要更长时间推出，但AI可用于提升内部运营效率。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3202016",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-18",
+       "stance": "支持",
+       "note": "在财报后的电话会议中，腾讯总裁刘炽平回应了此前外界舆论热议的“腾讯裁员”一事，此前腾讯CEO马化腾和刘炽平在内部讲话中，",
+       "ref": "N161"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3201983",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-18",
+       "stance": "支持",
+       "note": "在腾讯2026年第三季度业绩电话会上，针对算力相关限制措施对腾讯AI业务的影响，腾讯总裁刘炽平表示，无论是租赁还是自建算",
+       "ref": "N175"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "腾讯提及算力限制与AI提效，关注内部流程改进",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你在公司从事流程改进和运营管理，行业头部企业运用AI提升内部效率的做法对你有参考价值",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-19T04:16:24.651Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261119-t4ynt",
+   "created_at": "2026-11-19T04:16:24.651Z",
+   "source": "auto",
+   "title": "最高检发布个人信息保护典型案例",
+   "url": "https://www.chinanews.com.cn/sh/2026/11-19/10734449.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-19",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "最高人民检察院在个人信息保护法实施5周年之际发布典型案例，重点打击“开盒”网暴及非法获取倒卖信息等乱象。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-19/10734449.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-19",
+       "stance": "支持",
+       "note": "涉及个人信息安全，请注意！",
+       "ref": "N79"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "最高检发布个人信息保护典型案例打击网暴",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "属于国家层面的个人信息保护法治宣传，有助于提升你的网络安全防范意识",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-19T04:16:24.651Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261119-fszt5",
+   "created_at": "2026-11-19T04:16:24.651Z",
+   "source": "auto",
+   "title": "国家网络安全通报中心发高危漏洞预警",
+   "url": "https://www.chinanews.com.cn/sh/2026/11-19/10734531.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-19",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国家网络安全通报中心发布JAVA远程代码执行高危漏洞预警。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-19/10734531.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-19",
+       "stance": "支持",
+       "note": "国家网络安全通报中心发布JAVA远程代码执行高危漏洞预警",
+       "ref": "N20"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国家网络安全通报中心发布JAVA高危漏洞预警",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "企业系统常使用相关技术，若你所在团队涉及软件运营可能会面临技术排查需求",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-19T04:16:24.651Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261119-15e3g",
+   "created_at": "2026-11-19T04:16:24.651Z",
+   "source": "auto",
+   "title": "央行开展7675亿元逆回购操作",
+   "url": "https://www.chinanews.com.cn/cj/2026/11-19/10734495.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-19",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "中国人民银行于11月19日以固定利率、数量招标方式开展7675亿元隔夜逆回购操作，操作利率为1.25%。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-19/10734495.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-19",
+       "stance": "支持",
+       "note": "11月19日央行开展7675亿元隔夜逆回购操作",
+       "ref": "N40"
+      },
+      {
+       "url": "https://finance.sina.com.cn/jryx/bank/2026-11-19/doc-inizfqef0499509.shtml",
+       "publisher": "金融一线",
+       "published_at": "2026-11-19",
+       "stance": "支持",
+       "note": "央行今日开展7675亿元隔夜逆回购操作",
+       "ref": "N48"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "央行开展7675亿元逆回购操作，保持流动性合理充裕",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "央行公开市场操作影响宏观资金面和市场利率，对整体金融环境有基础影响",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-19T04:16:24.651Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261119-qik82",
+   "created_at": "2026-11-19T04:16:24.651Z",
+   "source": "auto",
+   "title": "国资委部署新一轮国企专业化整合",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-19/doc-inizfiwp1130117.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-19",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国务院国资委表示，各地和中央企业专业化整合将聚焦产业链短板、创新资源分散和同质化竞争等重点问题。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/jjxw/2026-11-19/doc-inizfiwp1130117.shtml",
+       "publisher": "中国证券报-中证网",
+       "published_at": "2026-11-19",
+       "stance": "支持",
+       "note": "新一轮国资国企改革全面实施 国务院国资委：以创新能力强的企业为主体开展整合 防止“救助型”并购",
+       "ref": "N142"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3201940",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-18",
+       "stance": "支持",
+       "note": "11月18日，国务院国资委党委委员、副主任李镇在进一步深化国资国企改革专题研讨班上表示，各地、各中央企业专业化整合要聚焦",
+       "ref": "N190"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国资委部署新一轮国企专业化整合聚焦产业链短板",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "国资国企改革和专业化整合可能对特定产业链的业务协同和运营项目带来调整",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-19T04:16:24.651Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261119-qg4l5",
+   "created_at": "2026-11-19T04:16:24.651Z",
+   "source": "auto",
+   "title": "工信部公布新一批智能工厂培育名单",
+   "url": "https://wallstreetcn.com/livenews/3202324",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-19",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "工信部等六部门公布新一批34家领航级智能工厂培育名单，实现东北、西北、西南、中部、东部地区全覆盖。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3202324",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-19",
+       "stance": "支持",
+       "note": "工业和信息化部等六部门今天公布了新一批34家领航级智能工厂培育名单。从区域分布来看，东北、西北、西南、中部、东部地区全覆",
+       "ref": "N11"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "工信部公布新一批智能工厂培育名单实现全国覆盖",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "中部地区智能工厂培育推进，对制造业运营和流程改进方向有一定行业参考意义",
+   "profile_refs": [
+    "city",
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-19T04:16:24.651Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261119-qmdit",
+   "created_at": "2026-11-19T04:16:24.651Z",
+   "source": "auto",
+   "title": "11月中旬鸡蛋价格保持回调态势",
+   "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-19/doc-inizfqem1145378.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-19",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "近期鸡蛋期货与现货价格延续回调走势，其中辽宁地区现货价格报3.91元/斤。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-19/doc-inizfqem1145378.shtml",
+       "publisher": "市场资讯",
+       "published_at": "2026-11-19",
+       "stance": "支持",
+       "note": "华泰期货：鸡蛋情绪面存有一定支撑，但短期价格上行动能不足",
+       "ref": "N32"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "鸡蛋价格保持回调态势，家庭日常采购成本稳中有降",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "鸡蛋作为基础生活物资价格回调，对你的家庭日常消费支出有微弱的利好影响",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.5-flash-lite",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-19T04:16:24.651Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261118-5byg8",
    "created_at": "2026-11-18T04:32:32.619Z",
