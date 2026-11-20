@@ -1,6 +1,689 @@
 {
- "updated_at": "2026-11-19T04:16:24.669Z",
+ "updated_at": "2026-11-20T04:01:46.361Z",
  "items": [
+  {
+   "id": "d20261120-be5cz",
+   "created_at": "2026-11-20T04:01:46.348Z",
+   "source": "auto",
+   "title": "11月LPR保持不变",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-20/doc-inizixmn4010746.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-20",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "2026年11月20日央行授权公布的LPR为1年期3.00%、5年期以上3.50%，均与上月持平。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/jjxw/2026-11-20/doc-inizixmn4010746.shtml",
+       "publisher": "界面",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "LPR连续18个月“按兵不动”，降息靴子何时落地？",
+       "ref": "N78"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-20/10735037.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "11月LPR报价出炉：1年期为3.0%，5年期以上为3.5%",
+       "ref": "N84"
+      },
+      {
+       "url": "https://finance.sina.com.cn/jryx/bank/2026-11-20/doc-inizitcn7337800.shtml",
+       "publisher": "金融一线",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "11月LPR报价出炉：1年期和5年期以上利率均保持不变",
+       "ref": "N97"
+      },
+      {
+       "url": "https://finance.sina.com.cn/wm/2026-11-20/doc-inizixmi5627306.shtml",
+       "publisher": "21世纪经济报道",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "最新LPR公布",
+       "ref": "N99"
+      },
+      {
+       "url": "https://finance.sina.com.cn/money/bond/market/2026-11-20/doc-inizitcm5749647.shtml",
+       "publisher": "市场资讯",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "一年期、五年期LPR均维持不变",
+       "ref": "N100"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3202908",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "1年期贷款市场报价利率（LPR）最新报3.00%，上次为3.00%；5年期报3.50%，上次为3.50%。",
+       "ref": "N106"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "【一年期、五年期LPR均维持不变】中国央行将一年期和五年期贷款市场报价利率（LPR）分别维持在3%和3.5%不变，为连续",
+       "ref": "N108"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3202903",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "中国11月一年期贷款市场报价利率(LPR) 3%，前值 3%。",
+       "ref": "N110"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3202902",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "中国11月五年期贷款市场报价利率(LPR) 3.5%，前值 3.5%。",
+       "ref": "N111"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "LPR已连续18个月维持不变。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/jjxw/2026-11-20/doc-inizixmn4010746.shtml",
+       "publisher": "界面",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "LPR连续18个月“按兵不动”，降息靴子何时落地？",
+       "ref": "N78"
+      },
+      {
+       "url": "https://finance.sina.com.cn/money/bond/market/2026-11-20/doc-inizitcm5749647.shtml",
+       "publisher": "市场资讯",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "一年期、五年期LPR均维持不变",
+       "ref": "N100"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "【一年期、五年期LPR均维持不变】中国央行将一年期和五年期贷款市场报价利率（LPR）分别维持在3%和3.5%不变，为连续",
+       "ref": "N108"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "11月LPR利率维持不变，你的月供或贷款利息支出近期保持稳定",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你关注的基准利率锚定指标保持不变，房贷或大额贷款利息支出近期将维持现状",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-20T04:01:46.348Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261120-4ca5g",
+   "created_at": "2026-11-20T04:01:46.348Z",
+   "source": "auto",
+   "title": "南方22日起将迎来新一轮降雨",
+   "url": "https://www.chinanews.com.cn/sh/2026/11-20/10735007.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-20",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "2026年11月20日全国大部降水稀少，本轮冷空气影响逐渐收尾。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "【冷空气影响趋于结束 全国大部降水缩减22日后南方降水将发展增多 】虽然本轮冷空气的影响已逐渐收尾，但今天（11月20日",
+       "ref": "N123"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-20/10735007.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "中央气象台：未来两天，全国大部降水稀少",
+       "ref": "N134"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "11月22日起，西南地区东部、江南、华南等地将出现降雨，需关注对交通运输的影响。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "【冷空气影响趋于结束 全国大部降水缩减22日后南方降水将发展增多 】虽然本轮冷空气的影响已逐渐收尾，但今天（11月20日",
+       "ref": "N123"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-20/10735007.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "中央气象台：未来两天，全国大部降水稀少",
+       "ref": "N134"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "22日起南方将迎新一轮降雨，你本周日的户外钓鱼行程和长途驾驶可能受影响",
+   "undetermined": null,
+   "relevance": 3,
+   "relevance_reason": "你周末常去常德澧县和石门一带钓鱼，22日江南地区的降雨将直接影响你的周末出行与户外计划",
+   "profile_refs": [
+    "city",
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利空",
+     "strength": 1,
+     "horizon": "1周内",
+     "path": {
+      "fact": "11月22日起江南等地将出现降雨（依据[1]）",
+      "direct": "湖南常德及石门所在的江南地区周日将迎来降雨天气",
+      "intermediate": "降雨导致路面湿滑降低长途自驾安全性，且不适宜户外钓鱼",
+      "user_effect": "你周日前往澧县和石门钓鱼的计划将受到天气干扰，自驾往返行车风险增加"
+     },
+     "based_on": [
+      1
+     ],
+     "confidence": "高"
+    }
+   ],
+   "action": {
+    "do": "将本周钓鱼行程提前至21日（周六）完成，或避开22日降雨时段自驾出行",
+    "trigger": "2026-11-21前规划周末行程时",
+    "basis": "22日江南地区迎降雨，提前至21日出行可避开长速湿滑行驶风险及雨中钓鱼体验落差",
+    "confidence": "高",
+    "review_on": "2026-11-21",
+    "status": "已降级"
+   },
+   "validation_notes": [
+    "待办建议超过 3 条，降为知道即可"
+   ],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-20T04:01:46.348Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261120-5if0w",
+   "created_at": "2026-11-20T04:01:46.348Z",
+   "source": "auto",
+   "title": "国际原油期货19日收盘涨跌不一",
+   "url": "https://wallstreetcn.com/livenews/3202782",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-20",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "2026年11月19日收盘，纽约WTI 12月原油期货下跌0.05美元，收于每桶83.21美元。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "【国际油价19日涨跌不一】截至当天收盘，纽约商品交易所12月交货的轻质原油期货价格下跌5美分，收于每桶83.21美元，跌",
+       "ref": "N210"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "WTI 12月原油期货收报83.21美元/桶。NYMEX 12月天然气期货收报3.2680美元/百万英热单位。NYMEX",
+       "ref": "N240"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3202782",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "WTI 12月原油期货收跌0.05美元，跌幅0.06%，报83.21美元/桶。 布伦特1月原油期货收涨0.03美元，涨幅",
+       "ref": "N241"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "布伦特1月原油期货上涨0.03美元，收于每桶91.98美元。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "【国际油价19日涨跌不一】截至当天收盘，纽约商品交易所12月交货的轻质原油期货价格下跌5美分，收于每桶83.21美元，跌",
+       "ref": "N210"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3202782",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "WTI 12月原油期货收跌0.05美元，跌幅0.06%，报83.21美元/桶。 布伦特1月原油期货收涨0.03美元，涨幅",
+       "ref": "N241"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国际原油期货微幅波动，对你的日常加油成本几乎无影响",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你驾驶混动车型需要加油，但国际原油日内极微小波动不会直接引发国内油价调整",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-20T04:01:46.348Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261120-ly013",
+   "created_at": "2026-11-20T04:01:46.348Z",
+   "source": "auto",
+   "title": "全国电动汽车充电枪总数超2539万个",
+   "url": "https://www.chinanews.com.cn/sh/2026/11-20/10735117.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-20",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "截至2026年10月底，我国电动汽车充电基础设施（枪）总数达到2539.1万个。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-20/10735117.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "截至10月底，我国电动汽车充电基础设施(枪)总数达到2539.1万个",
+       "ref": "N5"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "【国家能源局：截至10月底，我国电动汽车充电基础设施（枪）总数达到2539.1万个，同比增长36.2%】11月20日，国",
+       "ref": "N17"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "充电基础设施总数同比增长36.2%。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-20/10735117.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "截至10月底，我国电动汽车充电基础设施(枪)总数达到2539.1万个",
+       "ref": "N5"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "【国家能源局：截至10月底，我国电动汽车充电基础设施（枪）总数达到2539.1万个，同比增长36.2%】11月20日，国",
+       "ref": "N17"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "全国充电基础设施同比大增，为你长途驾驶混动车的后续补能提供更多保障",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你开混动车常跑长途，充电设施快速增长保障了你长途出行的补能便利性",
+   "profile_refs": [
+    "vehicle_type",
+    "long_trip"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-20T04:01:46.348Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261120-bffb6",
+   "created_at": "2026-11-20T04:01:46.348Z",
+   "source": "auto",
+   "title": "混合固液电池具备商业交付能力",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "2026年混合固液电池已完成覆盖原材料供应至整车集成，具备市场化商业交付能力。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "【混合固液电池已具备市场化商业交付能力 全固态电池完成车规级样件验证】在今日进行的第十一届动力电池应用国际峰会上，《20",
+       "ref": "N19"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "全固态电池已完成车规级样件验证。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "【混合固液电池已具备市场化商业交付能力 全固态电池完成车规级样件验证】在今日进行的第十一届动力电池应用国际峰会上，《20",
+       "ref": "N19"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "混合固液电池具备交付能力，属于行业远期技术演进，对你近期用车无影响",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你使用的是混动车型，固态电池商业化进展属于汽车行业远期技术演进，不影响你当前用车决策",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-20T04:01:46.348Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261120-wftqo",
+   "created_at": "2026-11-20T04:01:46.348Z",
+   "source": "auto",
+   "title": "OpenAI向部分用户测试ChatGPT新功能",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "OpenAI正在对少量ChatGPT Plus用户测试改进主动性表现的新功能dots。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "OpenAI Codex产品负责人Tibo：注意，我们开始对少量 ChatGPT Plus 用户测试 dots。期待在扩",
+       "ref": "N184"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "该功能计划在扩展过程中推向所有ChatGPT Business用户。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "OpenAI Codex产品负责人Tibo：注意，我们开始对少量 ChatGPT Plus 用户测试 dots。期待在扩",
+       "ref": "N184"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "ChatGPT测试主动性AI新功能，可作为你关注效率工具的行业参考",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你从事公司运营管理工作，AI工具动态可作为工作参考，但该测试版功能尚无直接业务落地要求",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-20T04:01:46.348Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261120-vzotq",
+   "created_at": "2026-11-20T04:01:46.348Z",
+   "source": "auto",
+   "title": "双十一大促后网购保价维权引发关注",
+   "url": "https://www.chinanews.com.cn/sh/2026/11-20/10735098.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-20",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "“双十一”大促落幕后，有消费者反映下单页面标注“保价”的商品降价后申请退差价遭遇拒绝。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-20/10735098.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "双十一保价靠谱吗？补贴能否成为拒退理由",
+       "ref": "N35"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "部分商家以补贴为由拒绝向消费者退还降价差价。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-20/10735098.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "双十一保价靠谱吗？补贴能否成为拒退理由",
+       "ref": "N35"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "双十一保价维权引发关注，提醒你关注近期家庭消费订单",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "作为已婚家庭决策者，双十一网购保价争议提醒关注近期大额消费订单，但缺少你的具体购物信息",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-20T04:01:46.348Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261120-xroyl",
+   "created_at": "2026-11-20T04:01:46.348Z",
+   "source": "auto",
+   "title": "寒潮来袭提醒警惕心梗高发信号",
+   "url": "https://www.chinanews.com.cn/jk/2026/11-20/10735122.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-20",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "随着寒潮来袭，心脑血管疾病进入高发季节。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/jk/2026/11-20/10735122.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "进入高发季！出现这6个信号，可能是心梗",
+       "ref": "N12"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "公众需警惕身体出现的6个异常信号，防范心梗发作风险。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/jk/2026/11-20/10735122.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "进入高发季！出现这6个信号，可能是心梗",
+       "ref": "N12"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "寒潮来袭心梗高发，你周末外出钓鱼及家庭日常保暖需多加注意",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你周末有野外钓鱼习惯且已婚关注家庭健康，寒潮降温提醒你关注户外及家人保暖",
+   "profile_refs": [
+    "family",
+    "long_trip"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-20T04:01:46.348Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261119-vbadp",
    "created_at": "2026-11-19T04:16:24.651Z",
