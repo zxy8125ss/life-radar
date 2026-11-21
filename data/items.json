@@ -1,6 +1,412 @@
 {
- "updated_at": "2026-11-20T04:01:46.361Z",
+ "updated_at": "2026-11-21T04:01:23.198Z",
  "items": [
+  {
+   "id": "d20261121-eew0p",
+   "created_at": "2026-11-21T04:01:23.185Z",
+   "source": "auto",
+   "title": "后续：国际原油期货20日收盘微涨",
+   "url": "https://wallstreetcn.com/livenews/3203551",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-21",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "截至2026年11月20日收盘，纽约商品交易所12月交货的轻质原油期货价格上涨0.93%收于每桶83.98美元，1月交货的伦敦布伦特原油期货价格上涨0.64%收于每桶92.57美元。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-21",
+       "stance": "支持",
+       "note": "【国际油价20日微涨】国际油价20日微涨。截至当天收盘，纽约商品交易所12月交货的轻质原油期货价格上涨77美分，收于每桶",
+       "ref": "N91"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3203551",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-21",
+       "stance": "支持",
+       "note": "WTI 12月原油期货收涨0.77美元，涨幅0.93%，报83.98美元/桶。 布伦特1月原油期货收涨0.59美元，涨幅",
+       "ref": "N110"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国际原油价格微涨，对你跨城出行的加油成本影响微弱",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你驾驶混动车且周末常往返常德钓鱼，国际原油价格变动可能影响后续加油成本",
+   "profile_refs": [
+    "vehicle_type",
+    "long_trip"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-21T04:01:23.185Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261121-p8t6y",
+   "created_at": "2026-11-21T04:01:23.185Z",
+   "source": "auto",
+   "title": "官方辟谣社保断缴三个月账户清零",
+   "url": "https://www.chinanews.com.cn/sh/2026/11-20/10735519.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-20",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "官方对“社保断缴三个月账户清零”的网络传言进行辟谣，确认该说法不实。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-20/10735519.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "“社保断缴三个月账户清零”不实（2026·11·20）",
+       "ref": "N290"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "官方辟谣社保断缴清零传言，你的社保权益不受影响",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "作为职场在职员工，了解社保政策辟谣有助于消除断缴权益清零的误解与担忧",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-21T04:01:23.185Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261121-2cmfu",
+   "created_at": "2026-11-21T04:01:23.185Z",
+   "source": "auto",
+   "title": "新修订住房公积金管理条例施行满两个月",
+   "url": "https://www.chinanews.com.cn/sh/2026/11-21/10735632.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-21",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "新修订的《住房公积金管理条例》截至目前已施行满两个月，“租购修养”全周期保障正在落实落细。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-21/10735632.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-21",
+       "stance": "支持",
+       "note": "“租购修养”全周期保障正在落实落细",
+       "ref": "N38"
+      }
+     ]
+    }
+   ],
+   "status": "undetermined",
+   "one_liner": "公积金新规施行满两个月，因缺乏条款细节暂无法判断对你的影响",
+   "undetermined": {
+    "reason": "新闻仅提及公积金条例施行满两个月及宏观保障方向，缺乏具体条款及长沙当地落地细则，无法判断具体影响",
+    "missing": "新修订公积金条例的具体条款及长沙当地的执行细则"
+   },
+   "relevance": 1,
+   "relevance_reason": "你常住长沙并已婚，住房公积金政策与家庭住房保障权益相关",
+   "profile_refs": [
+    "city",
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-21T04:01:23.185Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261121-zzosm",
+   "created_at": "2026-11-21T04:01:23.185Z",
+   "source": "auto",
+   "title": "多地探索推行2.5天休假模式",
+   "url": "https://finance.sina.com.cn/stock/wbstock/2026-11-20/doc-inizkywy3900298.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-20",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "广西等多地出台措施鼓励推行“周五下午+周末”的2.5天休假模式，以进一步激活文旅消费。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/stock/wbstock/2026-11-20/doc-inizkywy3900298.shtml",
+       "publisher": "新浪",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "多地鼓励2.5天休假模式",
+       "ref": "N252"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "多地鼓励推行2.5天休假，暂未覆盖你所在地区及单位",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你周末常跨城出行，多地探索2.5天休假模式反映了休假政策趋势，但暂不影响你的工时",
+   "profile_refs": [
+    "long_trip",
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-21T04:01:23.185Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261121-ps41i",
+   "created_at": "2026-11-21T04:01:23.185Z",
+   "source": "auto",
+   "title": "腾讯混元团队称下一代模型将大幅扩容",
+   "url": "https://finance.sina.com.cn/stock/2026-11-21/doc-iniznhsk3523790.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-21",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "腾讯首席AI科学家姚顺雨及其团队在问答活动中透露，下一代混元模型将大幅扩容，且小尺寸模型已在路线图上。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-21",
+       "stance": "支持",
+       "note": "【腾讯姚顺雨团队深夜回应一切：小尺寸模型已在路线图上】今日凌晨，腾讯首席 AI 科学家、混元大模型负责人姚顺雨和混元团队",
+       "ref": "N22"
+      },
+      {
+       "url": "https://finance.sina.com.cn/stock/2026-11-21/doc-iniznhsk3523790.shtml",
+       "publisher": "新浪科技",
+       "published_at": "2026-11-21",
+       "stance": "支持",
+       "note": "腾讯姚顺雨团队深夜回应一切：下一代模型将大幅扩容，小尺寸模型已在路线图上",
+       "ref": "N23"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "腾讯公布下一代混元模型路线图，作为运营人员可关注AI进展",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "作为公司运营管理人员，关注腾讯大模型技术演变有助于了解潜在的业务流程改进工具",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-21T04:01:23.185Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261121-g6on6",
+   "created_at": "2026-11-21T04:01:23.185Z",
+   "source": "auto",
+   "title": "OpenAI向Plus用户推出ChatGPT Space",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "OpenAI已向ChatGPT Plus付费用户推出了ChatGPT Space新功能。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-21",
+       "stance": "支持",
+       "note": "OpenAI向Plus用户推出ChatGPT Space。",
+       "ref": "N115"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "ChatGPT推出Space功能，作为运营管理人员可了解效率工具",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你从事项目管理与流程改进工作，ChatGPT新功能可作为日常办公效率工具进行关注",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-21T04:01:23.185Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261121-8txd4",
+   "created_at": "2026-11-21T04:01:23.185Z",
+   "source": "auto",
+   "title": "第三届麓山科技金融大会在长沙举办",
+   "url": "https://www.chinanews.com.cn/cj/2026/11-20/10735541.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-20",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "2026年11月20日，第三届麓山科技金融大会在长沙举行，旨在推动政策、产品、资本与需求精准对接。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-20/10735541.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "湖南举办麓山科技金融大会 推动政策、产品、资本与需求精准对接",
+       "ref": "N267"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "麓山科技金融大会在长沙举办，属于本地金融动态，了解即可",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你常住长沙，本地举办的科技金融大会主要促进资本与项目对接，可作同城动态了解",
+   "profile_refs": [
+    "city"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-21T04:01:23.185Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261121-mvo4k",
+   "created_at": "2026-11-21T04:01:23.185Z",
+   "source": "auto",
+   "title": "后续：2026世界计算大会发布中国算力十大趋势",
+   "url": "https://www.chinanews.com.cn/cj/2026/11-20/10735564.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-20",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "在长沙举行的2026世界计算大会上，中国电子信息产业发展研究院于11月20日发布了《中国算力发展十大趋势(2026)》。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-20/10735564.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-20",
+       "stance": "支持",
+       "note": "2026世界计算大会发布中国算力发展十大趋势",
+       "ref": "N241"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "世界计算大会在长沙发布算力趋势，属于本地科技产业资讯",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你常住长沙，世界计算大会在本地发布算力趋势报告，属于同城科技行业资讯",
+   "profile_refs": [
+    "city"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-21T04:01:23.185Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261120-be5cz",
    "created_at": "2026-11-20T04:01:46.348Z",
