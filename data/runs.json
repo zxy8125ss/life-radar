@@ -1,6 +1,27 @@
 {
- "last_daily": "2026-11-21",
+ "last_daily": "2026-11-22",
  "log": [
+  {
+   "date": "2026-11-22",
+   "ok": true,
+   "added": 14,
+   "note": "",
+   "news": {
+    "中新网": 120,
+    "华尔街见闻": 600,
+    "新浪财经7×24": 800,
+    "新浪滚动": 400
+   },
+   "debug": {
+    "raw": 22,
+    "sample": "{\"title\":\"中东部迎新一轮冷空气与降温雨雪\",\"claims\":[{\"text\":\"2026年11月22日至24日，冷空气将影响我国中东部地区并带来大风降温，江南、华南及西南地区等地将出现降雨。\",\"kind\":\"事实\",\"refs\":[\"N33\"],\"level\":null,\"note\":\"\"}]}",
+    "graded": 22,
+    "after_dedupe": 22,
+    "results": 22,
+    "rel": "2,0,1,1,1,1,1,0,0,0,1,1,1,1,0,0,1,1,1,0,1,0"
+   },
+   "mode": "news"
+  },
   {
    "date": "2026-11-21",
    "ok": true,
@@ -1159,12 +1180,6 @@
    "ok": false,
    "added": 0,
    "note": "Gemini 不可用：gemini-3.6-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a | gemini-3.5-flash-lite 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a | gemini-3.5-flash-lite 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a"
-  },
-  {
-   "date": "2026-10-07",
-   "ok": false,
-   "added": 0,
-   "note": "Gemini 不可用"
   }
  ]
 }
