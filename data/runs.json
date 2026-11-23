@@ -1,6 +1,27 @@
 {
- "last_daily": "2026-11-22",
+ "last_daily": "2026-11-23",
  "log": [
+  {
+   "date": "2026-11-23",
+   "ok": true,
+   "added": 9,
+   "note": "只找到 9 条合格信息",
+   "news": {
+    "中新网": 120,
+    "华尔街见闻": 600,
+    "新浪滚动": 400,
+    "新浪财经7×24": 800
+   },
+   "debug": {
+    "raw": 13,
+    "sample": "{\"title\":\"四部门印发一老一小服务体系建设方案\",\"claims\":[{\"text\":\"国家发改委等四部门联合印发《“一老一小”服务体系建设实施方案》，提出到2030年3岁以下婴幼儿入托率较2025年提高6个百分点。\",\"kind\":\"事实\",\"refs\":[\"N95\",\"N110\"],\"level\":null,\"note\":\"\"},{\"text\":\"方案提出重点改造2000个老旧公办养老机构，并鼓励发展适用于养老场景的人工智能体与服务机器人。\",\"kind\":\"事实\",\"refs\":[\"N108\",\"N109\"],\"level\":null,\"note\":\"\"}]}",
+    "graded": 13,
+    "after_dedupe": 13,
+    "results": 13,
+    "rel": "1,0,0,1,0,1,0,1,0,1,0,1,1"
+   },
+   "mode": "news"
+  },
   {
    "date": "2026-11-22",
    "ok": true,
@@ -1168,12 +1189,6 @@
    "added": 0,
    "note": "Gemini 配额用完（429），等配额恢复后会自动补跑",
    "detail": "Gemini 不可用：gemini-3.6-flash 429 { \"error\": { \"code\": 429, \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \", \"status\": \"RESOURCE_EXHAUSTED\", \"details\": [ { \"@type\": \"type.googleapis.com/google.rpc.Help\", \"links\": [ { \"description\": \"Learn more about Gemini API quotas\", \"url\": \"https://ai.google.dev/gemini-api/docs/rate-limits\" } ] } ] } }  | gemini-3.5-flash-lite 429 { \"error\": { \"code\": 429, \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \", \"status\": \"RESOURCE_EXHAUSTED\", \"details\": [ { \"@type\": \"type.googleapis.com/google.rpc.Help\", \"links\": [ { \"description\": \"Learn more about Gemini API quotas\", \"url\": \"https://ai.google.dev/gemini-api/docs/rate-limits\" } ] } ] } }  | gemini-3.5-flash-lite 429 { \"error\": { \"code\": 429, \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \", \"status\": \"RESOURCE_EXHAUSTED\", \"details\": [ { \"@type\": \"type.googleapis.com/google.rpc.Help\", \"links\": [ { \"description\": \"Learn more about Gemini API quotas\", \"url\": \"https://ai.google.dev/gemini-api/docs/rate-limits\" } ] } ] } } "
-  },
-  {
-   "date": "2026-10-07",
-   "ok": false,
-   "added": 0,
-   "note": "Gemini 不可用：gemini-3.6-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a | gemini-3.5-flash-lite 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a | gemini-3.5-flash-lite 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a"
   },
   {
    "date": "2026-10-07",
