@@ -1,6 +1,27 @@
 {
- "last_daily": "2026-11-23",
+ "last_daily": "2026-11-24",
  "log": [
+  {
+   "date": "2026-11-24",
+   "ok": true,
+   "added": 10,
+   "note": "",
+   "news": {
+    "新浪财经7×24": 800,
+    "中新网": 120,
+    "新浪滚动": 400,
+    "华尔街见闻": 600
+   },
+   "debug": {
+    "raw": 16,
+    "sample": "{\"title\":\"国内成品油26日开启调价窗口或迎连跌\",\"claims\":[{\"text\":\"国内成品油将于2026年11月26日24时开启2026年第23轮调价窗口。\",\"kind\":\"事实\",\"refs\":[\"N234\",\"N265\",\"N301\"],\"level\":null,\"note\":\"\"},{\"text\":\"受近期国际原油价格走跌等因素影响，本轮国内成品油零售价有望迎来“二连跌”。\",\"kind\":\"推测\",\"refs\":[\"N234\",\"N265\",\"N301\"],\"level\":null,\"note\":\"\"}]}",
+    "graded": 16,
+    "after_dedupe": 16,
+    "results": 16,
+    "rel": "2,1,1,1,0,2,0,1,0,1,1,1,0,1,0,0"
+   },
+   "mode": "news"
+  },
   {
    "date": "2026-11-24",
    "ok": false,
@@ -1207,13 +1228,6 @@
     "新浪滚动": 400
    },
    "mode": "news"
-  },
-  {
-   "date": "2026-10-07",
-   "ok": false,
-   "added": 0,
-   "note": "Gemini 配额用完（429），等配额恢复后会自动补跑",
-   "detail": "Gemini 不可用：gemini-3.6-flash 429 { \"error\": { \"code\": 429, \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \", \"status\": \"RESOURCE_EXHAUSTED\", \"details\": [ { \"@type\": \"type.googleapis.com/google.rpc.Help\", \"links\": [ { \"description\": \"Learn more about Gemini API quotas\", \"url\": \"https://ai.google.dev/gemini-api/docs/rate-limits\" } ] } ] } }  | gemini-3.5-flash-lite 429 { \"error\": { \"code\": 429, \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \", \"status\": \"RESOURCE_EXHAUSTED\", \"details\": [ { \"@type\": \"type.googleapis.com/google.rpc.Help\", \"links\": [ { \"description\": \"Learn more about Gemini API quotas\", \"url\": \"https://ai.google.dev/gemini-api/docs/rate-limits\" } ] } ] } }  | gemini-3.5-flash-lite 429 { \"error\": { \"code\": 429, \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \", \"status\": \"RESOURCE_EXHAUSTED\", \"details\": [ { \"@type\": \"type.googleapis.com/google.rpc.Help\", \"links\": [ { \"description\": \"Learn more about Gemini API quotas\", \"url\": \"https://ai.google.dev/gemini-api/docs/rate-limits\" } ] } ] } } "
   }
  ]
 }
