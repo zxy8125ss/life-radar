@@ -1,6 +1,643 @@
 {
- "updated_at": "2026-11-24T10:24:12.997Z",
+ "updated_at": "2026-11-25T05:29:17.344Z",
  "items": [
+  {
+   "id": "d20261125-66ndg",
+   "created_at": "2026-11-25T05:29:17.331Z",
+   "source": "auto",
+   "title": "后续：国际原油期货24日收盘上涨",
+   "url": "https://wallstreetcn.com/livenews/3205197",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-25",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "11月24日国际原油期货价格上涨，纽约WTI原油1月合约收于82.05美元/桶（涨2.35%），伦敦布伦特原油1月合约收于91.40美元/桶（涨2.27%）。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-25",
+       "stance": "支持",
+       "note": "【国际油价24日上涨】截至当天收盘，纽约商品交易所1月交货的轻质原油期货价格上涨1.88美元，收于每桶82.05美元，涨",
+       "ref": "N260"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3205197",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-25",
+       "stance": "支持",
+       "note": "WTI 1月原油期货收涨1.88美元，涨幅2.35%，报82.05美元/桶。 布伦特1月原油期货收涨2.03美元，涨幅2",
+       "ref": "N271"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国际原油价格上涨，你长途驾车去常德钓鱼的加油成本可能小幅增加",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你常驾驶混动车远赴常德钓鱼，国际原油上涨推高油价将略微增加你的长途出行油费",
+   "profile_refs": [
+    "vehicle_type",
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利空",
+     "strength": 1,
+     "horizon": "1周内",
+     "path": {
+      "fact": "11月24日国际原油期货价格上涨超2%（idx 0）",
+      "direct": "国内成品油调价周期内面临上调压力",
+      "intermediate": "预计后续国内汽柴油零售限价可能跟涨",
+      "user_effect": "你驾驶混动车前往常德钓鱼的长途燃油成本小幅上升"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-25T05:29:17.331Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261125-syknk",
+   "created_at": "2026-11-25T05:29:17.331Z",
+   "source": "auto",
+   "title": "千问Go全面开放免费AI代打电话服务",
+   "url": "https://wallstreetcn.com/livenews/3205388",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-25",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "11月25日，千问Go全面开放免费代打电话服务，用户授权后可让AI代为联系餐厅预订包间、向酒店查询遗失物品及联系快递员确认进度等。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3205388",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-25",
+       "stance": "支持",
+       "note": "11月25日，千问Go全面开放代打电话服务，人人都能免费拥有一个帮自己打电话的专属AI助手。告知千问拨打对象和通话需求，",
+       "ref": "N68"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-25",
+       "stance": "支持",
+       "note": "【千问Go全面开放免费代打电话服务，支持订餐厅、找快递、寻失物】千问Go全面开放代打电话服务，人人都能免费拥有一个帮自己",
+       "ref": "N99"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-25",
+       "stance": "支持",
+       "note": "【千问Go开放免费代打电话服务，支持订餐厅、找快递、寻失物】千问Go开放代打电话服务，人人都能免费拥有一个帮自己打电话的",
+       "ref": "N101"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "千问Go开放免费AI代打电话，你在预订或确认快递时多了一个便捷工具",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "AI代打电话服务免费开放，可方便你日常联系商家或快递",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-25T05:29:17.331Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261125-eyfd5",
+   "created_at": "2026-11-25T05:29:17.331Z",
+   "source": "auto",
+   "title": "长沙安纳芯科技成立含AI及芯片业务",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "长沙安纳芯科技有限公司于近日成立，由蓝思科技等公司共同持股，经营范围包含集成电路芯片设计与销售以及人工智能软件开发等。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-25",
+       "stance": "支持",
+       "note": "【蓝思科技等成立科技公司 含AI及集成电路芯片业务】企查查APP显示，近日，长沙安纳芯科技有限公司成立，经营范围包含集成",
+       "ref": "N123"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "长沙新设AI及芯片企业，你所在的常驻城市增加了一家科技企业",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "新企业设在你常驻的长沙，属于本地产业新动态",
+   "profile_refs": [
+    "city"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-25T05:29:17.331Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261125-sosgq",
+   "created_at": "2026-11-25T05:29:17.331Z",
+   "source": "auto",
+   "title": "湖南等多省储备超万亿元六张网项目",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "湖南、四川、湖北等多个省份已各自储备总投资额超万亿元的“六张网”（水网、物流网、新型电网等）相关工程项目。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-25",
+       "stance": "支持",
+       "note": "【多省份超万亿元项目入库 “六张网”建设全面推进】近期，一批水网、物流网、新型电网等相关工程项目启动实施，“六张网”取得",
+       "ref": "N201"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "湖南储备万亿六张网项目，你常住省份的基础设施建设力度加大",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你常住湖南，省内重大基础设施工程项目储备丰富",
+   "profile_refs": [
+    "city"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-25T05:29:17.331Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261125-r23t5",
+   "created_at": "2026-11-25T05:29:17.331Z",
+   "source": "auto",
+   "title": "全国雨雪范围收缩北方气温明显回升",
+   "url": "https://www.chinanews.com.cn/sh/2026/11-25/10737317.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-25",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "11月25日至26日全国雨雪范围明显收缩，大部地区气温逐步回升，26日最高气温20℃线将北抬至河北南部。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-25",
+       "stance": "支持",
+       "note": "【我国雨雪范围明显收缩 最高气温20℃线将北抬至河北】11月25日至26日，我国雨雪范围明显收缩，后天起大部地区将以晴朗",
+       "ref": "N149"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "11月26日开始还将有一轮新冷空气影响北方地区。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-25/10737317.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-25",
+       "stance": "支持",
+       "note": "11月26日开始又将有冷空气影响北方 全国降水总体较弱",
+       "ref": "N151"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "全国雨雪收缩且北方升温，对你在长沙的日常出行影响较小",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "本轮升温主要覆盖北方地区，你常住长沙受影响较小",
+   "profile_refs": [
+    "city"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-25T05:29:17.331Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261125-6oxz0",
+   "created_at": "2026-11-25T05:29:17.331Z",
+   "source": "auto",
+   "title": "全国铁路第一批列车车次变更正式实施",
+   "url": "http://www.chinanews.com.cn/gn/shipin/cns-d/2026/11-25/news1075929.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-25",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "全国铁路列车车次编排改革第一批车次变更于11月25日实施，普速旅客列车于25日0时起、货物列车于24日18时起启用2026版新车次。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "http://www.chinanews.com.cn/gn/shipin/cns-d/2026/11-25/news1075929.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-25",
+       "stance": "支持",
+       "note": "全国铁路第一批车次变更正式实施",
+       "ref": "N54"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-25",
+       "stance": "支持",
+       "note": "【普速旅客列车和旅游列车车次变更今日实施 货物列车车次变更已于11月24日18时实施】全国铁路列车车次编排改革顺利推进，",
+       "ref": "N86"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-25/10737355.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-25",
+       "stance": "支持",
+       "note": "普速旅客列车和旅游列车车次变更11月25日实施",
+       "ref": "N114"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "全国铁路启用新车次编排，若你近期乘坐火车出行需留意车次变化",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "普速列车等车次发生变更，涉及铁路出行车次信息调整",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-25T05:29:17.331Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261125-3m8qz",
+   "created_at": "2026-11-25T05:29:17.331Z",
+   "source": "auto",
+   "title": "后续：生猪期货与现货价格明显回暖",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-25/doc-inizwmwt9814764.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-25",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "11月24日国内生猪2703期货合约收涨1.16%，现货市场价格在11月23日大涨后持续走高。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/jjxw/2026-11-25/doc-inizwmwt9814764.shtml",
+       "publisher": "证券时报",
+       "published_at": "2026-11-25",
+       "stance": "支持",
+       "note": "天气降温推升消费 生猪市场价格回暖",
+       "ref": "N293"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "生猪价格回暖走高，你和家人采购猪肉的家庭消费成本可能略有增加",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "生猪现货及期货价格走高，可能影响你和家人日常生活消费开支",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-25T05:29:17.331Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261125-bqu6j",
+   "created_at": "2026-11-25T05:29:17.331Z",
+   "source": "auto",
+   "title": "今年前10个月全国城镇调查失业率均值5.2%",
+   "url": "https://finance.sina.com.cn/jjxw/2026-11-25/doc-inizwwnp9657967.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-25",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "2026年前10个月，我国城镇调查失业率平均值为5.2%，与上年同期持平。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/jjxw/2026-11-25/doc-inizwwnp9657967.shtml",
+       "publisher": "人民日报",
+       "published_at": "2026-11-25",
+       "stance": "支持",
+       "note": "每周经济评论：在形势变化中增强大就业观",
+       "ref": "N215"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "全国城镇失业率均值持平，你所在的职场大环境整体维持稳定",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "宏观失业率数据持平反映劳动力市场总体平稳，与你的工作大环境相关",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-25T05:29:17.331Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261125-9qild",
+   "created_at": "2026-11-25T05:29:17.331Z",
+   "source": "auto",
+   "title": "央行开展8000亿元MLF与逆回购操作",
+   "url": "https://www.chinanews.com.cn/cj/2026/11-25/10737327.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-25",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "11月25日中国人民银行开展了8000亿元1年期MLF操作、5000亿元7天期逆回购操作及6170亿元隔夜逆回购操作。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-25/10737327.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-25",
+       "stance": "支持",
+       "note": "11月25日央行开展6170亿元隔夜逆回购操作",
+       "ref": "N122"
+      },
+      {
+       "url": "https://finance.sina.com.cn/jryx/bank/2026-11-25/doc-inizxaut4425111.shtml",
+       "publisher": "金融一线",
+       "published_at": "2026-11-25",
+       "stance": "支持",
+       "note": "央行今日开展6170亿元隔夜逆回购操作",
+       "ref": "N137"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3205320",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-25",
+       "stance": "支持",
+       "note": "中国央行进行6,170亿元人民币隔夜逆回购操作，操作利率 1.25%。 中国央行隔夜逆回购今日净投放1,010亿元人民币",
+       "ref": "N146"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-25",
+       "stance": "支持",
+       "note": "央行进行 6,170 亿元人民币隔夜逆回购操作 操作利率 1.25%。",
+       "ref": "N147"
+      },
+      {
+       "url": "https://finance.sina.com.cn/money/bank/bank_yhfg/2026-11-25/doc-inizxauq8601592.shtml",
+       "publisher": "上海证券报",
+       "published_at": "2026-11-25",
+       "stance": "支持",
+       "note": "8000亿元MLF+5000亿元7天期逆回购 央行组合操作呵护跨月流动性",
+       "ref": "N169"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "央行开展超万亿公开市场操作，对你个人日常生活无直接影响",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "央行资金投放属于宏观货币政策操作，了解即可",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-25T05:29:17.331Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261125-ys2ok",
+   "created_at": "2026-11-25T05:29:17.331Z",
+   "source": "auto",
+   "title": "疫苗处方制度进入落地期推动成人接种",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "疫苗处方制度进入落地实施阶段，成人接种场景正从公共卫生场景向临床诊疗场景延伸。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-25",
+       "stance": "支持",
+       "note": "【国泰海通：疫苗处方制度进入落地期 行业复苏逻辑强化】国泰海通发布研报称，疫苗处方制度进入落地期，成人接种从公卫场景向临",
+       "ref": "N184"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "疫苗处方制度落地，你和家人按需接种成人疫苗有了更多临床渠道",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "成人疫苗接种拓展至临床诊疗场景，方便你及家人后续健康管理",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-25T05:29:17.331Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261125-gni4v",
+   "created_at": "2026-11-25T05:29:17.331Z",
+   "source": "auto",
+   "title": "现代汽车计划明年推出标准化电动车慢充系统",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-25/doc-inizxaut4359336.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-25",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "现代汽车集团计划于明年在韩国推出专为住宅及公寓慢充场景设计、功率为7千瓦和11千瓦的标准化电动汽车充电系统。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-25",
+       "stance": "支持",
+       "note": "【现代汽车集团计划明年在韩国推出标准化电动汽车充电系统】据报道，现代汽车集团11月25日表示，其计划于明年在韩国出一套标",
+       "ref": "N155"
+      },
+      {
+       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-25/doc-inizxaut4359336.shtml",
+       "publisher": "环球市场播报",
+       "published_at": "2026-11-25",
+       "stance": "支持",
+       "note": "现代汽车计划明年在韩国推出标准化电动汽车充电系统",
+       "ref": "N171"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "现代汽车计划在韩国推慢充系统，对你国内驾车出行无直接影响",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "海外车企慢充系统规划与你国内驾驶混动车无直接关系",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-25T05:29:17.331Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261124-lp3v5",
    "created_at": "2026-11-24T10:24:12.983Z",
