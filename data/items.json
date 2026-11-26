@@ -1,6 +1,1059 @@
 {
- "updated_at": "2026-11-25T05:29:17.344Z",
+ "updated_at": "2026-11-26T05:32:04.630Z",
  "items": [
+  {
+   "id": "d20261126-ngw3s",
+   "created_at": "2026-11-26T05:32:04.491Z",
+   "source": "auto",
+   "title": "全国医保上线连续用药管理查询",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国家医保局上线“连续用药管理”功能，参保人可通过全国统一医保信息平台便捷查询个人用药情况和购药记录。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "【医保上线新功能 参保人可便捷查询个人用药情况 】记者11月26日从国家医保局获悉，依托全国统一医保信息平台，“连续用药",
+       "ref": "N315"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "该查询功能范围覆盖全国所有定点医疗机构和定点零售药店，并支持按年度和购药机构筛选。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "【医保上线新功能 参保人可便捷查询个人用药情况 】记者11月26日从国家医保局获悉，依托全国统一医保信息平台，“连续用药",
+       "ref": "N315"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国家医保上线连续用药查询功能，你可随时在平台查看购药记录",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你可以通过全国统一医保平台查询个人及家庭的电子购药与用药历史记录",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-26T05:32:04.491Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261126-q1l9e",
+   "created_at": "2026-11-26T05:32:04.491Z",
+   "source": "auto",
+   "title": "国家卫健委优化健康体检服务",
+   "url": "https://wallstreetcn.com/livenews/3206070",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-26",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国家卫健委办公厅印发关于进一步优化健康体检服务的通知，推进“互联网+健康体检”。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3206070",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "国家卫健委办公厅发布关于进一步优化健康体检服务的通知，其中提出，健康体检机构要积极推进“互联网+健康体检”。鼓励有条件的",
+       "ref": "N135"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/gn/2026/11-26/10737963.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "国家卫生健康委办公厅关于进一步优化健康体检服务的通知",
+       "ref": "N174"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "【国家卫生健康委：进一步优化健康体检服务】为落实全国卫生与健康大会部署，进一步加强健康体检机构建设管理，优化健康体检服务",
+       "ref": "N182"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "通知鼓励有条件的医疗机构设置健康体检咨询门诊，提供体检报告解读及延续性服务。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3206070",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "国家卫健委办公厅发布关于进一步优化健康体检服务的通知，其中提出，健康体检机构要积极推进“互联网+健康体检”。鼓励有条件的",
+       "ref": "N135"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/gn/2026/11-26/10737963.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "国家卫生健康委办公厅关于进一步优化健康体检服务的通知",
+       "ref": "N174"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "【国家卫生健康委：进一步优化健康体检服务】为落实全国卫生与健康大会部署，进一步加强健康体检机构建设管理，优化健康体检服务",
+       "ref": "N182"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "卫健委推进互联网+体检，你和家人体检后可在线获取报告解读",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你和家人后续进行健康体检时，可获得更便利的门诊解读与延续服务",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-26T05:32:04.491Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261126-q5wsy",
+   "created_at": "2026-11-26T05:32:04.491Z",
+   "source": "auto",
+   "title": "南方大部转晴升温北方冷空气",
+   "url": "https://www.chinanews.com.cn/sh/2026/11-26/10737880.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-26",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "11月26日起至11月底，南方大部将陆续转晴并持续升温，多地暖如小阳春。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "【南方雨后转晴多地将暖如小阳春 北方气温波动回升】今天（11月26日）起至11月底，南方大部将陆续转晴并持续升温。同时，",
+       "ref": "N304"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "26日至28日新一轮冷空气将影响北方地区，带来大风降温与降雪天气。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-26/10737880.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "新一轮冷空气将影响北方地区",
+       "ref": "N316"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "南方大部周末转晴升温，方便你前往常德澧县和石门户外钓鱼",
+   "undetermined": null,
+   "relevance": 3,
+   "relevance_reason": "你周末常去常德澧县和石门钓鱼，南方周末转晴升温将直接改善你的作钓与出行条件",
+   "profile_refs": [
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "物价与家庭消费",
+     "direction": "利好",
+     "strength": 2,
+     "horizon": "1周内",
+     "path": {
+      "fact": "11月26日起至11月底南方大部将陆续转晴并持续升温",
+      "direct": "长沙及常德澧县、石门等地周末气温回升、天气转晴",
+      "intermediate": "水温与体感舒适度提升，户外作钓与跨城交通条件变好",
+      "user_effect": "你本周末去常德钓鱼的体感舒适度和作钓条件得到改善"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "高"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-26T05:32:04.491Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261126-dp8t2",
+   "created_at": "2026-11-26T05:32:04.491Z",
+   "source": "auto",
+   "title": "全国总工会推职工争议线上调解",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "工会职工争议调解服务平台正式建成并在全国31个省（区、市）和新疆生产建设兵团总工会同步上线。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "【全国上线！工会职工争议调解有了“线上快车道”】从全国总工会2026年第四季度新闻发布会上了解到，日前，工会职工争议调解",
+       "ref": "N130"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "平台面向全国职工提供劳动争议调解和法律援助“线上快车道”服务。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "【全国上线！工会职工争议调解有了“线上快车道”】从全国总工会2026年第四季度新闻发布会上了解到，日前，工会职工争议调解",
+       "ref": "N130"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "工会职工争议调解平台上线，为你提供在线劳动争议调解渠道",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你作为公司普通员工，若遇到劳动争议可通过该平台申请线上调解",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-26T05:32:04.491Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261126-08prw",
+   "created_at": "2026-11-26T05:32:04.491Z",
+   "source": "auto",
+   "title": "三部门印发新一代通信网方案",
+   "url": "https://www.chinanews.com.cn/cj/2026/11-26/10738003.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-26",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "工信部联合国家网信办、国家发改委印发《新一代通信网建设实施方案》。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-26/10738003.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "中国提出到2030年建成覆盖完善、性能领先的新一代通信网",
+       "ref": "N58"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "【三部委：强化新一代通信网产业生态支撑和政策要素保障支撑】工业和信息化部等三部委印发《新一代通信网建设实施方案》。《实施",
+       "ref": "N301"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-26/10737884.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "6G要来了！三部委：到2030年建成性能领先的新一代通信网",
+       "ref": "N309"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3205986",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "工业和信息化部日前联合国家网信办、国家发展改革委印发《新一代通信网建设实施方案》。《实施方案》要求，到2030年，建成覆",
+       "ref": "N313"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "方案提出到2030年建成覆盖完善、性能领先的新一代通信网。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-26/10738003.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "中国提出到2030年建成覆盖完善、性能领先的新一代通信网",
+       "ref": "N58"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-26/10737884.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "6G要来了！三部委：到2030年建成性能领先的新一代通信网",
+       "ref": "N309"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3205986",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "工业和信息化部日前联合国家网信办、国家发展改革委印发《新一代通信网建设实施方案》。《实施方案》要求，到2030年，建成覆",
+       "ref": "N313"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "三部门印发新一代通信网建设方案，属于长期规划对你暂无直接影响",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "通信网建设规划面向2030年，对你当前的运营工作与生活无直接影响",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-26T05:32:04.491Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261126-1pm9c",
+   "created_at": "2026-11-26T05:32:04.491Z",
+   "source": "auto",
+   "title": "全国电力市场交易电量保持增长",
+   "url": "https://www.chinanews.com.cn/cj/2026/11-26/10737981.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-26",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "2026年10月，全国各电力交易机构完成交易电量6435亿千瓦时，同比增长14.1%。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-26/10737981.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "1-10月全国电力市场交易电量同比增长18.3%",
+       "ref": "N82"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "【国家能源局：10月全国各电力交易机构完成交易电量6435亿千瓦时，同比增长14.1%】2026年10月，全国各电力交易",
+       "ref": "N96"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "1至10月全国电力市场交易电量同比增长18.3%。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-26/10737981.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "1-10月全国电力市场交易电量同比增长18.3%",
+       "ref": "N82"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "10月全国电力交易电量保持增长，反映宏观用电需求稳定",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "全国电力市场交易规模增长属于宏观经济指标，对你个人岗位影响微弱",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-26T05:32:04.491Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261126-ngmeq",
+   "created_at": "2026-11-26T05:32:04.491Z",
+   "source": "auto",
+   "title": "央行开展5715亿元逆回购操作",
+   "url": "https://www.chinanews.com.cn/cj/2026/11-26/10737911.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-26",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "中国人民银行于11月26日以固定利率、数量招标方式开展了5715亿元隔夜逆回购操作。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-26/10737911.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "11月26日央行开展5715亿元隔夜逆回购操作",
+       "ref": "N219"
+      },
+      {
+       "url": "https://finance.sina.com.cn/jryx/bank/2026-11-26/doc-inizzmzi9021235.shtml",
+       "publisher": "金融一线",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "央行今日开展5715亿元隔夜逆回购操作",
+       "ref": "N222"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3206022",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "中国央行公开市场开展5715亿元隔夜逆回购操作，操作利率1.25%。今日6170亿元逆回购到期。",
+       "ref": "N246"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "央行进行 5,715 亿元人民币隔夜逆回购操作 操作利率 1.25%。",
+       "ref": "N249"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "本次隔夜逆回购操作利率为1.25%，当日实现净回笼455亿元人民币。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/jryx/bank/2026-11-26/doc-inizzmzi9021235.shtml",
+       "publisher": "金融一线",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "央行今日开展5715亿元隔夜逆回购操作",
+       "ref": "N222"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "央行公开市场今日净回笼455亿元人民币。",
+       "ref": "N247"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "央行开展5715亿元逆回购操作，公开市场调控对你理财影响微弱",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "央行日常流动性调节属于宏观货币操作，对你个人日常理财无直接影响",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-26T05:32:04.491Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261126-rt1yy",
+   "created_at": "2026-11-26T05:32:04.491Z",
+   "source": "auto",
+   "title": "国际原油价格维持涨势",
+   "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-26/doc-inizzsik8240098.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-26",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "受中东紧张局势等因素影响，近期国际油价连续上行，布伦特原油在每桶95美元左右交投。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-11-26/doc-inizzsik8240098.shtml",
+       "publisher": "环球市场播报",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "原油价格维持涨势 中东紧张局势令市场不安",
+       "ref": "N31"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "WTI 1月原油期货收盘上涨1.63美元至83.68美元/桶，涨幅1.99%。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-26/doc-inizzmzr3802520.shtml",
+       "publisher": "市场资讯",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "光大期货：11月26日能源化工日报",
+       "ref": "N217"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国际油价连涨，你驾驶混动车前往常德长途钓鱼的油耗成本将上升",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你驾驶混动车且周末常长途去常德钓鱼，油价上涨会增加你的跨城用油成本",
+   "profile_refs": [
+    "vehicle_type",
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利空",
+     "strength": 1,
+     "horizon": "1-3个月",
+     "path": {
+      "fact": "近期国际油价连续上行，布伦特原油在每桶95美元左右交投",
+      "direct": "国内成品油调价参考原油变化率走高，成品油价格面临上调",
+      "intermediate": "加油站汽油零售价格随之上涨，抬高燃油及混动车的燃油消耗成本",
+      "user_effect": "你周末驾驶混动车远赴常德澧县、石门钓鱼的加油费用将小幅增加"
+     },
+     "based_on": [
+      0,
+      1
+     ],
+     "confidence": "高"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-26T05:32:04.491Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261126-9gui9",
+   "created_at": "2026-11-26T05:32:04.491Z",
+   "source": "auto",
+   "title": "三部委印发服务贸易发展规划",
+   "url": "https://wallstreetcn.com/livenews/3206053",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-26",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "商务部等8部门印发《服务贸易发展“十五五”规划》。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "【商务部等8部门：积极培育创新动能较强、具有独特竞争优势的中小型服务贸易企业】商务部等8部门印发《服务贸易发展“十五五”",
+       "ref": "N148"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "【商务部等8部门：拓宽人民币跨境支付系统（CIPS）网络广度和深度】商务部等8部门印发《服务贸易发展“十五五”规划》，其",
+       "ref": "N175"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "【商务部等8部门：做强海运服务 做大做强航空运输企业】商务部等8部门印发《服务贸易发展“十五五”规划》，其中提出，增强国",
+       "ref": "N178"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "【八部门：大力发展运输、冰雪旅游、中医药服务等，培育东北振兴新动能】商务部等8部门印发《服务贸易发展“十五五”规划》的通",
+       "ref": "N185"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "【八部门：有序推进增值电信、医疗等重点领域开放】商务部等8部门印发《服务贸易发展“十五五”规划》，其中提到，深入实施跨境",
+       "ref": "N186"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3206053",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "商务部等8部门印发《服务贸易发展“十五五”规划》，其中提到，稳妥有序推动云计算、大模型等人工智能相关服务出海，培育人工智",
+       "ref": "N188"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-26/10737955.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "商务部等8部门关于印发《服务贸易发展“十五五”规划》的通知",
+       "ref": "N190"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "【八部门：在生物医药、集成电路、飞机、汽车、工程机械等领域培育一批综合服务提供商】商务部等8部门印发《服务贸易发展“十五",
+       "ref": "N191"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "规划提出稳妥有序推动云计算、大模型等人工智能相关服务出海。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3206053",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "商务部等8部门印发《服务贸易发展“十五五”规划》，其中提到，稳妥有序推动云计算、大模型等人工智能相关服务出海，培育人工智",
+       "ref": "N188"
+      },
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "【八部门：稳妥有序推动云计算、大模型等人工智能相关服务出海 培育人工智能领域服务贸易新业态】商务部等8部门印发《服务贸易",
+       "ref": "N189"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "服务贸易规划推动AI服务出海，你可作为运营行业背景信息了解",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "规划提出推动大模型等人工智能服务出海，可作为你运营岗位的宏观背景了解",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-26T05:32:04.491Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261126-gr4t7",
+   "created_at": "2026-11-26T05:32:04.491Z",
+   "source": "auto",
+   "title": "市场监管总局回应饮料只标保质期",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "针对消费者对部分饮料仅标注保质期到期日、未标注生产日期的疑问，市场监管总局食品生产经营司进行了回应。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "【有饮料可以不标生产日期？市场监管总局回应】近日，有消费者发现，部分可口可乐瓶身仅标注保质期到期日，未标注生产日期，因而",
+       "ref": "N25"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "官方表示这并非企业违规，系企业采取的标签标注方式相关规定探讨。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "【有饮料可以不标生产日期？市场监管总局回应】近日，有消费者发现，部分可口可乐瓶身仅标注保质期到期日，未标注生产日期，因而",
+       "ref": "N25"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "官方回应饮料仅标保质期到期日符合规定，你购买时无需担心违规",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "了解饮料仅标注保质期到期日符合相关规定，避免日常家庭消费时产生误解",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-26T05:32:04.491Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261126-64f20",
+   "created_at": "2026-11-26T05:32:04.491Z",
+   "source": "auto",
+   "title": "前10个月农产品食材流通规模增长",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "今年前三季度，我国农产品与食材流通规模达到4.63万亿元。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "【前三季度我国农产品与食材流通规模同比增长2.17%】从中国物流与采购联合会了解到，今年以来，农产品与食材供应链行业运行",
+       "ref": "N113"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "农产品与食材供应链行业运行保持温和增长，同比增长2.17%。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "【前三季度我国农产品与食材流通规模同比增长2.17%】从中国物流与采购联合会了解到，今年以来，农产品与食材供应链行业运行",
+       "ref": "N113"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "前三季度农产品食材流通规模达4.63万亿，家庭食材供给保持稳定",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "农产品食材流通增长反映食材供给稳定，对你的日常家庭消费影响微弱",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-26T05:32:04.491Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261126-fkts0",
+   "created_at": "2026-11-26T05:32:04.491Z",
+   "source": "auto",
+   "title": "机构称高阶智驾进入规模化普及",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "CIC灼识发布《2026中国高阶智能驾驶行业蓝皮书》显示中国智驾正由辅助驾驶向L2+级高阶智驾加速演进。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "【机构：中国高阶智驾进入规模化普及阶段，2030年L2+渗透率预计近七成】11月26日，界面新闻获悉，CIC灼识近日发布",
+       "ref": "N92"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "蓝皮书预计到2030年中国L2+级智能驾驶渗透率将接近七成。",
+     "kind": "推测",
+     "level": null,
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "【机构：中国高阶智驾进入规模化普及阶段，2030年L2+渗透率预计近七成】11月26日，界面新闻获悉，CIC灼识近日发布",
+       "ref": "N92"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "蓝皮书称高阶智驾加速普及，可作为你未来车辆选购的技术参考",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "智驾普及趋势可作为你驾驶混动车及未来车辆选购时的技术参考",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-26T05:32:04.491Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261126-g2ukr",
+   "created_at": "2026-11-26T05:32:04.491Z",
+   "source": "auto",
+   "title": "国家应急广播服务防汛防灾成效显著",
+   "url": "",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": null,
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国家广电总局等部门联合在全国范围组织开展应急广播服务防汛救灾专项行动。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "【全国已建设应急广播平台2369个 部署终端超310万个】11月26日，由国家广播电视总局主办的应急广播服务防汛救灾（2",
+       "ref": "N207"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "目前全国已建设应急广播平台2369个，部署终端超过310万个。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "",
+       "publisher": "新浪财经",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "【全国已建设应急广播平台2369个 部署终端超310万个】11月26日，由国家广播电视总局主办的应急广播服务防汛救灾（2",
+       "ref": "N207"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "全国建成2369个应急广播平台，提升防汛防灾信息覆盖保障能力",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "国家应急广播建设属于公共防灾保障，你知道该防灾信息获取渠道即可",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.5-flash-lite（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-26T05:32:04.491Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261125-66ndg",
    "created_at": "2026-11-25T05:29:17.331Z",
