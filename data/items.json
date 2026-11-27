@@ -1,6 +1,674 @@
 {
- "updated_at": "2026-11-26T05:32:04.630Z",
+ "updated_at": "2026-11-27T05:07:09.028Z",
  "items": [
+  {
+   "id": "d20261127-v9c8n",
+   "created_at": "2026-11-27T05:07:09.010Z",
+   "source": "auto",
+   "title": "后续：国内汽柴油价格26日24时起下调",
+   "url": "https://wallstreetcn.com/livenews/3206188",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-26",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国家发改委宣布自2026年11月26日24时起，国内汽油、柴油标准品价格每吨分别下调440元和425元。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3206188",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "国家发改委：自11月26日24时起，国内汽、柴油（标准品）价格每吨分别下调440元、425元。",
+       "ref": "N161"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国内汽柴油价格大幅下调，你周末去常德钓鱼的长途用油支出将有所降低",
+   "undetermined": null,
+   "relevance": 2,
+   "relevance_reason": "你开混动车且周末经常远赴常德钓鱼，汽油价格大幅下调能直接降低你的长途自驾开支",
+   "profile_refs": [
+    "vehicle_type",
+    "long_trip"
+   ],
+   "impacts": [
+    {
+     "dimension": "用车与油价",
+     "direction": "利好",
+     "strength": 1,
+     "horizon": "1-3个月",
+     "path": {
+      "fact": "11月26日24时起国内汽油价格每吨下调440元 (0)",
+      "direct": "加油站每升汽油零售价格随之下调约0.35元",
+      "intermediate": "开混动车往返常德钓鱼的长途高速自驾油耗成本降低",
+      "user_effect": "你周末长途钓鱼出行的加油费用有所节省"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "高"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-27T05:07:09.010Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261127-gvt0f",
+   "created_at": "2026-11-27T05:07:09.010Z",
+   "source": "auto",
+   "title": "后续：融资保证金下限调整30日实施",
+   "url": "https://wallstreetcn.com/livenews/3206640",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-27",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "沪深北交易所将投资者融资买入证券最低保证金比例由100%下调至80%的新规，将于2026年11月30日起正式实施，存量合约也纳入调整范围。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3206640",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "融资保证金比例调整自11月30日起正式实施，沪深北交易所将投资者融资买入证券的最低保证金比例由100%下调至80%，同时",
+       "ref": "N55"
+      }
+     ]
+    }
+   ],
+   "status": "undetermined",
+   "one_liner": "交易所下调融资保证金比例下限至80%，缺少你的证券投资画像暂无法评估影响",
+   "undetermined": {
+    "reason": "缺少你是否参与A股交易及是否使用融资杠杆的投资画像，无法判断对其资产与交易的影响",
+    "missing": "个人股票投资及杠杆交易账户情况"
+   },
+   "relevance": 1,
+   "relevance_reason": "暂因缺少你是否参与股票交易与杠杆融资的信息，无法判断政策对你的影响",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-27T05:07:09.010Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261127-4bl5r",
+   "created_at": "2026-11-27T05:07:09.010Z",
+   "source": "auto",
+   "title": "电视即日起不得播放开机广告",
+   "url": "https://www.chinanews.com.cn/sh/2026/11-27/10738523.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-27",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国家广播电视总局发布的《有线广播电视运营服务管理规定》和《交互式网络电视运营服务管理暂行规定》于2026年11月27日正式施行，明确电视不得播放开机广告。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-27/10738523.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "今天起，电视不得播放开机广告",
+       "ref": "N36"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "电视开机广告被正式禁止，你和家人在家看电视将不再受广告打扰",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你作为已婚家庭你，家中看电视将不再受开机广告打扰，提升了日常观影体验",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [
+    {
+     "dimension": "物价与家庭消费",
+     "direction": "利好",
+     "strength": 1,
+     "horizon": "半年以上",
+     "path": {
+      "fact": "电视不得播放开机广告的规定于11月27日起正式施行 (0)",
+      "direct": "有线电视和互联网电视终端全面取消开机广告",
+      "intermediate": "家庭看电视不再需要等待开机广告播放",
+      "user_effect": "你和家人在家看电视时的观影体验有所提升"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "高"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-27T05:07:09.010Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261127-rn0a5",
+   "created_at": "2026-11-27T05:07:09.010Z",
+   "source": "auto",
+   "title": "前10月规上工业企业利润增长16%",
+   "url": "https://www.chinanews.com.cn/cj/2026/11-27/10738543.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-27",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "2026年1—10月份全国规模以上工业企业实现利润总额67373.6亿元，同比增长16.0%，其中10月份单月同比增长20.1%。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-27/10738543.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "国家统计局：1-10月份规模以上工业企业利润保持较快增长",
+       "ref": "N26"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-27/10738531.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "国家统计局：1-10月份全国规模以上工业企业利润增长16.0%",
+       "ref": "N30"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3206696",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "中国1至10月规模以上工业企业利润同比 16%，前值 15.5%。",
+       "ref": "N33"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3206695",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "中国10月规模以上工业企业利润同比 20.1%，前值 14.4%。",
+       "ref": "N34"
+      }
+     ]
+    }
+   ],
+   "status": "undetermined",
+   "one_liner": "前10月规上工业企业利润同比增长16%，因缺少你的行业画像暂无法判断影响",
+   "undetermined": {
+    "reason": "缺少你所在公司的具体行业信息，无法评估工业企业利润增长对你所在单位及岗位的具体影响",
+    "missing": "所在公司的行业类型及业务范围"
+   },
+   "relevance": 1,
+   "relevance_reason": "暂因缺少你所在公司的行业分类，无法评估工业企业利润增长对你岗位的具体影响",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-27T05:07:09.010Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261127-j9g73",
+   "created_at": "2026-11-27T05:07:09.010Z",
+   "source": "auto",
+   "title": "后续：股票回购增持再贷款转为长期制度",
+   "url": "https://www.chinanews.com.cn/cj/2026/11-27/10738514.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-27",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "股票回购增持再贷款政策已由阶段性安排转为长期制度性安排，再贷款利率降至1%，四大商业银行已与上市公司签订相关贷款合同超6000亿元。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-27/10738514.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "超6000亿元就位 回购增持再贷款如何构建资本市场“缓冲垫”？",
+       "ref": "N39"
+      },
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-26/10738467.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "四大商业银行已与上市公司签订股票回购增持贷款合同超6000亿元",
+       "ref": "N96"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3206503",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "从工商银行等商业银行了解到，在中国人民银行近日会同金融监管总局、中国证监会等部门明确将股票回购增持再贷款政策由阶段性安排",
+       "ref": "N97"
+      }
+     ]
+    }
+   ],
+   "status": "undetermined",
+   "one_liner": "股票回购增持再贷款转为长期制度，因缺少你的股票投资画像暂无法评估影响",
+   "undetermined": {
+    "reason": "缺少你是否持有相关上市公司股票或参与股市投资的画像，无法判断该资金面利好对你的影响",
+    "missing": "个人股票投资及持仓情况"
+   },
+   "relevance": 1,
+   "relevance_reason": "暂因缺少你是否持有上市公司股票的信息，无法判断该长期制度对你资产的影响",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-27T05:07:09.010Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261127-ibd16",
+   "created_at": "2026-11-27T05:07:09.010Z",
+   "source": "auto",
+   "title": "国家数据局就数据规则赋能AI征求意见",
+   "url": "https://www.chinanews.com.cn/gn/2026/11-27/10738591.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-27",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国家数据局发布《关于完善数据规则 赋能人工智能创新发展的若干意见》（公开征求意见稿），提出十二项举措并要求AI企业建立风险防控机制。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/gn/2026/11-27/10738591.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "国家数据局就《关于完善数据规则 赋能人工智能创新发展的若干意见》公开征求意见",
+       "ref": "N21"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3206527",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "记者从国家数据局获悉，为推动数据要素赋能人工智能创新发展，国家数据局26日发布《关于完善数据规则 赋能人工智能创新发展的",
+       "ref": "N89"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3206394",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "国家数据局综合司发布关于向社会公开征求《关于完善数据规则 赋能人工智能创新发展的若干意见》(公开征求意见稿)意见的公告。",
+       "ref": "N128"
+      }
+     ]
+    }
+   ],
+   "status": "undetermined",
+   "one_liner": "国家数据局就数据规则赋能AI征求意见，缺少你的项目业务画像暂无法判断影响",
+   "undetermined": {
+    "reason": "缺少你所在公司及管理项目是否涉及人工智能应用或数据处理的画像，暂无法判断规章影响",
+    "missing": "公司及管理项目的数字化与AI应用情况"
+   },
+   "relevance": 1,
+   "relevance_reason": "暂因缺少你管理的业务单元是否涉及AI应用与数据规则的画像，无法评估具体影响",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-27T05:07:09.010Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261127-hmr5j",
+   "created_at": "2026-11-27T05:07:09.010Z",
+   "source": "auto",
+   "title": "国常会通过生产安全事故隐患排查条例",
+   "url": "https://www.chinanews.com.cn/gn/2026/11-27/10738652.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-27",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "国务院常务会议审议通过《生产安全事故隐患排查治理条例（草案）》，并部署持续深化资本市场投融资综合改革、推动上市公司加大分红回购力度。",
+     "kind": "事实",
+     "level": "A",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/gn/2026/11-27/10738652.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "李强主持召开国务院常务会议",
+       "ref": "N4"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3206758",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "会议指出，资本市场事关经济发展大局。要坚持目标导向、问题导向，坚持逆周期调节和改革攻坚两手抓，持续完善资本市场稳市机制，",
+       "ref": "N7"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3206756",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "国务院总理李强11月27日主持召开国务院常务会议，听取推动高质量发展综合督查情况汇报，研究持续深化资本市场投融资综合改革",
+       "ref": "N9"
+      }
+     ]
+    }
+   ],
+   "status": "undetermined",
+   "one_liner": "生产安全隐患排查条例通过并部署加大分红，缺少你的行业及投资画像暂无法评估",
+   "undetermined": {
+    "reason": "缺少你所在行业是否涉及生产安全监管以及你是否有股票投资的画像，暂无法评估具体影响",
+    "missing": "所在公司的生产安全关联度及个人股票投资情况"
+   },
+   "relevance": 1,
+   "relevance_reason": "暂因缺少你所在行业的生产安全关联度及个人股票投资画像，无法评估政策影响",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-27T05:07:09.010Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261127-pbjdh",
+   "created_at": "2026-11-27T05:07:09.010Z",
+   "source": "auto",
+   "title": "市场监管总局开展网络平台信用共治",
+   "url": "https://wallstreetcn.com/livenews/3206470",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-26",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "市场监管总局开展网络交易平台信用共治活动并发布倡议书，推动平台企业将信用管理融入运营流程。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3206470",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "近日，市场监管总局开展网络交易平台信用共治活动。活动深入贯彻落实党中央、国务院关于平台经济领域信用体系建设要求，推动平台",
+       "ref": "N109"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3206446",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "记者今天（26日）了解到，市场监管总局开展网络交易平台信用共治活动。推动平台企业守信践诺、规范经营，积极营造规范有序、诚",
+       "ref": "N117"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "监管总局推进网络平台信用共治，有助于提升你和家人线上购物的消费保障",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "作为参与日常线上消费的已婚家庭，网络交易平台信用共治有助于保障你和家人的网购权益",
+   "profile_refs": [
+    "family"
+   ],
+   "impacts": [
+    {
+     "dimension": "物价与家庭消费",
+     "direction": "利好",
+     "strength": 1,
+     "horizon": "半年以上",
+     "path": {
+      "fact": "市场监管总局开展网络交易平台信用共治活动 (0)",
+      "direct": "网络交易平台强化合规运营与信用管理机制",
+      "intermediate": "网络购物中的虚假宣传和违规经营行为减少",
+      "user_effect": "你和家人在网络平台消费时的合法权益得到更好保障"
+     },
+     "based_on": [
+      0
+     ],
+     "confidence": "中"
+    }
+   ],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-27T05:07:09.010Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261127-mi2cd",
+   "created_at": "2026-11-27T05:07:09.010Z",
+   "source": "auto",
+   "title": "央行将招投标1000亿元国库定期存款",
+   "url": "https://wallstreetcn.com/livenews/3206331",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-26",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "财政部与中国人民银行定于2026年12月1日开展1000亿元中央国库现金管理商业银行定期存款招投标，期限为2个月。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3206331",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-26",
+       "stance": "支持",
+       "note": "中国央行：财政部、中国人民银行定于2026年12月1日上午9:00至9:30，通过中国人民银行中央国库现金管理商业银行定",
+       "ref": "N137"
+      }
+     ]
+    }
+   ],
+   "status": "undetermined",
+   "one_liner": "央行与财政部将开展千亿国库定期存款招投标，缺少你的理财画像暂无法评估",
+   "undetermined": {
+    "reason": "该招投标影响银行体系流动性与存款利率，缺少你的银行存款与理财配置画像，暂无法评估对你的影响",
+    "missing": "银行存款及个人理财配置情况"
+   },
+   "relevance": 1,
+   "relevance_reason": "暂因缺少存款与理财配置画像，无法确定国库定期存款招投标对你收益的影响",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-27T05:07:09.010Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261127-x7o3j",
+   "created_at": "2026-11-27T05:07:09.010Z",
+   "source": "auto",
+   "title": "信息无障碍新版国家标准将于2027年实施",
+   "url": "https://www.chinanews.com.cn/cj/2026/11-27/10738594.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-27",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "市场监管总局修订发布《信息技术 互联网内容无障碍可访问性技术要求与测试方法》国家标准，将于2027年2月1日起实施。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-27/10738594.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "信息无障碍国家标准修订发布",
+       "ref": "N20"
+      }
+     ]
+    }
+   ],
+   "status": "undetermined",
+   "one_liner": "信息无障碍新国标将于2027年实施，缺少你的公司产品业务画像暂无法评估",
+   "undetermined": {
+    "reason": "缺少你所在公司业务是否涉及互联网产品开发或线上服务无障碍改造的画像，暂无法评估影响",
+    "missing": "所在公司的产品业务类型及数字化改造需求"
+   },
+   "relevance": 1,
+   "relevance_reason": "暂因缺少你所在公司是否开发或运营互联网产品的画像，无法评估新标准的影响",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-27T05:07:09.010Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261127-4uyat",
+   "created_at": "2026-11-27T05:07:09.010Z",
+   "source": "auto",
+   "title": "“人工智能+制造”专项行动深入推进",
+   "url": "https://www.chinanews.com.cn/cj/2026/11-27/10738600.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-27",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "我国启动实施的“人工智能+制造”专项行动，目前人工智能已基本贯穿研发设计、生产制造、质检运维等全链条。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/cj/2026/11-27/10738600.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "我国加速推进“人工智能+制造”专项行动",
+       "ref": "N22"
+      }
+     ]
+    }
+   ],
+   "status": "undetermined",
+   "one_liner": "人工智能+制造专项行动深入推进，因缺少你的公司行业画像暂无法判断影响",
+   "undetermined": {
+    "reason": "缺少你所在公司是否属于制造业或涉及工业智能化改造的画像，暂无法判断该专项行动对你工作的影响",
+    "missing": "所在公司的行业属性及制造自动化程度"
+   },
+   "relevance": 1,
+   "relevance_reason": "暂因缺少你所在公司是否属于制造业的画像，无法判断智能化专项行动对你工作的影响",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-27T05:07:09.010Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261126-ngw3s",
    "created_at": "2026-11-26T05:32:04.491Z",
