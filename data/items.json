@@ -1,6 +1,502 @@
 {
- "updated_at": "2026-11-27T05:07:09.028Z",
+ "updated_at": "2026-11-28T04:46:43.871Z",
  "items": [
+  {
+   "id": "d20261128-tosog",
+   "created_at": "2026-11-28T04:46:43.854Z",
+   "source": "auto",
+   "title": "五部门印发家庭友好型工作场所建设指引",
+   "url": "https://www.chinanews.com.cn/gn/2026/11-28/10739103.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-28",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "全国总工会、人社部、国家卫健委、企联、全国工商联五部门联合印发了《家庭友好型工作场所建设指引(试行)》。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/gn/2026/11-28/10739103.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-28",
+       "stance": "支持",
+       "note": "五部门部署家庭友好型工作场所建设",
+       "ref": "N16"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "五部门发布家庭友好型工作场所建设指引，为你提供了团队管理与流程优化的新政策参考",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你在公司从事流程改进与运营管理，五部门发布的建设指引可为你的管理工作提供政策参考。",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-28T04:46:43.854Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261128-zdsv9",
+   "created_at": "2026-11-28T04:46:43.854Z",
+   "source": "auto",
+   "title": "央行发布人民币存贷款利率管理新规",
+   "url": "https://wallstreetcn.com/livenews/3207043",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-27",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "中国人民银行发布《人民币存贷款利率管理规定》，自2027年3月21日起施行。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3207043",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "中国人民银行有关部门负责人就 《人民币存贷款利率管理规定》答记者问。 《规定》取消了贷款罚息利率的上下限，这一变动有什么",
+       "ref": "N88"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3207026",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "中国人民银行公告称，《人民币存贷款利率管理规定》已经2026年10月30日中国人民银行第10次行务会审议通过，现予发布，",
+       "ref": "N91"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "新规取消了贷款罚息利率的上下限，逾期或违约贷款将从逾期或违反约定之日起按合同约定加收罚息。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3207043",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "中国人民银行有关部门负责人就 《人民币存贷款利率管理规定》答记者问。 《规定》取消了贷款罚息利率的上下限，这一变动有什么",
+       "ref": "N88"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3207026",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "中国人民银行公告称，《人民币存贷款利率管理规定》已经2026年10月30日中国人民银行第10次行务会审议通过，现予发布，",
+       "ref": "N91"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "央行发布存贷款利率管理新规并取消贷款罚息利率上下限，建议关注个人信贷条款",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "存贷款利率新规属于宏观金融政策变动，与你的日常金融活动相关但暂无直接决策要求。",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-28T04:46:43.854Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261128-l0eb7",
+   "created_at": "2026-11-28T04:46:43.854Z",
+   "source": "auto",
+   "title": "央行发布大额存单管理办法",
+   "url": "https://wallstreetcn.com/livenews/3207049",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-27",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "中国人民银行制定并公布《大额存单管理办法》，自2027年3月21日起施行。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3207049",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "中国人民银行有关部门负责人就 《大额存单管理办法》答记者问。 大额存单的可转让功能有什么特点？《办法》中加入对发行人开展",
+       "ref": "N87"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3207039",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "为促进大额存单市场健康发展，中国人民银行制定了《大额存单管理办法》，现予公布，自2027年3月21日起施行。第八条规定：",
+       "ref": "N89"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "大额存单发行利率将以市场化方式确定，固定利率存单采用票面年化收益率形式计息，浮动利率存单以上海银行间同业拆放利率等为参考。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3207039",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "为促进大额存单市场健康发展，中国人民银行制定了《大额存单管理办法》，现予公布，自2027年3月21日起施行。第八条规定：",
+       "ref": "N89"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "央行发布大额存单管理新规，2027年起利率市场化确定，建议关注存款收益变化",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "大额存单利率管理新规涉及存款收益确定方式，可作为你未来理财规划的背景信息。",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-28T04:46:43.854Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261128-w7zra",
+   "created_at": "2026-11-28T04:46:43.854Z",
+   "source": "auto",
+   "title": "支付宝发布车载助手3.0智能体",
+   "url": "https://wallstreetcn.com/livenews/3207009",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-27",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "支付宝在广州车展期间发布了AI原生车载智能体“车载助手3.0”，已与80多个品牌完成定点。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3207009",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "广州车展期间，支付宝发布AI原生车载智能体“车载助手3.0”。据悉，支付宝车载助手3.0已与80多个品牌完成定点，比亚迪",
+       "ref": "N93"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "比亚迪、理想、奇瑞等品牌正陆续量产交付，极氪等品牌将在车展后启动OTA远程升级。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3207009",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "广州车展期间，支付宝发布AI原生车载智能体“车载助手3.0”。据悉，支付宝车载助手3.0已与80多个品牌完成定点，比亚迪",
+       "ref": "N93"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "支付宝发布车载助手3.0，比亚迪理想等品牌陆续搭载升级，可关注车机系统更新",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你驾驶混动汽车出行，车载智能系统的升级更新可能影响未来的车机交互体验。",
+   "profile_refs": [
+    "vehicle_type"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-28T04:46:43.854Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261128-gl4j8",
+   "created_at": "2026-11-28T04:46:43.854Z",
+   "source": "auto",
+   "title": "国常会研究深化资本市场投融资改革",
+   "url": "https://wallstreetcn.com/livenews/3206893",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-27",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "11月27日召开的国务院常务会议指出，要持续完善资本市场稳市机制，推动上市公司加大分红回购力度。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3206893",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "11月27日国务院常务会议指出： 资本市场事关经济发展大局。要坚持目标导向、问题导向，坚持逆周期调节和改革攻坚两手抓，持",
+       "ref": "N114"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3206872",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "11月27日举行的国务院常务会议研究持续深化资本市场投融资综合改革工作，释放五大鲜明信号。 第一，明确“资本市场事关经济",
+       "ref": "N121"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3206758",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "会议指出，资本市场事关经济发展大局。要坚持目标导向、问题导向，坚持逆周期调节和改革攻坚两手抓，持续完善资本市场稳市机制，",
+       "ref": "N140"
+      }
+     ]
+    },
+    {
+     "idx": 1,
+     "text": "监管部门表示将进一步聚焦国家战略大局，更加精准支持优质科技企业发行上市。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3206790",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "11月27日召开的国务院常务会议，研究持续深化资本市场投融资综合改革工作。监管部门表示，将在维护市场稳定运行的前提下，进",
+       "ref": "N135"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国常会部署深化资本市场改革推动分红回购，你可以关注资本市场长期走势",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "资本市场投融资改革关注上市公司分红与回购，可作为你了解市场走势的背景信息。",
+   "profile_refs": [],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-28T04:46:43.854Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261128-mszdo",
+   "created_at": "2026-11-28T04:46:43.854Z",
+   "source": "auto",
+   "title": "国常会部署国家标准体系建设",
+   "url": "https://wallstreetcn.com/livenews/3206981",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-27",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "11月27日国务院常务会议部署标准体系建设，要求推动行业标准有序转化为国家标准，清理废止不符合全国统一大市场建设要求的地方标准。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3206981",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "11月27日召开的国务院常务会议，部署标准体系建设，指出要系统优化标准体系，推动行业标准有序转化为国家标准，清理废止不符",
+       "ref": "N99"
+      },
+      {
+       "url": "https://wallstreetcn.com/livenews/3206756",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "国务院总理李强11月27日主持召开国务院常务会议，听取推动高质量发展综合督查情况汇报，研究持续深化资本市场投融资综合改革",
+       "ref": "N141"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "国常会部署国家标准体系建设，为你从事流程改进与规范化管理提供政策参考",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你在公司负责运营管理与流程改进，国家标准体系建设对企业规范化管理具有政策指导意义。",
+   "profile_refs": [
+    "occupation"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-28T04:46:43.854Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261128-z0a00",
+   "created_at": "2026-11-28T04:46:43.854Z",
+   "source": "auto",
+   "title": "湖南营养科学与健康论坛在长沙举办",
+   "url": "https://www.chinanews.com.cn/sh/2026/11-27/10739081.shtml",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-27",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "2026营养科学与健康促进前沿论坛暨湖南省国民营养创新联合会会员代表大会于11月27日至28日在长沙召开。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://www.chinanews.com.cn/sh/2026/11-27/10739081.shtml",
+       "publisher": "中国新闻网",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "共探营养健康新路径 2026营养科学与健康促进前沿论坛在长沙举办",
+       "ref": "N52"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "营养科学与健康论坛在长沙举办，你可以关注家庭健康与营养相关资讯",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你常住长沙且已婚，在本地举办的健康促进论坛涉及家庭营养健康等资讯可适当关注。",
+   "profile_refs": [
+    "city",
+    "family"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-28T04:46:43.854Z"
+   },
+   "search_sources": []
+  },
+  {
+   "id": "d20261128-5rppi",
+   "created_at": "2026-11-28T04:46:43.854Z",
+   "source": "auto",
+   "title": "广汽自营充电网络已覆盖240个城市",
+   "url": "https://wallstreetcn.com/livenews/3207157",
+   "raw_text": "",
+   "source_type": "新闻报道",
+   "published_at": "2026-11-27",
+   "claims": [
+    {
+     "idx": 0,
+     "text": "截至2026年11月，广汽自营充电网络已覆盖31个省级行政区、240个城市，自营充电站达2563座、充电桩突破3.3万根。",
+     "kind": "事实",
+     "level": "B",
+     "note": "",
+     "evidence": [
+      {
+       "url": "https://wallstreetcn.com/livenews/3207157",
+       "publisher": "华尔街见闻",
+       "published_at": "2026-11-27",
+       "stance": "支持",
+       "note": "广汽集团旗下广汽能源在第24届广州车展上介绍了补能体系建设进展，截至2026年11月，在补能网络建设上，广汽自营充电网络",
+       "ref": "N44"
+      }
+     ]
+    }
+   ],
+   "status": "ok",
+   "one_liner": "广汽自营充电站突破2500座，为你驾驶混动车远途出行补能提供参考",
+   "undetermined": null,
+   "relevance": 1,
+   "relevance_reason": "你驾驶混动汽车且周末经常前往常德等地长途出行，充电网络的扩展为你提供了出行补能参考。",
+   "profile_refs": [
+    "vehicle_type",
+    "long_trip"
+   ],
+   "impacts": [],
+   "action": null,
+   "validation_notes": [],
+   "trace": {
+    "verify_model": "gemini-3.6-flash（只引用抓取的新闻）",
+    "analyze_model": "gemini-3.6-flash",
+    "prompt_version": "日更新闻源-v1.0 / 分析-v1.0",
+    "profile_version": 1,
+    "analysis_time": "2026-11-28T04:46:43.854Z"
+   },
+   "search_sources": []
+  },
   {
    "id": "d20261127-v9c8n",
    "created_at": "2026-11-27T05:07:09.010Z",
